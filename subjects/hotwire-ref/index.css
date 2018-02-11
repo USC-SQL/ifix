@@ -1,0 +1,311 @@
+/* ::::: file:///home/alameer/workspace/gwaliTestCases/ScrapBook/data/hotwireUK/ak-static.hotwirestatic.com/y/static/gen-min/gen-concat/hwUnifiedCore.css%3Fver=458b041e.css ::::: */
+
+html { color: rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+fieldset, img { border: 0px none; }
+ol, ul { list-style: outside none none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, textarea, select {  }
+body { font: 13px/1.231 arial,helvetica,clean,sans-serif; }
+select, input, button, textarea { font: 99% arial,helvetica,clean,sans-serif; }
+.yui3-g { letter-spacing: -0.31em; word-spacing: -0.43em; }
+.yui3-u { display: inline-block; letter-spacing: normal; word-spacing: normal; vertical-align: top; }
+.yui3-u-1, .yui3-u-1-2, .yui3-u-1-3, .yui3-u-2-3, .yui3-u-1-4, .yui3-u-3-4, .yui3-u-1-5, .yui3-u-2-5, .yui3-u-3-5, .yui3-u-4-5, .yui3-u-1-6, .yui3-u-5-6, .yui3-u-1-8, .yui3-u-3-8, .yui3-u-5-8, .yui3-u-7-8, .yui3-u-1-12, .yui3-u-5-12, .yui3-u-7-12, .yui3-u-11-12, .yui3-u-1-24, .yui3-u-5-24, .yui3-u-7-24, .yui3-u-11-24, .yui3-u-13-24, .yui3-u-17-24, .yui3-u-19-24, .yui3-u-23-24 { display: inline-block; letter-spacing: normal; word-spacing: normal; vertical-align: top; }
+.yui3-u-1-3 { width: 33.3333%; }
+.yui3-u-2-3 { width: 66.6667%; }
+body { text-align: left; }
+.yui3-g { word-spacing: normal; }
+input:-moz-placeholder { color: rgb(102, 102, 102); }
+strong, h1, h2, h3, h4, h5 { font-weight: bold; }
+p, pre { margin: 1em 0px; }
+.clr { clear: both; height: 0px; line-height: 0; font-size: 0px; }
+img.marketingBeacon { width: 1px; height: 1px; position: absolute; top: -1000px; left: -1000px; }
+@font-face {
+  font-family: "hotwire-icons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("hotwire-icons.eot_") format("embedded-opentype"), url("hotwire-icons.woff_ver=78f5b44a") format("woff"), url("hotwire-icons.ttf_ver=78f5b44a") format("truetype"), url("hotwire-icons.svg") format("svg");
+}
+.btn, .btn:active, .btn:visited { font-size: 123.1%; font-weight: bold; cursor: pointer; background-color: rgb(225, 225, 225); display: inline-block; text-align: center; white-space: nowrap; line-height: 20px; padding: 6px 20px 4px; color: rgb(65, 65, 65); border: 1px solid rgb(209, 209, 209); border-radius: 4px; background-image: url("btn-medium-default-gray.png_ver=4ed58abc"); }
+button.btn { box-sizing: content-box; height: 25px; }
+button.btn.smallBtn, a.btn.smallBtn { height: 22px; }
+.btn.smallBtn, .btn.smallBtn:active { font-size: 108%; background-image: url("btn-small-default-gray.png_ver=4ed58abc"); line-height: 22px; padding: 2px 20px 1px; }
+.btn:hover { background-color: rgb(250, 250, 250); background-image: url("btn-medium-hover-gray.png_ver=4ed58abc"); }
+.btn.smallBtn:hover { background-image: url("btn-small-hover-gray.png_ver=4ed58abc"); }
+.btn:active { top: 1px; position: relative; border-color: rgba(88, 15, 17, 0.85); }
+.btn.opacityCode-O, .btn.opacityCode-O:active, .btn.opacityCode-O:visited { border-color: rgb(170, 30, 26); color: rgb(255, 255, 255); background-color: rgb(184, 34, 29); background-image: url("btn-medium-default-red.png_ver=4ed58abc"); }
+.btn.smallBtn.opacityCode-O, .btn.smallBtn.opacityCode-O:active { background-image: url("btn-small-default-red.png_ver=4ed58abc"); }
+.btn.opacityCode-O:hover { background-color: rgb(203, 34, 28); background-image: url("btn-medium-hover-red.png_ver=4ed58abc"); }
+.btn.smallBtn.opacityCode-O:hover { background-image: url("btn-small-hover-red.png_ver=4ed58abc"); }
+body { width: auto; margin: 0px; }
+.centerWrapper { margin: 0px auto; width: 940px; }
+a { text-decoration: none; color: rgb(0, 114, 188); }
+label { display: block; margin-top: 10px; font-weight: bold; font-size: 93%; }
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="search"], select { background-color: rgb(250, 250, 250); border: 1px solid rgb(220, 220, 220); box-shadow: 0px 0px 1px 1px rgba(220, 220, 220, 0.9) inset; color: rgb(51, 51, 51); font-size: 100%; font-weight: normal; outline: 0px none; }
+.hwGlobalHeader { background: transparent url("bg-header-footer.png_ver=4f1c1ca5") repeat scroll 0px 0px; border-bottom: 1px solid rgb(211, 211, 211); border-top: 6px solid rgb(200, 5, 5); box-shadow: 0px 0px 5px -1px rgb(128, 128, 128); }
+.headerBuffer { padding: 0px 0px 15px; }
+.hwGlobalHeader .sub_header { margin: 0px auto; width: 930px; min-width: 930px; }
+.hwGlobalHeader .sub_header .hwLogo { max-width: 214px; padding: 15px 0px; }
+.hwGlobalHeader .sub_header .hwTabMenuSection { padding-top: 20px; }
+.hwGlobalHeader .sub_header .rightTabMenu { float: right; }
+.hwGlobalHeader .rightTabMenu .currencyAndCountry, .hwGlobalHeader .rightTabMenu .helpCenter, .hwGlobalHeader .rightTabMenu .headerSignIn { display: inline-block; letter-spacing: normal; vertical-align: top; word-spacing: normal; position: relative; }
+.hwGlobalHeader .rightTabMenu .helpCenter a { display: block; padding-top: 22px; }
+.hwGlobalHeader .rightTabMenu .currencyAndCountry, .hwGlobalHeader .rightTabMenu .helpCenter { padding-right: 15px; }
+#hwGlobalFooter { background-image: url("bg-header-footer.png_ver=4f1c1ca5"); border-top: 1px solid rgb(230, 230, 230); clear: both; margin: 25px 0px 0px ! important; width: 100%; height: 100%; padding: 15px 0px 12px; }
+@media print {
+  #hwGlobalFooter .sub_footer .section_A, #hwGlobalFooter .sub_footer .section_B, #hwGlobalFooter .sub_footer .section_C { display: none; }
+}
+#hwGlobalFooter .sub_footer { border-bottom: 0px solid rgb(221, 221, 221); border-top: 0px solid rgb(221, 221, 221); margin: 0px auto; width: 930px; overflow: hidden; }
+#hwGlobalFooter .sub_footer li { padding-top: 3px; }
+#hwGlobalFooter .sub_footer a { font-family: arial,helvetica,sans-serif; font-size: 11px; font-weight: normal; color: rgb(0, 152, 209); text-decoration: none; }
+#hwGlobalFooter .sub_footer .links { float: left; width: 230px; list-style: outside none none; }
+#hwGlobalFooter .sub_footer .links .fHeader, #hwGlobalFooter .sub_footer .topLinks a { font-family: arial,helvetica,sans-serif; font-size: 11px; font-weight: bold; color: rgb(51, 51, 51); }
+#hwGlobalFooter .sub_footer a, #hwGlobalFooter .sub_footer a:hover, #hwGlobalFooter .sub_footer a:visited, #hwGlobalFooter .sub_footer a:active { border: 0px none; outline: 0px none; }
+#hwGlobalFooter .sub_footer .links .subLinks { padding-top: 10px; }
+#hwGlobalFooter .sub_footer .footerDeals { border-bottom: 1px solid rgb(216, 216, 216); padding: 5px 0px 15px; margin-bottom: 15px; }
+#hwGlobalFooter .sub_footer .footerDeals > h3 { font-family: arial,helvetica,sans-serif; font-size: 11px; font-weight: bold; color: rgb(51, 51, 51); }
+#hwGlobalFooter .sub_footer .section_B { overflow: hidden; width: 100%; padding-bottom: 10px; border-bottom: 1px solid rgb(216, 216, 216); }
+#hwGlobalFooter .sub_footer .section_C { border-bottom: 1px solid rgb(216, 216, 216); padding: 5px 0px; }
+#hwGlobalFooter .sub_footer .link { margin-right: 30px; }
+#hwGlobalFooter .sub_footer .link span { padding-left: 10px; }
+#hwGlobalFooter .sub_footer .footerContainer { overflow: hidden; width: 100%; margin-top: 5px; padding-top: 5px; display: none; }
+#hwGlobalFooter .sub_footer .arrow-up { background-image: url("arrow-up.png_ver=f2dcfd5e"); background-repeat: no-repeat; background-position: left center; }
+#hwGlobalFooter .sub_footer p { color: rgb(102, 102, 102); font-size: 10px; margin: 8px 0px 0px; }
+/* ::::: file:///home/alameer/workspace/gwaliTestCases/ScrapBook/data/hotwireUK/ak-static.hotwirestatic.com/y/static/gen-min/css/hotel/home/hotelHome.css%3Fver=e7044cf9.css ::::: */
+
+.centerWrapper { margin-bottom: 38px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/countrySelector.css?ver=e7a489c4 ::::: */
+
+.countrySelector .countryDropdown dd, .countryDropdown dt, .countryDropdown ul { margin: 0px; padding: 0px; }
+.countrySelector .countryDropdown dd { position: relative; }
+.countrySelector .countryDropdown a { color: rgb(65, 65, 65); text-decoration: none; outline: 0px none; }
+.countrySelector .countryDropdown a:hover { color: rgb(93, 70, 23); }
+.countrySelector .countryDropdown dt a { background: transparent url("arrow-down.gif") no-repeat scroll 90% center; display: block; border-right: 1px solid rgb(211, 211, 211); border-left: 1px solid rgb(211, 211, 211); width: 65px; }
+.countrySelector .countryDropdown dt a span { display: block; padding: 5px; }
+.countrySelector .countryDropdown dt a span { background-repeat: no-repeat; height: 23px; background-position: 25% center; }
+.countrySelector .countryDropdown dd ul { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 2px solid rgb(0, 183, 243); border-radius: 2px; box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.4); list-style: outside none none; min-width: 200px; padding: 0px; position: absolute; right: 0px; width: auto; display: none; z-index: 10; }
+.countrySelector .countryDropdown dd ul li a { padding: 5px; display: block; border-bottom: 1px solid lightgray; }
+.countrySelector .countryDropdown dd ul li a:hover { background-color: rgb(0, 183, 243); color: white; }
+.countrySelector .countryDropdown img.cFlag { border: 0px none; vertical-align: middle; margin-left: 5px; margin-right: 7px; }
+.countrySelector .countryDropdown dt a span.uk { background-image: url("uk.png"); }
+.countrySelector .countryDropdown img.cFlag.can { margin: 0px; }
+.countrySelector .countryDropdown img.cFlag.usa { margin-right: 0px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/currencySelector.css?ver=67997043 ::::: */
+
+.currencySelector .currencyDropdown dd, .currencyDropdown dt, .currencyDropdown ul { margin: 0px; padding: 0px; }
+.currencySelector .currencyDropdown { border-top: 1px solid rgb(211, 211, 211); border-right: 1px solid rgb(211, 211, 211); border-left: 1px solid rgb(211, 211, 211); }
+.currencySelector .currencyDropdown dd { position: relative; }
+.currencySelector .currencyDropdown a { color: rgb(65, 65, 65); text-decoration: none; outline: 0px none; }
+.currencySelector .currencyDropdown a:hover { color: rgb(72, 72, 72); }
+.currencySelector .currencyDropdown dt a:hover { color: rgb(72, 72, 72); }
+.currencySelector .currencyDropdown dt a { background: transparent url("arrow-down.gif") no-repeat scroll 90% center; display: block; width: 65px; }
+.currencySelector .currencyDropdown dt a span { cursor: pointer; display: block; font-weight: bold; height: 23px; padding: 9px 5px 2px 12px; }
+.currencySelector .currencyDropdown dd ul { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 2px solid rgb(0, 183, 243); border-radius: 2px; box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.4); list-style: outside none none; min-width: 200px; padding: 0px; position: absolute; right: 0px; width: auto; display: none; z-index: 10; }
+.currencySelector .currencyDropdown dd ul li a, .currencySelector .currencyDropdown dd ul li div { padding: 10px; display: block; border-bottom: 1px solid lightgray; font-weight: bold; }
+.currencySelector .currencyDropdown dd ul li a:hover { background-color: rgb(0, 183, 243); color: white; }
+.currencySelector .currencyDropdown dd ul li a .currencyName { font-weight: normal; }
+.currencySelector .currencyDropdown dd ul li div { color: gray; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/signInModule.css?ver=db211ed5 ::::: */
+
+.signInModule { float: right; font-size: 14px; margin: 25px 0px 5px; text-align: right; position: relative; }
+.signInModule .currentStatusBlock { cursor: pointer; color: rgb(64, 64, 64); font-weight: bold; }
+.signInModule .hello, .signInModule .signup { display: inline-block; line-height: 24px; max-width: 150px; overflow: hidden; text-overflow: ellipsis; vertical-align: middle; white-space: nowrap; }
+.signInModule .signup { line-height: 24px; }
+.signInModule .showStatusActionIcon { background: transparent url("arrow-down.gif") no-repeat scroll 0px 5px; margin-left: 3px; margin-right: 0px; padding-left: 10px; vertical-align: middle; }
+.signInModule .userActions { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 2px solid rgb(0, 183, 243); border-radius: 2px; box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.4); margin-top: 20px; position: absolute; text-align: left; width: 200px; z-index: 99; display: none; right: 0px; }
+.signInModule .action { border-bottom: 1px solid lightgray; font-size: 15px; font-weight: bold; }
+.signInModule .userActions .action a { display: block; padding: 10px 10px 10px 15px; text-decoration: none ! important; color: rgb(88, 88, 88); border: 0px none; outline: 0px none; }
+.signInModule .userActions .action a:hover { background-color: rgb(0, 183, 243); color: white; cursor: pointer; }
+.signInModule .userActions .action:last-child { border-bottom: 0px none; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/travelerAdvisor.css?ver=fe567aa4 ::::: */
+
+.travelerAdvisor { background: rgb(65, 65, 65) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-size: 14px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/core/comp/OpinionLabTabComp.css?ver=3f7fc5ce ::::: */
+
+.feedbackTab { background-color: rgb(113, 113, 113); border: 1px solid rgb(113, 113, 113); border-radius: 10px 10px 0px 0px; box-shadow: -1px 0px 3px rgba(116, 116, 116, 0.95); color: rgb(255, 255, 255) ! important; margin-top: -37px; padding: 9px 15px; position: fixed; right: 10px; top: 100%; display: block; font-size: 16px; font-weight: bold; white-space: nowrap; z-index: 5; }
+.feedbackTab:hover, .feedbackTab:visited { text-decoration: none; color: rgb(255, 255, 255); }
+@media print {
+  .feedbackTab { display: none; }
+}
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/core/widget/loadMask.css?ver=bd73c66e ::::: */
+
+.loadMask .loadingMask { display: none; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/heroSearchBox.css?ver=567a8d9a ::::: */
+
+.heroSearchBox { padding: 20px; position: relative; }
+.heroSearchBox.hotwireHotel { background: rgb(33, 34, 39) url("hotel-home-image.jpeg") no-repeat scroll center top; margin-bottom: 20px; }
+.heroSearchBox.hotwireHotel .fareFinderContainer { display: inline-block; }
+.heroSearchBox.hotwireHotel .homeFareFinder, .heroSearchBox .NewFareFinderComp.sizeMedium { display: inline-block; margin-right: 50px; width: 340px; }
+.heroSearchBox.hotwireHotel .homeFareFinder { width: 360px; }
+.heroSearchBox .NewFareFinderComp button, .heroSearchBox .homeFareFinder button { width: 60%; }
+.heroSearchBox.hotwireHotel .homeFareFinder .wrapper { background: rgba(255, 255, 255, 0.9) none repeat scroll 0% 0%; border: 1px solid rgb(220, 220, 220); box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5); }
+.heroSearchBox.hotwireHotel .homeFareFinder form { padding: 12px; }
+.heroSearchBox.hotwireHotel .homeFareFinder form .where, .heroSearchBox.hotwireHotel .homeFareFinder label, .heroSearchBox.hotwireHotel .homeFareFinder .newFFInputFields form input#location, .heroSearchBox.hotwireHotel .homeFareFinder form .when, .heroSearchBox.hotwireHotel .homeFareFinder form .who { margin: 0px; }
+.heroSearchBox.hotwireHotel .homeFareFinder h2, .heroSearchBox.hotwireHotel .homeFareFinder #when-label, .heroSearchBox.hotwireHotel .homeFareFinder #people-label { display: none; }
+.heroSearchBox.hotwireHotel .homeFareFinder .wrapper label { color: rgb(0, 0, 0); font-size: 12px; font-weight: bold; margin-bottom: 5px; margin-top: 10px; }
+.heroSearchBox.hotwireHotel .homeFareFinder .wrapper .where label { margin-top: 0px; }
+.heroSearchBox.hotwireHotel .homeFareFinder .wrapper input#location { background-position: 9px 9px; height: 44px; }
+.heroSearchBox.hotwireHotel .homeFareFinder .wrapper input, .heroSearchBox.hotwireHotel .homeFareFinder .wrapper input#location, .heroSearchBox.hotwireHotel .homeFareFinder .wrapper .ui-selectmenu-text { color: rgb(65, 65, 65); font-size: 14px; }
+.heroSearchBox.hotwireHotel .homeFareFinder .caption { color: rgb(65, 65, 65); font-size: 11px; }
+.heroSearchBox.hotwireHotel .homeFareFinder .buttons { text-align: center; }
+.heroSearchBox.hotwireHotel .homeFareFinder form .who { float: none; width: auto; }
+.heroSearchBox.hotwireHotel .homeFareFinder .CalendarComp input { width: 116px; }
+.heroSearchBox.hotwireHotel .homeFareFinder .adults, .heroSearchBox.hotwireHotel .homeFareFinder .children { margin-left: 68px; }
+.heroSearchBox.hotwireHotel .homeFareFinder #childTooltip { display: none; }
+.heroSearchBox.hotwireHotel button, .heroSearchBox.hotwireHotel button:active, .heroSearchBox.hotwireHotel button:hover { margin: 0px; }
+.heroSearchBox button, .heroSearchBox button:active, .heroSearchBox button:hover, .heroSearchBox .NewFareFinderComp.FareFinderComp button, .heroSearchBox .NewFareFinderComp.FareFinderCompn button:active, .heroSearchBox .NewFareFinderComp.FareFinderComp button:hover { background: rgb(185, 0, 5) none repeat scroll 0% 0%; border: 0px none; border-radius: 3px; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); color: rgb(255, 255, 255); cursor: pointer; font-size: 18px; font-weight: normal; margin: 20px 65px 0px; padding: 12px 30px; top: 0px; width: 60%; }
+.heroSearchBox .homeFareFinder span.ui-selectmenu-button .ui-button { border: 1px solid rgb(184, 184, 184); box-shadow: none; }
+.heroSearchBox .NewFareFinderComp.themePrimary .largeProductButton .universalOptions li.bgimg.selected, .heroSearchBox .NewFareFinderComp.themePrimary .newFFInputFields input[type="text"]:focus, .heroSearchBox .homeFareFinder .newFFInputFields form #location:focus, .heroSearchBox .homeFareFinder .newFFInputFields form input#startDateCalendarHotel-field:focus, .heroSearchBox .homeFareFinder .newFFInputFields form input#endDateCalendarHotel-field:focus, .heroSearchBox .NewFareFinderComp.themePrimary span.ui-selectmenu-button .ui-button.ui-state-focus, .heroSearchBox .homeFareFinder span.ui-selectmenu-button .ui-button.ui-state-focus { border: 1px solid rgb(0, 174, 239); box-shadow: none; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/??css/core/comp/AutoCompleteComp.css,css/home/homeFareFinder.css,ver=ada4dd73~030215155327~ ::::: */
+
+.homeFareFinder label, .homeFareFinder #when-label, .homeFareFinder #people-label { color: rgb(51, 51, 51); margin: 12px 0px 1px; font-size: 14px; font-weight: bold; }
+.homeFareFinder .wrapper { background-color: rgb(254, 250, 201); border: 2pt solid rgb(201, 147, 43); }
+.homeFareFinder .wrapper .title { padding: 10px 0px 5px 32px; margin: 0px 10px; color: rgb(156, 0, 0); font-weight: bold; font-size: 21px; border-bottom: 1px solid rgb(237, 179, 41); background-image: url("ff-hw_icon_hotel.png"); background-position: 5px 10px; background-repeat: no-repeat; }
+.homeFareFinder form { padding: 6px; }
+.homeFareFinder form .where { margin-left: 9px; margin-right: 9px; }
+.homeFareFinder form .where input { width: 100%; margin-top: 3px; }
+.homeFareFinder form .who { float: left; width: 305px; margin-left: 9px; }
+.homeFareFinder form .who label { margin-bottom: 5px; }
+.homeFareFinder form .who select { border: 1px solid rgb(200, 146, 43); float: left; padding: 2px 4px 2px 10px; height: 27px; width: 58px; box-shadow: none; }
+.homeFareFinder form .who .caption { width: 66px; line-height: 11px; margin: 3px 0px 0px 2px; font-size: 76.92%; color: rgb(51, 51, 51); text-align: left; }
+.homeFareFinder .adults, .homeFareFinder .children { float: left; margin-left: 55px; width: 58px; }
+.homeFareFinder .startDate, .homeFareFinder .rooms { float: left; }
+.homeFareFinder form .when { white-space: nowrap; margin-left: 9px; }
+.homeFareFinder form .when > .calIcon { margin: 20px 0px 0px 8px; float: left; cursor: pointer; }
+.homeFareFinder form .when .endDate { float: left; margin-left: 42px; }
+.homeFareFinder form .when .startDate label, .homeFareFinder form .when .endDate label, .homeFareFinder form .who label, .homeFareFinder form .who label { margin-top: 0px; font-size: 12px; font-weight: normal; }
+.homeFareFinder form input { font: 14px/30px arial,helvetica,clean,sans-serif; border-radius: 5px; height: 30px; color: rgb(20, 0, 0); text-indent: 4px; box-shadow: none; }
+.homeFareFinder form input#location, .homeFareFinder form input#startDateCalendarHotel-field, .homeFareFinder form input#endDateCalendarHotel-field { background-color: white; border: 1px solid rgb(200, 146, 43); }
+.homeFareFinder .CalendarComp input { width: 92px; height: 18px; line-height: 18px; margin-top: 3px; padding-top: 4px; padding-bottom: 4px; }
+.homeFareFinder form input { color: rgb(80, 80, 80); }
+@media not all {
+}
+.homeFareFinder .newFFInputFields form input#location, .homeFareFinder .newFFInputFields .CalendarComp input { padding-left: 30px; background-color: rgb(250, 250, 250); border: 1px solid rgb(184, 184, 184); color: rgb(51, 51, 51); font-size: 100%; font-weight: normal; outline: 0px none; margin: 3px 4px 0px 27px; height: 30px; line-height: 16px; width: 90%; border-radius: 0px ! important; }
+.homeFareFinder .newFFInputFields form input#startDateCalendarHotel-field, .homeFareFinder .newFFInputFields form input#endDateCalendarHotel-field { background-color: rgb(250, 250, 250); border: 1px solid rgb(184, 184, 184); }
+.homeFareFinder .newFFInputFields form input#startDateCalendarHotel-field, .homeFareFinder .newFFInputFields form input#location { margin-left: 2px; }
+.homeFareFinder .newFFInputFields .CalendarComp input { width: 100px; background-image: url("icon_date.png"); background-position: 5px 7px; background-repeat: no-repeat; }
+.homeFareFinder .newFFInputFields form input#location { background-image: url("icon_location.png"); background-position: 5px 7px; background-repeat: no-repeat; }
+.homeFareFinder .newFFInputFields form .when > .calIcon { float: none; margin: 0px; display: none; }
+.homeFareFinder .newFFInputFields form .when .endDate { margin: 0px; }
+.homeFareFinder .newFFInputFields form .when .endDate label { margin-left: 26px; }
+.homeFareFinder .newFFInputFields .ui-selectmenu-button { margin-left: 1px; }
+.homeFareFinder .newFFInputFields .ui-selectmenu-menu.menu-expanded { min-width: 70px; }
+.homeFareFinder .newFFInputFields span.ui-selectmenu-button .ui-button .ui-icon { width: 28px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/??gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.core.css,gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.datepicker.css,css/core/widget/datepicker.css,ver=030215155327~030215155327~1b82459c~ ::::: */
+
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/core/hotel/landing/deals.css?ver=310f5f07 ::::: */
+
+.deals ul li { display: inline-block; padding: 10px 15px 7px 0px; float: left; }
+.deals.landing { margin-right: -5px; }
+.deals li.d1 a .description .ratings, .deals li.d1 a .description .neighborhood, .deals li.d8 a .description .ratings, .deals li.d8 a .description .neighborhood { font-size: 14px; }
+.deals li a .description .neighborhood { max-height: 20px; }
+.deals li a .description .ratings, .deals li a .description .neighborhood { font-size: 11px; color: rgb(65, 65, 65); line-height: 15px; }
+.deals li.d8 a .description .location, .deals li.d1 a .description .location { font-size: 18px; }
+.deals h1 .asterisk { font-size: 18px; vertical-align: text-top; }
+.deals h1 { font-size: 40px; margin-top: 20px; }
+.deals li a .description .location { font-size: 14px; color: rgb(20, 0, 0); font-weight: bold; padding-bottom: 1px; padding-top: 2px; }
+.deals li a .description .perNight { font-size: 11px; color: rgb(81, 81, 81); }
+.deals li a .description .savings .off { font-size: 11px; }
+.deals li a .description .savings { background-color: rgb(122, 185, 33); font-size: 12px; color: rgb(255, 255, 255); font-weight: bold; line-height: 20px; }
+.deals li a .description .price { font-size: 22px; color: rgb(200, 5, 5); font-weight: bold; padding-top: 5px; }
+.deals li a .description { border: 1px solid rgb(206, 206, 206); height: 85px; }
+.deals ul { width: auto; }
+.deals li .dealImage { display: block; }
+.deals li.d6 { clear: both; }
+.deals li.d8 .dealDescription, .deals li.d1 .dealDescription { width: 300px; }
+.deals li.d8 { float: right; padding-right: 11px; }
+.deals li.d1 { float: left; }
+.deals li a .dealDescription { float: left; width: 127px; padding-left: 10px; padding-top: 10px; }
+.deals li a .priceContainer { float: right; text-align: center; width: 80px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/adModuleOnLanding.css?ver=a99db04f ::::: */
+
+.adModuleOnLanding .divider { background-image: url("divider.jpg"); display: block; width: 940px; height: 6px; margin-top: 20px; margin-bottom: 30px; }
+.adModuleOnLanding { width: 960px; display: block; overflow: auto; }
+.adModuleOnLanding .banners { width: 620px; float: left; }
+.adModuleOnLanding .advertisementModule { width: 320px; margin-left: 20px; float: left; }
+.adModuleOnLanding .advertisementModule > div { border-bottom: medium none ! important; border-top: medium none ! important; padding: 0px ! important; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/adModulesText.css?ver=fa598855 ::::: */
+
+#asModulesTextCont { width: 940px; }
+#asModulesTextCont h2 { font-size: 18px; }
+#asModulesTextCont p { color: rgb(102, 102, 102); font-size: 13px; line-height: 16px; text-align: justify; margin-top: 4px; }
+#asModulesTextCont h2.small { font-size: 12px; }
+#asModulesTextCont p.small { font-size: 11px; margin-top: 3px; margin-bottom: 20px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/SignUp.css?ver=ff9573f8 ::::: */
+
+.SignUp { border: 1px solid rgb(204, 204, 204); margin-top: 12px; }
+.SignUp .bannerContainer { background: transparent url("image_pricetag.png") no-repeat scroll left top; height: auto; min-height: 113px; }
+.SignUp .bannerContainer.noCoupon { background: transparent url("image_hoteltag.png") no-repeat scroll left top; height: auto; min-height: 107px; }
+.SignUp .banner { padding: 15px 10px 0px 86px; }
+.SignUp .noCoupon .banner { padding-top: 15px; }
+.SignUp h2 { color: rgb(200, 5, 5); font-size: 28px; font-weight: normal; }
+.SignUp .noCoupon .banner h2 { font-size: 22px; font-weight: bold; }
+.SignUp .noCoupon .banner h3 { font-size: 16px; }
+.SignUp h3 { font-size: 17px; font-weight: normal; }
+.SignUp .formRow { margin-top: 12px; }
+.SignUp .formRow > * { display: inline-block; margin-right: 7px; vertical-align: top; }
+.SignUp .formRow > div { width: 204px; }
+.SignUp .formRow button, .SignUp .formRow button:active, .SignUp .formRow button:hover { background-color: rgb(185, 0, 5); border: 0px none; border-radius: 3px; height: 25px; margin: 0px 7px 0px 0px; padding-left: 10px; padding-right: 10px; width: 85px; color: rgb(255, 255, 255); font-size: 15px; background-image: none ! important; }
+.SignUp .formRow a { display: inline-block; font-size: 11px; margin-bottom: 10px; }
+.SignUp .formRow input { border: 1px solid rgb(113, 113, 113); color: rgb(102, 102, 102); height: 26px; line-height: 26px; margin-bottom: 20px; padding-left: 7px; width: 160px; }
+.SignUp .formRow [id$="zip"] { width: 75px; }
+.SignUp.NHP14 { width: 620px; margin-top: 0px; }
+.SignUp.NHP14 .bannerContainer { background: transparent none repeat scroll 0px center; }
+.SignUp.NHP14 .banner { padding-left: 20px; }
+.SignUp.NHP14 h2 { color: rgb(0, 0, 0); }
+.SignUp.NHP14 h3 { color: rgb(65, 65, 65); }
+.SignUp.NHP14 .formRow button, .SignUp.NHP14 .formRow button:active, .SignUp.NHP14 .formRow button:hover { background-color: rgb(185, 0, 5); border: 0px none; border-radius: 3px; height: 30px; margin: 0px 7px 0px 0px; padding-left: 10px; padding-right: 10px; width: 110px; color: rgb(255, 255, 255); font-size: 15px; font-weight: normal; background-image: none; }
+.SignUp.NHP14 .formRow input { width: 300px; height: 40px; border: 1px solid rgb(212, 212, 212); color: rgb(0, 0, 0); }
+.SignUp.NHP14 .formRow [id$="zip"] { width: 115px; }
+.SignUp.NHP14 .formRow > div.buttonClass { padding-top: 5px; }
+.SignUp.NHP14 .formRow > div { width: 0px; }
+.SignUp.NHP14 .formRow a { width: 110px; color: rgb(0, 114, 188); }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/shell/disclaimerHotel.css?ver=26a03c25 ::::: */
+
+.disclaimerHotel { color: rgb(102, 102, 102); font-size: 11px; line-height: 16px; margin-top: 16px; }
+.disclaimerHotel .disclaimer { width: auto; }
+.disclaimerHotel .disclaimer li { margin: 5px 0px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/core/widget/tooltip.css?ver=WARN154ac5677af ::::: */
+
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.tooltip.css?ver=WARN154ac5677af ::::: */
+
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.core.css?ver=WARN154ac5677af ::::: */
+
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/css/core/widget/selectmenu.css?ver=WARN154ac5677af ::::: */
+
+span.ui-selectmenu-button .ui-button { background-color: rgb(250, 250, 250); border: 1px solid rgb(220, 220, 220); box-shadow: 0px 0px 1px 1px rgba(220, 220, 220, 0.9) inset; outline: 0px none; }
+span.ui-selectmenu-button .ui-button .ui-icon { background-color: rgb(250, 250, 250); border-left: 1px solid rgb(220, 220, 220); height: 35px; margin: 0px; right: 1px; top: 1px; width: 37px; }
+span.ui-selectmenu-button .ui-button .ui-icon { background: rgb(250, 250, 250) url("arrow.png") no-repeat scroll center center; }
+span.ui-selectmenu-button .ui-button .ui-selectmenu-text { color: rgb(51, 51, 51); font-size: 100%; font-weight: normal; height: 37px; line-height: 37px; padding: 0px 0px 0px 12px; width: auto; word-break: break-all; }
+div.ui-selectmenu-menu .ui-menu { display: block; max-height: 192px; outline: 0px none; padding: 0px; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-selectmenu/jquery.ui.selectmenu.css?ver=WARN154ac5677af ::::: */
+
+.ui-selectmenu-menu { padding: 0px; margin: 0px; position: absolute; top: 0px; display: none; }
+.ui-selectmenu-menu ul.ui-menu { overflow-y: auto; overflow-x: hidden; }
+.ui-selectmenu-button a.ui-button { display: inline-block; overflow: hidden; position: relative; text-decoration: none; }
+.ui-selectmenu-button span.ui-icon { right: 0.5em; left: auto; margin-top: -8px; position: absolute; top: 50%; }
+.ui-selectmenu-button span.ui-selectmenu-text { text-align: left; padding: 0.4em 2.1em 0.4em 1em; display: block; line-height: 1.4; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.menu.css?ver=WARN154ac5677af ::::: */
+
+.ui-menu { list-style: outside none none; padding: 2px; margin: 0px; display: block; outline: medium none; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.core.css?ver=WARN154ac5677b0 ::::: */
+
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.tooltip.css ::::: */
+
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.core.css ::::: */
+
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-selectmenu/jquery.ui.selectmenu.css ::::: */
+
+.ui-selectmenu-menu { padding: 0px; margin: 0px; position: absolute; top: 0px; display: none; }
+.ui-selectmenu-menu ul.ui-menu { overflow-y: auto; overflow-x: hidden; }
+.ui-selectmenu-button a.ui-button { display: inline-block; overflow: hidden; position: relative; text-decoration: none; }
+.ui-selectmenu-button span.ui-icon { right: 0.5em; left: auto; margin-top: -8px; position: absolute; top: 50%; }
+.ui-selectmenu-button span.ui-selectmenu-text { text-align: left; padding: 0.4em 2.1em 0.4em 1em; display: block; line-height: 1.4; }
+/* ::::: http://ak-static.hotwirestatic.com/y/static/gen-min/gen-exploded/META-INF/jquery-ui/themes/base/jquery.ui.menu.css ::::: */
+
+.ui-menu { list-style: outside none none; padding: 2px; margin: 0px; display: block; outline: medium none; }

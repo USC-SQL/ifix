@@ -1,0 +1,296 @@
+/* ::::: http://www.starwoodhotels.com/westin/css/global/fonts.css?v=edd0ad2488229c207052ca109363a0fa6 ::::: */
+
+@font-face {
+	font-family: "copernicusSemiBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url('galaxiecopernicus-semibold.eot') format("eot"), url('render_woff.do') format("woff"), url('galaxiecopernicus-semibold.svg') format("svg");
+}
+@font-face {
+	font-family: "copernicusMedium";
+	font-style: normal;
+	font-weight: normal;
+	src: url('galaxiecopernicus-medium.eot') format("eot"), url('render_woff_001.do') format("woff"), url('galaxiecopernicus-medium.svg') format("svg");
+}
+@font-face {
+	font-family: "copernicusLight";
+	font-style: normal;
+	font-weight: normal;
+	src: url('galaxiecopernicus-book.eot') format("eot"), url('render_woff_002.do') format("woff"), url('galaxiecopernicus-book.svg') format("svg");
+}
+/* ::::: http://www.starwoodhotels.com/westin/css/global_css.do?v=edd0ad2488229c207052ca109363a0fa6 ::::: */
+
+html { color: rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, select, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+address, button, caption, cite, code, dfn, em, input, optgroup, option, select, strong, textarea, th, var { font: inherit; }
+li { list-style: outside none none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q::before, q::after { content: ""; }
+sup { vertical-align: baseline; }
+@media screen {
+}
+.swui-date-picker, .swui-date-picker *, .swui-date-picker *::after, .swui-date-picker *::before { box-sizing: border-box; }
+.swui-date-picker.swui-arrival .swui-field-arrival::after, .swui-date-picker.swui-departure .swui-field-departure::after { content: ""; position: absolute; bottom: -10px; left: 0px; width: 100%; height: 10px; background-color: rgb(255, 255, 255); }
+.swui-date-picker .swui-calendar-icon::before { font-size: 28px; }
+.swui-calendar .swui-month-nav::before { color: rgb(255, 255, 255); line-height: 50px; font-size: 23px; }
+.swui-calendar .swui-month-nav-empty::before { content: ""; }
+.swui-month .swui-range-start::before { content: ""; position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; border-top: 22px solid transparent; border-bottom: 23px solid transparent; border-left: 9px solid rgb(207, 207, 207); }
+.swui-month .swui-range-end::after { content: ""; position: absolute; top: 0px; right: 0px; width: 0px; height: 0px; border-top: 22px solid transparent; border-bottom: 23px solid transparent; border-right: 9px solid rgb(207, 207, 207); }
+.swui-date-picker.right.swui-arrival .swui-field-arrival::after, .swui-date-picker.right.swui-departure .swui-field-departure::after { content: ""; position: absolute; left: 106px; top: 0px; width: 10px; height: 120%; background-color: rgb(255, 255, 255); }
+.swui-date-picker .swui-calendar-icon::before { font-size: 25px; }
+.swui-month time.swui-out-of-month::after { background: transparent none repeat scroll 0% 0%; }
+.swui-date-picker.left.swui-arrival .swui-field-arrival::after, .swui-date-picker.left.swui-departure .swui-field-departure::after { bottom: auto; left: -10px; width: 10px; height: 120%; top: 0px; }
+.is-desktop.swui-arrival time:hover::before { content: ""; position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; border-width: 22px medium 23px 9px; border-style: solid none solid solid; border-color: transparent -moz-use-text-color transparent rgb(207, 207, 207); }
+.is-desktop.swui-departure time:hover::after { content: ""; position: absolute; top: 0px; right: 0px; width: 0px; height: 0px; border-width: 22px 9px 23px medium; border-style: solid solid solid none; border-color: transparent rgb(207, 207, 207) transparent -moz-use-text-color; }
+.is-desktop .swui-month time.swui-invalid::before, .is-desktop .swui-month time.swui-invalid:hover::before, .is-desktop .swui-month time.swui-invalid::after, .is-desktop .swui-month time.swui-invalid:hover::after { background: transparent none repeat scroll 0% 0%; border: medium none; }
+.is-desktop .swui-month time.swui-out-of-month::after, .is-desktop .swui-month time.swui-out-of-month::before, .is-desktop .swui-month time.swui-out-of-month:hover::after, .is-desktop .swui-month time.swui-out-of-month:hover::before { background: transparent none repeat scroll 0% 0%; border: medium none; }
+.lt-ie9 .swui-month time.swui-invalid::before, .lt-ie9 .swui-month time.swui-invalid::after, .lt-ie9 .swui-month time.swui-invalid:hover::before, .lt-ie9 .swui-month time.swui-invalid:hover::after { background: transparent none repeat scroll 0% 0%; border: medium none; }
+.lt-ie9 .swui-calendar .swui-previous::before, .lt-ie9 .swui-calendar .swui-next::before { content: ""; }
+.lt-ie9 .swui-date-picker .swui-field-arrival::after, .lt-ie9 .swui-date-picker .swui-field-departure::after { height: 0px; }
+.swui-party-mix label::before { float: left; }
+.swui-party-mix .swui-control::before { font-size: 28px; }
+.swui-party-mix.right a.toggle::after { position: relative; top: 2px; float: left; margin-left: 8px; content: ""; width: 6px; height: 6px; background: transparent none repeat scroll 0% 0%; border-width: medium 2px 2px medium; border-style: none solid solid none; border-color: -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; transform: rotate(-45deg); transition: all 0.25s ease-in 0s; }
+.swui-party-mix.bottom a.toggle::after { position: relative; top: 2px; float: left; margin-left: 8px; content: ""; width: 6px; height: 6px; background: transparent none repeat scroll 0% 0%; border-width: medium medium 2px 2px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; transform: rotate(-45deg); transition: all 0.25s ease-in 0s; }
+.swui-party-mix.bottom a.toggle::before { display: none; content: ""; position: absolute; bottom: 0px; left: 0px; width: 160px; height: 10px; background-color: rgb(255, 255, 255); z-index: 2; }
+.swui-party-mix.right a.toggle::before { display: none; bottom: auto; top: 0px; left: 123px; width: 10px; height: 100%; content: ""; position: absolute; background-color: rgb(255, 255, 255); z-index: 2; }
+.swui-party-mix.right.swui-show a.toggle::before { display: block; }
+.swui-party-mix.bottom.swui-show a.toggle::before { display: block; }
+.swui-party-mix.bottom.swui-show a.toggle::after { top: 3px; transform: rotate(-225deg); }
+.swui-party-mix.right.swui-show a.toggle::after { transform: rotate(135deg); }
+.swui-party-mix.left a.toggle::after { display: none; bottom: auto; top: 0px; left: -3px; width: 10px; height: 100%; content: ""; position: absolute; background-color: rgb(255, 255, 255); z-index: 2; }
+.swui-party-mix.left.swui-show a.toggle::after { display: block; }
+.swui-party-mix.left a.toggle::before { position: relative; top: 4px; float: left; content: ""; width: 6px; height: 6px; background: transparent none repeat scroll 0% 0%; border-width: medium medium 2px 2px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; transform: rotate(45deg); transition: all 0.25s ease-in 0s; }
+.swui-party-mix.left.swui-show a.toggle::before { transform: rotate(225deg); }
+.lt-ie9 .swui-party-mix.left a.toggle::before { top: 0px; border: medium none; content: "<"; }
+.lt-ie9 .swui-party-mix.left.swui-show a.toggle::before { content: ">"; }
+.lt-ie9 .swui-party-mix.bottom a.toggle::after { top: 0px; border: medium none; content: "∨"; }
+.lt-ie9 .swui-party-mix.bottom.swui-show a.toggle::after { border: medium none; content: "∧"; }
+@font-face {
+	font-family: "starwood";
+	font-style: normal;
+	font-weight: normal;
+	src: url('starwood.eot') format("embedded-opentype"), url('starwood.woff') format("woff"), url('starwood.ttf') format("truetype"), url('starwood.svg') format("svg");
+}
+[data-icon]::before { font-family: "starwood"; content: attr(data-icon); font-weight: normal; font-variant: normal; line-height: 1; font-size: 40px; }
+.geoSuggestIcons .icon-search::before { font-size: 30px; }
+.geoSuggestIcons li[data-icon]::before { position: absolute; top: 0px; left: 9px; font-size: 24px; }
+.clearBoth, .clearDiv { clear: both; visibility: hidden; margin: 0px; padding: 0px; }
+body { margin: 0px; padding: 0px; background-color: rgb(248, 248, 247); font-size: 12px; line-height: 15px; font-family: Arial,sans-serif; font-weight: normal; color: rgb(107, 107, 107); }
+p { margin-bottom: 15px; }
+h1 { font-weight: normal; font-size: 25px; line-height: 1em; color: rgb(107, 107, 107); margin-top: 40px; margin-bottom: 20px; text-transform: uppercase; font-family: copernicusLight; }
+h2 { margin-bottom: 7px; font-weight: normal; font-size: 17px; line-height: 22px; color: rgb(107, 107, 107); text-transform: capitalize; font-family: Georgia,sans-serif; }
+h3 { font-weight: normal; font-size: 13px; line-height: 17px; color: rgb(107, 107, 107); font-family: Georgia,sans-serif; text-transform: uppercase; }
+a { font-weight: bold; color: rgb(162, 174, 76); text-decoration: none; }
+a:hover { color: rgb(162, 174, 76); text-decoration: underline; }
+a:visited { color: rgb(162, 174, 76); }
+.errorText, .topError, label.error { color: rgb(166, 9, 46); }
+button { overflow: visible; }
+.actionButton { padding: 0px; margin: 0px; }
+.actionButton button { background: rgb(162, 174, 76) url('westinsprite.png') no-repeat scroll right -41px; font-size: 10px; padding: 2px 19px 2px 10px; text-transform: uppercase; font-weight: bold; color: rgb(255, 255, 255); border: medium none; margin: 0px; cursor: pointer; }
+a.iconContainer, span.iconContainer { padding-bottom: 1px; padding-left: 20px; height: 16px; font-size: 11px; text-transform: capitalize; }
+a.closeIcon, span.closeIcon { background: transparent url('wi_pa_innertemplate_icon_close.jpg') no-repeat scroll right top; padding: 0px 16px 8px 0px; float: right; }
+#siteContainer a.closeIcon, #siteContainer a.closeIcon:visited, #siteContainer a.closeIcon:hover, #siteContainer span.closeIcon { color: rgb(107, 107, 107); }
+#siteContainer { width: 972px; }
+#contentContainer #headerSectionContainer { background-color: rgb(255, 255, 255); text-align: center; padding: 20px 0px 0px; margin-top: -3px; }
+#contentContainer { min-height: 950px; height: auto ! important; }
+#contentRightDropShadowContainer { padding-right: 7px; background: transparent url('dropshadow.png') repeat-y scroll right top; }
+#mainContentContainer { background-color: rgb(255, 255, 255); padding-bottom: 30px; }
+#globalNavContainer #sitePrimaryNavigationContainer { padding-bottom: 3px; background: transparent url('dropshadowbottom.png') repeat-x scroll left 64px; }
+#globalNavContainer #sitePrimaryNavigation { width: 723px; float: right; padding-left: 5px; }
+#globalNavContainer #sitePrimaryNavigationElements { background: rgb(235, 234, 230) none repeat scroll 0% 0%; height: 64px; position: relative; z-index: 12; }
+#globalNavContainer #logoContainer { background: transparent url('dropshadow.png') repeat-y scroll 236px center; float: left; position: relative; z-index: 1; }
+#globalNavContainer #logoBg { height: 64px; width: 236px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#globalNavContainer #logoImg { border: medium none; margin: 14px 22px 0px; }
+.secondaryContentBox { background-color: rgb(232, 232, 232); padding-top: 5px; margin-bottom: 12px; }
+.secondaryContentBox .secondaryContentInnerBox { padding: 0px 16px 8px 12px; background-color: rgb(232, 232, 232); font-size: 11px; }
+.secondaryContentBox .secondaryContentInnerBox #subNavContainer { padding: 10px 0px 8px; margin: 0px; list-style-type: none; font-size: 14px; line-height: 16px; text-transform: capitalize; }
+.secondaryContentBox .secondaryContentInnerBox #subNavContainer li { padding-bottom: 4px; }
+.secondaryContentBox .secondaryContentInnerBox #subNavContainer a { color: rgb(107, 107, 107); text-decoration: none; font-family: Georgia,sans-serif; font-weight: normal; line-height: 16px; }
+.secondaryContentBox .secondaryContentInnerBox #subNavContainer .subOn { color: rgb(107, 107, 107); font-weight: bold; font-family: Georgia,sans-serif; font-size: 14px; }
+.secondaryContentBox .secondaryContentInnerBox #subNavContainer a:hover, .secondaryContentBox .secondaryContentInnerBox #subNavContainer .tertNav a:hover { text-decoration: underline; }
+.secondaryBoxHead { font-size: 14px; line-height: 20px; color: rgb(107, 107, 107); font-weight: normal; padding-bottom: 10px; }
+#primaryContainer #contentArea, #primaryContainer #primaryHeader, #headerSectionContainer { margin: 0px; padding: 0px 20px; }
+#contentBottomDropShadowContainer { height: 10px; background: transparent url('dropshadowbottom.png') repeat-x scroll left top; margin-right: 5px; position: relative; }
+.overlayContainer { background: transparent none repeat scroll 0% 0%; border: 1px solid rgb(220, 217, 213); padding: 5px; width: 274px; }
+.dhtmlSelect .dhtmlSelectTrigger { white-space: nowrap; }
+.dhtmlSelect ul { display: none; }
+.dhtmlSelect ul li, #globalNav .subNavigation ul.dhtmlSelectList li { list-style: inside none circle; white-space: nowrap; padding: 1px 0px 2px; border-top: 1px solid rgb(217, 217, 217); }
+#globalNav .subNavigation ul.dhtmlSelectList li { font-family: Georgia,sans-serif; }
+.dhtmlSelect ul li.first, #globalNav .subNavigation ul.dhtmlSelectList li.first { border: medium none; }
+.dhtmlSelect ul li a, #globalNav .subNavigation ul.dhtmlSelectList li a { text-decoration: none; color: rgb(107, 107, 107); }
+.dhtmlSelect ul li a { font-weight: normal; }
+.dhtmlSelect ul li.hover, .dhtmlSelect ul li:hover, #globalNav .subNavigation ul.dhtmlSelectList li.hover, #globalNav .subNavigation ul.dhtmlSelectList li.activeLink { list-style: inside none disc; color: rgb(162, 174, 76); }
+.dhtmlSelect ul li.hover a, #globalNav .subNavigation ul.dhtmlSelectList li.hover a, #globalNav .subNavigation ul.dhtmlSelectList li.activeLink { color: rgb(162, 174, 76); }
+#globalNav .subNavigation ul.dhtmlSelectList li.hover a, #globalNav .subNavigation ul.dhtmlSelectList li.activeLink a { color: rgb(162, 174, 76); }
+#globalNav .subNavigation ul.dhtmlSelectList li a { font-weight: normal; font-family: Georgia,sans-serif; text-transform: capitalize; }
+#globalNav .subNavigation ul.dhtmlSelectList li { padding: 1px 0px; }
+#languageDropDown .dhtmlSelect { background: transparent url('westinsprite.png') no-repeat scroll left -202px; padding-left: 23px; margin-top: 10px; }
+#userLoginContainer { position: relative; height: 30px; z-index: 13; }
+#topNavigation { position: absolute; right: 7px; top: 0px; font-size: 11px; }
+#topNavigation li.navItem { float: left; position: relative; padding: 0px 5px; }
+#topNavigation li.hasSubItems { background: transparent url('westinsprite.png') no-repeat scroll right -7px; }
+#topNavigation a, #topNavigation a:visited { color: rgb(107, 107, 107); text-decoration: none; }
+#topNavigation #topNavsignInContainer, #topNavigation #helpDropDown ul.menuLinks { position: absolute; display: none; border: 1px solid rgb(225, 225, 225); background: rgb(255, 255, 255) none repeat scroll 0% 0%; top: 37px; z-index: -1; }
+#topNavigation #topNavsignInContainer a, #topNavigation #helpDropDown ul.menuLinks a, #topNavigation #languageDropDown #languageSelector ul a { color: rgb(107, 107, 107); font-weight: bold; text-transform: capitalize; }
+#topNavigation #languageDropDown #languageSelector ul a { font-weight: normal; }
+#topNavigation #helpDropDown ul.menuLinks li.hover a, #topNavigation #languageDropDown #languageSelector ul li.hover a, #topNavigation #languageDropDown #languageSelector ul li a:hover { color: rgb(162, 174, 76); }
+#topNavigation li.hasSubItems div.dhtmlSelect .navLink { padding: 10px 8px 16px 0px; display: block; font-weight: bold; text-transform: capitalize; }
+#topNavigation #topNavsignInContainer { left: -150px; width: 370px; padding: 10px 15px 15px; }
+#topNavigation #topNavsignInContainer a, #topNavigation #topNavsignInContainer a:visited { color: rgb(162, 174, 76); }
+#topNavigation #topNavsignInContainer .usernameContainer, #topNavigation #topNavsignInContainer .formField passwordContainer { float: left; width: 50%; }
+#topNavigation #topNavsignInContainer div.passwordContainer { background: transparent url('westinsprite.png') no-repeat scroll right bottom; }
+#topNavigation #topNavsignInContainer div.persistContainer { margin: 10px 0px; }
+#topNavigation #topNavsignInContainer div.persistContainer .persistMessage { display: inline; vertical-align: top; }
+#topNavigation #topNavsignInContainer #topNavsignInMessaging { clear: left; margin-top: 10px; }
+#topNavigation #topNavsignInContainer #topNavsignInMessaging div a { margin: 0px; padding: 0px; }
+#topNavigation #topNavsignInContainer #topNavsignInMessaging .signInMessagingEnroll { color: rgb(162, 174, 76); text-transform: capitalize; font-weight: bold; }
+#topNavigation #topNavsignInContainer #topNavloginForm .standardInput { width: 168px; }
+#topNavigation li.navItem span.loginAccountBar, #topNavigation li.navItem a.joinSPGLink, #topNavigation li.navItem a.navItemLink, #topNavigation li.navItem span.navItemText { float: left; padding: 10px 10px 16px 0px; display: block; color: rgb(107, 107, 107); font-weight: bold; }
+#topNavigation li.navItem a.navItemLink, #topNavigation li.navItem a.joinSPGLink, #topNavigation li.navItem span.navItemText { padding-right: 0px; text-transform: capitalize; }
+#topNavigation li.navItem a.navItemLink:hover, #topNavigation li.navItem a.joinSPGLink:hover { text-decoration: underline; }
+#topNavigation #helpDropDown ul.menuLinks { padding: 15px 20px; left: -70px; }
+#topNavigation #helpDropDown ul.menuLinks li { padding: 1px 40px 2px 10px; }
+#topNavigation #helpDropDown ul.menuLinks .custServContactNumber { padding-bottom: 10px; padding-right: 0px; list-style-type: none; color: rgb(73, 158, 147); font-weight: normal; }
+#topNavigation #helpDropDown span.navLink { color: rgb(107, 107, 107); padding: 10px 8px 16px 0px; display: block; cursor: pointer; }
+#globalNav { margin: 0px; padding: 12px 0px 0px 2px; text-transform: capitalize; position: relative; }
+#globalNav .navItem { float: left; list-style: outside none none; margin: 0px 2px; padding-left: 5px; }
+#globalNav li.activeTab { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top: 1px solid rgb(210, 217, 117); padding-bottom: 17px; }
+#globalNav li.activeTab a { background: transparent none repeat scroll 0% 0%; }
+#globalNav a.navLink { background: transparent url('westinsprite.png') no-repeat scroll right -10px; display: block; padding: 9px 8px 13px 0px; text-decoration: none; color: rgb(107, 107, 107); font-size: 12px; font-family: copernicusSemiBold; text-transform: capitalize; font-weight: normal; }
+#globalNav .subNavigation { display: none; position: absolute; width: 683px; padding: 4px 20px; top: 46px; left: 0px; background-color: rgb(255, 255, 255); z-index: 3; min-height: 110px; height: auto ! important; }
+#globalNav .subNavigation .subNavLinks { float: left; margin-right: 20px; }
+#globalNav .subNavigation .subNavLinks .subNavLink { padding: 1px 25px 1px 0px; }
+#globalNav .subNavigation .subNavContent { float: left; }
+#globalNav .subNavigation .subNavContent .subNavContentTitle { margin-top: 17px; margin-bottom: 5px; width: 280px; font-family: copernicusMedium; font-size: 18px; line-height: 22px; color: rgb(107, 107, 107); text-transform: uppercase; }
+#globalNav .subNavigation .subNavContent .shortDescription { width: 200px; z-index: 0; text-transform: capitalize; }
+#globalNav .subNavigation .subNavLinks { margin-top: 9px; }
+#globalNav .subNavigation ul.noTopMargin { margin-top: 0px; }
+#globalNav .subNavigation .show { display: block; }
+.hide { display: none; }
+.show { display: block; }
+#headerSectionContainer #banner_slideshow_gallery #slideshow_gallery { position: relative; }
+#headerSectionContainer #banner_slideshow_gallery li.galleryImages { position: absolute; top: 0px; left: 21px; display: none; }
+#headerSectionContainer #banner_slideshow_gallery li.notAbsolute { position: relative; left: 0px; z-index: 0; }
+.tripTypeBackgroundSet #tripTypeBackgroundContainer .show { display: block; }
+.tripTypeBackgroundSet #tripTypeBackgroundContainer { width: 100%; z-index: 1; overflow: hidden; display: block; min-height: 950px; position: absolute; visibility: visible; }
+.tripTypeBackgroundSet .tripTypeBackground { z-index: 2; position: absolute; top: 0px; left: 0px; display: none; }
+.tripTypeBackgroundSet #siteContainer { z-index: 4; position: relative; }
+#primaryContainer #contentArea h1, #primaryContainer #contentArea h2, #primaryContainer #contentArea h3, #primaryContainer #contentArea h4, #primaryContainer #contentArea h5, #primaryContainer #contentArea h6, #primaryContainer #contentArea p, #primaryContainer #primaryHeader h1, #primaryContainer #primaryHeader #breadCrumbContainer { margin-left: 13px; }
+#headerSectionContainer li.galleryImages, #headerSectionContainer #slideshow_gallery {  }
+.popUpError { position: absolute; top: 187px; left: 370px; border: 1px solid rgb(216, 207, 194); width: 280px; height: 80px; background-color: rgb(255, 255, 255); padding: 10px; }
+.popUpErrorHeader { background-color: rgb(232, 232, 232); text-decoration: underline; text-align: right; padding: 4px 5px 8px 12px; font-size: 10px; font-weight: bold; display: none; }
+.popUpErrorClose { cursor: pointer; float: right; }
+.popUpError .popUpErrorHeader { display: block; }
+#topNavsignInContainer .popUpError { height: auto; top: 0px; left: 0px; }
+.dhtmlSelect #topNavsignInContainer ul li { white-space: normal; }
+#topNavigation #twoColumContainer .actionButton { float: right; margin-top: -27px; }
+#topNavsignInContainer .popUpError .topError span { color: rgb(166, 9, 46) ! important; font-size: 12px ! important; }
+#topNavsignInContainer .popUpError .topError a span { color: rgb(166, 9, 46) ! important; font-size: 12px ! important; }
+#topNavigation #languageDropDown #languageSelector ul { padding: 15px; min-width: 75px; right: 0px; position: relative; float: left; display: none; }
+#topNavigation #languageDropDown #languageSelector .dhtmlSelectTrigger { text-transform: capitalize; color: rgb(107, 107, 107); padding: 0px 12px 16px 3px; display: block; cursor: pointer; font-weight: bold; margin-left: -3px; }
+#topNavigation li#languageListItem { padding: 0px 0px 0px 5px; }
+#languageSelector #languagesList { display: none; border: 1px solid rgb(225, 225, 225); background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 333px; overflow: auto; position: absolute; right: 0px; }
+.geoSuggestIcons li[data-icon]::before, .geoSuggestIcons .icon-search { color: rgb(146, 146, 146); }
+.swui-date-picker.swui-arrival .swui-field-arrival::after, .swui-date-picker.swui-departure .swui-field-departure::after { background-color: rgb(255, 255, 255); }
+.swui-calendar .swui-month-nav::before { color: rgb(255, 255, 255); }
+.swui-month .swui-range-start::before { border-left-color: rgb(217, 226, 153); }
+.swui-month .swui-range-end::after { border-right-color: rgb(217, 226, 153); }
+.is-desktop.swui-arrival time:hover::before { border-left-color: rgb(217, 226, 153); }
+.is-desktop.swui-departure time:hover::after { border-right-color: rgb(217, 226, 153); }
+.swui-party-mix .swui-control, .swui-party-mix label::before, .swui-party-mix .swui-field-group select, .swui-party-mix label { color: rgb(162, 174, 76); }
+.swui-party-mix.left a.toggle::before, .swui-party-mix.bottom a.toggle::after, .swui-party-mix.bottom.swui-show a.toggle::before { border-color: rgb(162, 174, 76); }
+#globalFooterContainer { margin: auto; font-size: 10px; font-family: arial; line-height: 14px; z-index: 1000; }
+#globalFooterContainer #globalFooterBrandNavigatorContainer { padding: 0px; z-index: 1000; display: block; }
+#globalFooterContainer #globalFooterLegal { color: rgb(204, 204, 203); }
+#globalFooterContainer #brandNavigatorContainer { display: inline; margin: 0px; position: relative; }
+#globalFooterContainer #brandNavigatorContainer a { white-space: nowrap; }
+#globalFooterContainer #otherStarwoodBandsContainer { margin-left: 0px; padding: 0px; z-index: 1000; position: relative; }
+#globalFooterContainer #otherStarwoodBandsContainer #brandNavBrandList a:active, #globalFooterContainer #otherStarwoodBandsContainer #brandNavBrandList a:visited, #globalFooterContainer #otherStarwoodBandsContainer #brandNavBrandList a:link, #globalFooterContainer #otherStarwoodBandsContainer #brandNavBrandList a:hover { white-space: normal; }
+#globalFooterContainer #globalFooterBrandBar { margin-top: 0px; }
+#globalFooterContainer #globalFooterBrandBar table { width: 100%; height: 90px; margin: 35px 0px 0px; padding: 0px; }
+#globalFooterContainer #globalFooterBrandBar table td { vertical-align: top; }
+#globalFooterContainer #globalFooterBrandBar table #navigationLinkContainer { width: 298px; }
+#globalFooterContainer #globalFooterBrandBar table #globalFooterLogoContainer { width: 446px; background-position: -125px 0px; }
+#globalFooterContainer #globalFooterBrandBar td.firstCell, #globalFooterContainer #globalFooterBrandBar td.firstCell_footer_zh_CN { width: 124px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos1 { height: 90px; width: 100%; background-position: -9px 0px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos2 { width: 72px; background-position: -210px -2px; margin-left: 3px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos3 { width: 42px; background-position: -312px -2px; margin-left: 29px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos4 { width: 58px; background-position: -379px -2px; margin-left: 28px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos5 { width: 53px; background-position: -456px -2px; margin-left: 25px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos6 { width: 68px; background-position: -536px -2px; margin-left: 19px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos7 { width: 36px; background-position: -259px -50px; margin-left: 52px; margin-top: 10px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos8 { width: 47px; background-position: -344px -50px; margin-left: 47px; margin-top: 10px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos9 { width: 57px; background-position: -425px -50px; margin-left: 37px; margin-top: 10px; }
+#globalFooterContainer #globalFooterBrandBar td a#logoPos10 { width: 45px; background-position: -521px -50px; margin-left: 41px; margin-top: 10px; }
+#globalFooterContainer #globalFooterBrandBar #brandBarDivider, #globalFooterContainer #globalFooterBrandBar td.footer_zh_CN #brandBarDivider { height: 2px; line-height: 2px; font-size: 2px; width: 446px; background-position: -125px -38px; float: left; margin-top: 8px; }
+#globalFooterContainer #globalFooterBrandBar #brandBarDividerTail { width: 2px; background-position: -635px 0px; padding-right: 20px; }
+#globalFooterContainer #globalFooterBrandBar td.spacerCell div { height: 2px; line-height: 2px; font-size: 2px; margin-top: 38px; background-position: -125px -38px; }
+#globalFooterContainer #globalFooterBrandBar a#logoPos1, #globalFooterContainer #globalFooterBrandBar a#logoPos2, #globalFooterContainer #globalFooterBrandBar a#logoPos3, #globalFooterContainer #globalFooterBrandBar a#logoPos4, #globalFooterContainer #globalFooterBrandBar a#logoPos5, #globalFooterContainer #globalFooterBrandBar a#logoPos6 { display: block; height: 30px; float: left; }
+#globalFooterContainer #globalFooterBrandBar a#logoPos7, #globalFooterContainer #globalFooterBrandBar a#logoPos8, #globalFooterContainer #globalFooterBrandBar a#logoPos9, #globalFooterContainer #globalFooterBrandBar a#logoPos10 { display: block; height: 31px; float: left; }
+#globalFooterContainer #globalFooterBrandBar img { border: 0px none; margin: 0px; padding: 0px; }
+#brandNavBrandList { display: block; color: rgb(102, 102, 102); position: absolute; top: -195px; left: -10px; visibility: hidden; font-size: 11px; text-align: left; margin: 0px; z-index: 1000; }
+#brandNavigatorContainer #footerCopyright { margin-top: 16px; }
+#brandNavigatorContainer #footerCopyright p { margin: 0px; padding: 0px; }
+#navigationLinkContainer #adChoices { margin-top: 16px; }
+#globalFooterLegal { position: relative; }
+#globalFooterContainer { margin: 18px 0px 0px 25px; }
+#globalFooterContainer #globalFooterBrandNavigatorContainer a { color: rgb(107, 107, 107); text-decoration: none; font-weight: normal; }
+#globalFooterContainer #globalFooterBrandNavigatorContainer a:hover { color: rgb(162, 174, 76); }
+#globalFooterContainer #globalFooterBrandNavigatorContainer a#otherStarwoodBrandsLink:link, #globalFooterContainer #globalFooterBrandNavigatorContainer a#otherStarwoodBrandsLink:visited, #globalFooterContainer #globalFooterBrandNavigatorContainer a#otherStarwoodBrandsLink:hover, #globalFooterContainer #globalFooterBrandNavigatorContainer a#otherStarwoodBrandsLink:active { color: rgb(162, 174, 76); text-decoration: underline; }
+#globalFooterContainer #globalFooterBrandNavigatorContainer #brandNavigatorContainer #otherStarwoodBandsContainer #brandNavBrandList { background-color: rgb(255, 255, 255); border: 1px solid rgb(217, 217, 217); color: rgb(107, 107, 107); padding: 8px 0px; width: 142px; }
+#globalFooterContainer #globalFooterBrandNavigatorContainer #brandNavigatorContainer #otherStarwoodBandsContainer #brandNavBrandList a { font-size: 11px; padding: 0px 10px; margin: 0px 0px 1px; display: block; }
+#globalFooterContainer #globalFooterBrandNavigatorContainer #brandNavigatorContainer #brandNavBrandList hr { border-width: 0px 0px 1px; border-style: solid; border-color: rgb(217, 217, 217); margin: 3px 10px; }
+#globalFooterContainer #globalFooterLegal a:link, #globalFooterContainer #globalFooterLegal a:visited, #globalFooterContainer #globalFooterLegal a:active { color: rgb(107, 107, 107); text-decoration: none; font-weight: normal; }
+#globalFooterContainer #globalFooterLegal a:hover { text-decoration: underline; }
+#globalFooterContainer #globalFooterBrandBar table { border-color: rgb(145, 145, 144); }
+#globalFooterContainer #globalFooterBrandBar a#logoPos1, #globalFooterContainer #globalFooterBrandBar a#logoPos2, #globalFooterContainer #globalFooterBrandBar a#logoPos3, #globalFooterContainer #globalFooterBrandBar a#logoPos4, #globalFooterContainer #globalFooterBrandBar a#logoPos5, #globalFooterContainer #globalFooterBrandBar a#logoPos6, #globalFooterContainer #globalFooterBrandBar a#logoPos7, #globalFooterContainer #globalFooterBrandBar a#logoPos8, #globalFooterContainer #globalFooterBrandBar a#logoPos9, #globalFooterContainer #globalFooterBrandBar a#logoPos10, #globalFooterContainer #globalFooterBrandBar td.spacerCell div, #globalFooterContainer #globalFooterBrandBar #brandBarDivider, #globalFooterContainer #globalFooterBrandBar #brandBarDividerTail { background-image: url('wi_brandbar.gif'); background-repeat: no-repeat; }
+#globalFooterContainer #otherStarwoodBandsContainer { z-index: 100; }
+#socialMediaConnect { border-bottom: 1px solid rgb(217, 224, 216); border-top: 1px solid rgb(217, 224, 216); margin: 10px 0px 0px; }
+#socialMediaConnect a { font-size: 12px; }
+#socialMediaConnect a.arrowLink { background: transparent url('westinsprite.png') no-repeat scroll right -87px; padding-right: 10px; }
+#socialMediaConnect ul { height: 30px; margin: 0px 0px 0px 10%; width: auto; padding: 10px 0px; }
+#socialMediaConnect li.mediaIcon { padding: 0px 2px; }
+#socialMediaConnect li { padding: 3px 10px; float: left; height: 20px; }
+#socialMediaConnect #footerFBLike { position: relative; top: 2px; }
+#socialMediaConnect .leftLine { border-left: 1px solid rgb(204, 204, 203); }
+:first-child + html .shareComponents .ratingReview { width: 260px; }
+:first-child + html #socialContent #BVRRSummaryContainer { float: none; margin-top: 13px; }
+/* ::::: http://www.starwoodhotels.com/westin/css/layout/twoColumnLayout.css?v=edd0ad2488229c207052ca109363a0fa6 ::::: */
+
+#primaryContainer { width: 726px; float: right; }
+#secondaryContainer { width: 217px; float: right; padding-top: 15px; padding-right: 20px; }
+/* ::::: http://www.starwoodhotels.com/westin/css/local/components/shareThis.css?v=edd0ad2488229c207052ca109363a0fa6 ::::: */
+
+#shareThis .secondaryBoxHead { font-size: 14px; padding-bottom: 0px; cursor: pointer; }
+.secondaryBoxHead { color: rgb(107, 107, 107); font-family: Georgia,sans-serif; }
+#shareThis .listClose { background: transparent url('sharethislink_arrow_gray.gif') no-repeat scroll right center; padding-bottom: 0px; }
+ul.shareLinkList a { background-color: transparent; background-repeat: no-repeat; background-attachment: scroll; background-position: 0px 50%; padding-left: 23px; }
+#shareLinkList { height: 0px; overflow: hidden; }
+ul.shareLinkList li { padding: 2px 0px; }
+ul.shareLinkList a.facebookIcon { background-image: url('facebook.gif'); }
+ul.shareLinkList a.deliciousIcon { background-image: url('delicious.gif'); }
+ul.shareLinkList a.diggIcon { background-image: url('digg.gif'); }
+ul.shareLinkList a.linkThisIcon { background-image: url('linktothis.gif'); }
+#bubbleHelpDiv { z-index: 100; position: absolute; top: 0px; left: 0px; display: none; background: rgb(255, 255, 255) url('overlayboxtopcrns_404.gif') no-repeat scroll center 6px; margin-bottom: 0px; margin-top: 0px; padding-top: 6px; width: 404px; }
+#bubblehelpHeaderContainer { padding-left: 10px; padding-right: 10px; background-color: rgb(235, 234, 230); margin-top: 5px; float: right; }
+#bubblehelpHeaderContainer div.divClear { display: none; }
+#bubblehelpHeader { padding-left: 10px; padding-right: 10px; background-color: rgb(235, 234, 230); margin-top: 5px; padding-top: 5px; color: rgb(99, 89, 76); font-weight: bold; }
+#bubblehelpClose { padding-top: 4px; text-transform: lowercase; }
+#bubblehelpClose .closeIcon { float: none; margin: 0px; }
+#bubblehelpInnerContainer { overflow: auto; color: rgb(102, 102, 102); background: rgb(235, 234, 230) url('overlayboxbtmcrns_404.gif') no-repeat scroll left bottom; font-size: 11px; padding: 4px 10px 10px; clear: both; }
+.mboxDefault { visibility: hidden; }
+/* ::::: http://www.starwoodhotels.com/common/js/online_opinion_v5/css/oo_style_css.do?skinCode=WI&localeCode=es_ES&v=edd0ad2488229c207052ca109363a0fa6 ::::: */
+
+#oo_tab { background-color: rgb(202, 202, 202); background-image: none; border: medium none; display: block; position: fixed; bottom: 8%; padding: 55px 0px; width: 35px; z-index: 999995; cursor: pointer; }
+#oo_tab span { bottom: 15px; display: block; background: transparent none repeat scroll 0% 0%; height: 9px; position: absolute; width: 9px; }
+#oo_tab div { background-image: url('feedback_wi.png'); background-repeat: no-repeat; position: absolute; display: block; height: 100%; left: 0px; top: 0px; width: 100%; }
+.oo_tab_right { right: -10px; }
+.oo_tab_right span { left: 7px; }
+.oo_tab_right div { background: transparent url('feedback_wi.png') repeat scroll 0% 0%; }
+.oo_tab_right:hover { right: -5px; }
+@media only screen and (max-device-width: 480px) {
+}
+@media not all {
+}

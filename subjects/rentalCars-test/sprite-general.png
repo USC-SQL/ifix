@@ -1,0 +1,437 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Mietwagen – Billiger mietwagen buchen mit rentalcars.com</title>
+        <meta name="Description" content="Günstige Mietwagen Angebote in Deutschland, Spanien und dem restlichen Europa  sowie die USA. Keine Stornierungs- und Änderungsgebühr und über  5000 Abholstationen"/>
+        <meta name="keywords" content="mietwagen,mietwagen billiger, mietwagen mallorca,berlin,hamburg,münchen,frankfurt,usa,florida, fuerteventura,italien,spanien,portugal, la palma,sardinien,gran canaria,billig mietwagen,günstige mietwagen,günstig,preisvergleich mietwagen,billige vermietung,auto mieten,"/>        
+        <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+<link rel="SHORTCUT ICON"
+	href="/images/site_graphics/e.ico"
+	type="image/x-icon"/>
+
+
+<link href="https://plus.google.com/103918092640896887346"
+	rel="publisher"/>
+	
+<link type="text/css" href="/css/ui.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/rw-style.1061a.2.css" />
+    <!--[if IE 6]>
+      <link type="text/css" rel="stylesheet" href="/css/style-ie6.css" />
+    <![endif]-->
+    <link href="/css/site.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+      var dayNamesShort=['So','Mo','Di','Mi','Do','Fr','Sa'];var monthTxt='Monat';var dayTxt='Tag';var dateFormat='dd.mm.yy';var numberOfMonths='1';var firstDay='1';var dateFormat='dd.mm.yy';var dayNamesMin=['So','Mo','Di','Mi','Do','Fr','Sa'];var dayNames= ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];var monthNamesShort=['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];var prevText='&#x3c;zurück';var nextText='Vor&#x3e;';
+        var logVisit = false;
+    </script>
+        <script type="text/javascript" src="/js/tj-min.js"></script>
+    <script type="text/javascript" src="/js/jquery.cookies.2.2.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.qtip.min.js"></script>
+    <script type="text/javascript" src="/js/rw-rc-min.1061a.2.js"></script>
+    </head>
+  
+  <body>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;font-size: 16px;color:#444;margin:0;padding:0;}
+        .error_container {width: 600px; margin: 7% auto;}
+        .error_container img {padding: 0 50px;border:none;}
+        .error_box { width: 500px;padding: 200px 50px 300px 50px; float: left;background: url(/images/site_graphics/newsite/wrong-turn.jpg) no-repeat 0 0;}
+        .error_box p {margin: 16px 0 0;padding: 0;}
+        .error_box p span {font-size: 26px;color:#777;}
+        .error_box p strong {font-size: 26px;color:#444;}
+    </style>
+    
+    <div class="container">
+      <div id="content">
+        <div class="error_container">
+        <div class="error_box">
+          <p><strong>404</strong> &ndash; <span>Falsch abgebogen</span></p>
+          <p>Leider konnte die gew&uuml;nschte Webseite nicht aufgerufen werden.</p>
+          <p><a href="/Home.do">&gt;&gt; Zur&uuml;ck zu www.rentalcars.com</a></p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+	
+		var logVisit = false;
+	</script>
+
+<script src="/js/ajaxLogger_tracking.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var sessionId = "1061AC0CA51F4BEBD596FE9C8BBCDB94.node232a";
+	var log4javascriptAppender = "/AjaxLogger.do;jsessionid="+sessionId;
+	ajaxLoggerScript();
+	var log = log4javascript.getLogger();
+	var ajaxAppender = new log4javascript.AjaxAppender(log4javascriptAppender);
+	var layout = new log4javascript.JsonLayout();
+	log.addAppender(ajaxAppender);
+	ajaxAppender.setLayout(layout);
+</script>
+
+<script>
+	/* UtmzUtils */
+	(function() {
+		
+		var utmzCookieValues = null;
+		
+		function _getUtmzCookieValue() {
+			var val = (document.cookie.match(/^(?:.*;)?\s__utmz=([^;]+)(?:.*)?$/)||[,null])[1];
+			return val;
+		}
+		
+		function _getUtmzCookieValues() {
+			if (utmzCookieValues !== null) {
+				return utmzCookieValues;
+			}
+			else {
+				var utmzCookieValue = _getUtmzCookieValue();
+				if (utmzCookieValue !== null) {
+					var pairs = utmzCookieValue.split('.').slice(4).join('.').split('|');
+					var ga = {};
+					for (var i = 0; i < pairs.length; i++) {
+						var temp = pairs[i].split('=');
+						ga[temp[0]] = temp[1];
+					}
+					utmzCookieValues = ga;
+					return utmzCookieValues;
+				}
+				else {
+					utmzCookieValues = {};
+					return utmzCookieValues;
+				}
+			}
+		}
+		
+		function getValue(name) {
+			var val = _getUtmzCookieValues()[name]; 
+			return (typeof(val) !== 'undefined' ? val : '');
+		}
+		
+		window.UtmzUtils = {
+			getValue: getValue,
+			_getUtmzCookieValue: _getUtmzCookieValue,
+			_getUtmzCookieValues: _getUtmzCookieValues
+		};
+		
+	})();
+</script>
+
+<!-- Google Analytics Asynchronous tracking code -->
+        <script type="text/javascript">
+	        function GAQPushTransition(gaq_event_name, category, action, label, value, non_interaction) {
+	        	serialiseEvent(new GAQEvent(gaq_event_name, category, action, label, value, non_interaction));
+	        }
+	
+	        function GAQPushSecureTransition(gaq_event_name, category, action, label, value, non_interaction,domain) {
+	        	serialiseSecureEvent(new GAQEvent(gaq_event_name, category, action, label, value, non_interaction),domain);
+	        }
+	
+	        function GAQPush(gaq_event_name, category, action, label, value, non_interaction) {
+	        	pushEvent(new GAQEvent(gaq_event_name, category, action, label, value, non_interaction));
+	        }
+	
+	        function GAQPushPage(gaq_event_name, action){
+	        	pushPageEvent(new GAQPageEvent(gaq_event_name, action));
+	        }
+	        
+	        function GAQPushLinkByPost(form) {
+	        	pushLinkByPostEvent(new GAQLinkByPostEvent(form));
+	        }
+	
+	        $(document).ready(function() {
+	        	try {
+	        		if ('/LoadingSearchResults.do' !== window.location.pathname) {
+		        		$(deserialiseEvents(true)).each(function() {
+		        			pushEvent(this);
+		        		});
+	        		}
+	        	} catch (err) {
+	        		
+	        	}
+	        });
+	
+	        var cookie_name = 'gaw_track';
+	        
+	        var accountPrefixes = new Array();
+	        accountPrefixes.push('m');
+	
+	        function serialiseEvent(gaq_event) {
+	        	var eventList = deserialiseEvents(false);
+	        	if (!isDuplicateGAEvent(eventList, gaq_event)) {
+	        		eventList.push(gaq_event);
+	        	}
+	        	$.cookies.set(cookie_name, $.toJSON(eventList));
+	        }
+	
+	        function serialiseSecureEvent(gaq_event,domain) {
+	        	$.cookies.set(cookie_name, $.toJSON(gaq_event),{domain:domain});
+	        }
+	
+	        function deserialiseEvents(deleteAfterRead) {
+	        	var events = new Array();
+	
+	        	if ($.cookies.get(cookie_name) !== null) {
+	        		var json = $.evalJSON($.toJSON($.cookies.get(cookie_name)));
+	
+	        		if (json instanceof Array) {
+	        			$(json).each(function() {
+	        				events.push(new GAQEvent(this.gaq_event_name, this.category, this.action, this.label, this.value, this.non_interaction));
+	        			});
+	        		}
+	        		else {
+	        			events.push(new GAQEvent(json.gaq_event_name, json.category, json.action, json.label, json.value, json.non_interaction));
+	        		}
+	        	}
+	        	
+	        	if (deleteAfterRead) {
+	        		$.cookies.set(cookie_name, null);
+	        	}
+	        	
+	        	return events;
+	        }
+	
+	        function pushEvent(e) {
+	        	try{
+	        		_gaq.push([e.gaq_event_name, e.category, e.action, e.label, e.value, e.non_interaction]);
+	        		for (var i = 0; i < accountPrefixes.length; i++) {
+	        			var prefix = accountPrefixes[i];
+	        			_gaq.push([prefix + '.' + e.gaq_event_name, e.category, e.action, e.label, e.value, e.non_interaction]);	
+	        		}
+	        	}catch(err){
+	        	
+	        	}
+	        }
+	
+	        function pushPageEvent(e) {
+	        	try{
+	        		_gaq.push([e.gaq_event_name, e.action]);
+	        		for (var i = 0; i < accountPrefixes.length; i++) {
+	        			var prefix = accountPrefixes[i];
+	        			_gaq.push([prefix + '.' + e.gaq_event_name, e.action]);
+	        		}
+	        	}catch(err){
+	        	
+	        	}
+	        }
+	        
+	        function pushLinkByPostEvent(e) {
+	        	_gaq.push([e.gaq_event_name, e.form]);
+	        	for (var i = 0; i < accountPrefixes.length; i++) {
+	        		var prefix = accountPrefixes[i];
+	        		_gaq.push([prefix + '.' + e.gaq_event_name, e.form]);
+	        	}
+	        }
+	
+	        
+	        /*
+	         * Transition management
+	         * Make sure duplicate events are not tracker on page transition
+	         */
+	        function isDuplicateGAEvent(existingEvents, newEvent) {
+	        	var key = newEvent.category + '#' + newEvent.action + '#' + newEvent.label;
+	        	var found = false;
+	        	for (var i = 0; i < existingEvents.length; i++) {
+	        		var existingEventsKey = existingEvents[i].category + '#' + existingEvents[i].action + '#' + existingEvents[i].label;
+	        		if (existingEventsKey === key) {
+	        			found = true;
+	        			break;
+	        		}
+	        	}
+	        	return found;
+	        }
+	        
+	
+	        /**
+	         * Object representation of the Google Analytics _gaq.push(...) method
+	         * https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide
+	         */
+	        function GAQEvent(gaq_event_name, category, action, label, value, non_interaction) {
+	        	this.gaq_event_name = gaq_event_name;
+	        	this.category = category;
+	        	this.action = action;
+	        	this.label = label;
+	        	this.value = value;
+	        	this.non_interaction = non_interaction;
+	        }
+	
+	        function GAQPageEvent(gaq_event_name, action) {
+	        	this.gaq_event_name = gaq_event_name;
+	        	this.action = action;
+	        }
+	        
+	        function GAQLinkByPostEvent(form) {
+	        	this.gaq_event_name = '_linkByPost';
+	        	this.form = form;
+	        }
+        </script>
+        <script type="text/javascript">
+                var _gaq = _gaq || [];
+                
+	                	_gaq.push(['_setAccount', 'UA-25429907-1']);
+	                
+                	_gaq.push(['m._setAccount', 'UA-43723341-1']);
+                _gaq.push(['_setDomainName','rentalcars.com']);_gaq.push(['m._setDomainName','rentalcars.com']);
+_gaq.push(['_setCampNameKey','adcamp']);_gaq.push(['m._setCampNameKey','adcamp']);
+_gaq.push(['_setCampSourceKey','affiliateCode']);_gaq.push(['m._setCampSourceKey','affiliateCode']);
+_gaq.push(['_setCampMediumKey','adplat']);_gaq.push(['m._setCampMediumKey','adplat']);
+_gaq.push(['_setAllowLinker',true]);_gaq.push(['m._setAllowLinker',true]);
+_gaq.push(['_setCustomVar',3,'cor','us',2]);_gaq.push(['m._setCustomVar',3,'cor','us',2]);
+_gaq.push(['_setCustomVar',4,'sessionId','1061AC0CA51F4BEBD596FE9C8BBCDB94.node232a',2]);_gaq.push(['m._setCustomVar',4,'sessionId','1061AC0CA51F4BEBD596FE9C8BBCDB94.node232a',2]);
+_gaq.push(['_setCustomVar',7,'node','node232a',2]);_gaq.push(['m._setCustomVar',7,'node','node232a',2]);
+_gaq.push(['_setCustomVar',12,'ExpA','21221,20181,19051,21451,',2]);_gaq.push(['m._setCustomVar',12,'ExpA','21221,20181,19051,21451,',2]);
+_gaq.push(['_setCustomVar',13,'ExpB','20591,20841,21456,',2]);_gaq.push(['m._setCustomVar',13,'ExpB','20591,20841,21456,',2]);
+_gaq.push(['_setCustomVar',14,'Channel','Unknown',2]);_gaq.push(['m._setCustomVar',14,'Channel','Unknown',2]);
+_gaq.push(['_setCustomVar',15,'Language','366',2]);_gaq.push(['m._setCustomVar',15,'Language','366',2]);
+
+                	GAQPush('_trackEvent', 'site', 'Error', '404-error', 1, true);
+                _gaq.push(['_setCustomVar',25,'PayLocal','PN',2]);_gaq.push(['m._setCustomVar',25,'PayLocal','PN',2]);
+_gaq.push(['_setCustomVar',36,'affiliateCode','',2]);_gaq.push(['m._setCustomVar',36,'affiliateCode','',2]);
+_gaq.push(['_setCustomVar',38,'SecondaryAcc','UA-38772980-1',2]);_gaq.push(['m._setCustomVar',38,'SecondaryAcc','UA-38772980-1',2]);
+_gaq.push(['_setCustomVar',46,'DeviceRedirectType','D',2]);_gaq.push(['m._setCustomVar',46,'DeviceRedirectType','D',2]);
+_gaq.push(['_setCustomVar',48,'PayLocalDisambiguated','PL',2]);_gaq.push(['m._setCustomVar',48,'PayLocalDisambiguated','PL',2]);
+_gaq.push(['_setCustomVar',49,'ExpASessionLevel','21221,20181,19051,21451,',2]);_gaq.push(['m._setCustomVar',49,'ExpASessionLevel','21221,20181,19051,21451,',2]);
+_gaq.push(['_setCustomVar',50,'ExpBSessionLevel','20591,20841,21456,',2]);_gaq.push(['m._setCustomVar',50,'ExpBSessionLevel','20591,20841,21456,',2]);
+_gaq.push(['_trackPageview']);_gaq.push(['m._trackPageview']);
+
+	                  	_gaq.push(['b._setAccount', 'UA-38772980-1']);
+	                  
+                  
+	              _gaq.push(['b._setDomainName', 'rentalcars.com']);
+	              _gaq.push(['b._setAllowLinker', true]);
+	              
+		            _gaq.push(['b._setCampNameKey', 'adcamp' ]);
+		            _gaq.push(['b._setCampSourceKey', 'affiliateCode' ]);
+		            _gaq.push(['b._setCampMediumKey', 'adplat' ]);
+	              
+              			_gaq.push(['b._trackPageview']);
+              		
+                
+          (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+           })();
+        </script>
+        <!-- Google Analytics Asynchronous tracking code End -->
+        
+        <!-- Google Analytics Conversion Code -->
+        <!-- Google Analytics Conversion Code End -->
+        
+        <script type="text/javascript">
+				dataLayer = [{
+					
+						'affiliateCode' : '',
+						'language' : 'de',
+						'adcamp' : '',
+						'adplat' : '',
+						'userClass' : 'default',
+		    			'cor' : 'us',
+		    			'protocol' : (("https:" == document.location.protocol) ? "https" : "http"),
+		    			'displayCurrency' : 'USD',
+		    			
+		    			'deviceType' : 'D',
+		    			'utmctr' : UtmzUtils.getValue('utmctr'),
+		    			'utmcct' : UtmzUtils.getValue('utmcct'),
+		    			'utmccn' : UtmzUtils.getValue('utmccn'),
+		    			'utmcsr' : UtmzUtils.getValue('utmcsr'),
+		    			'utmcmd' : UtmzUtils.getValue('utmcmd')
+				}];
+				
+			</script>
+			
+			<!-- Google Tag Manager -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND9GV5"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-ND9GV5');</script>
+			<!-- End Google Tag Manager -->
+		<script type="text/javascript" src="/js/rw-boomerang.1061a.1.js"></script>
+	<script type="text/javascript">
+		BOOMR.init({ beacon_url: "/BoomerangLogger.do;jsessionid=1061AC0CA51F4BEBD596FE9C8BBCDB94.node232a" });
+		BOOMR.addVar({ 'rc_pathname': '/images/site_graphics/newsite/newsite/sprite-general.png' });
+		
+		
+		//Fire custom complete event when the DOM is interactive.
+		$(document).ready(function (){
+			BOOMR.page_ready();
+		});
+	</script>
+<script>
+			window.lpTag = window.lpTag || {}; // REQUIRED to ensure lpTag {} exists prior to SDE push
+	    	window.lpTag.autoStart = false;
+			
+			lpTag.sdes = lpTag.sdes||[];
+			
+			
+		
+			  (function(){
+				    function lpScriptLoader() {
+	
+				      var appendScript = function (src) {
+				        if(document.createElement){ 
+				          var script = document.createElement("script");
+				          script.type = "text/javascript";
+				          script.src = src;
+				          document.body.appendChild(script); 
+				        }
+				        
+				      };
+				      appendScript("/js/live-engage.js");
+				      
+				    }
+	
+				    if (window.attachEvent) { 
+				      window.attachEvent("onload", lpScriptLoader); 
+				    } else if (window.addEventListener) { 
+				      window.addEventListener("load", lpScriptLoader); 
+				    } else { 
+				      document.addEventListener("load", lpScriptLoader); 
+				    } 
+	
+				  })();
+	
+				  (function(){
+	
+				    var firstTry = true,
+				        tryAgain;
+	
+				    var _lpStopTrying = function () {
+				      clearInterval(tryAgain);
+				    };
+	
+	
+				    // Set LivePerson running now the setup is complete
+				    var startLETag = function() {	
+				      if (lpTag.start){
+				      //Setting the isDom var to true because the dom already loaded
+				        lpTag.isDom = true;
+				        
+				        lpTag.start(); // call the start function
+				        _lpStopTrying(); // cancel any repeat timers that are running
+	
+	
+				      } else if (firstTry) {
+				        firstTry = false;
+				        tryAgain = setInterval(startLETag,100); // only set the timer on our firstTry = true
+				      }
+	
+				      
+				    };
+				    startLETag();
+				   
+	
+				  })();
+		</script>
+	</body>
+</html>
+

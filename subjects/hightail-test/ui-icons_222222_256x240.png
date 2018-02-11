@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex, nofollow">
+<title>YouSendIt - File Sharing Transfer Delivery - PC FTP Replacement</title>
+
+<link rel="stylesheet" href="/en/css/new_screen.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="/en/css/screen.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="/en/css/box.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="/en/css/newui_font.css" media="screen,projection" type="text/css" />
+
+<!--[if IE 6]><link rel="stylesheet" type="text/css"
+href="/en/css/new_ie.css" /><![endif]--> <!--[if IE 7]><link rel="stylesheet"
+type="text/css" href="/en/css/new_ie7.css" /><![endif]-->
+
+<link href="/en/css/home.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Added for omniture tracking -->
+<script>
+      var hostUrl = "www.yousendit.com";
+    var hostName = hostUrl.split(".",1);
+    var OmnitureReportSuiteId = 'ysi'+ hostName;
+  </script>
+<script src="/en/js/s_code280.js"></script>
+
+
+</head> 
+<body id="homepage">
+<script language="JavaScript">
+var currentTime = new Date();
+var month = currentTime.getMonth() + 1;
+var day = currentTime.getDate();
+var year = currentTime.getFullYear();
+var dd   = day +"-"+month+"-"+ year;
+</script>
+
+
+<script language="JavaScript">
+s.pageName="404"
+s.prop1=""
+s.prop2=""
+s.prop3=""
+s.prop4=""
+s.prop5=""
+s.prop6=""
+s.prop7=""
+s.prop8=""
+s.prop9=""
+s.prop10=""
+s.prop11=""
+s.prop12=dd
+s.prop13=""
+var s_code=s.t();if(s_code)document.write(s_code)
+</script>
+
+
+<!-- Start of id="container" --> 
+<div id="container">
+    <!-- Start of id="header" --> <div id="header">
+        <!-- Start of class="logo" --> <div id="banner-logo" class="logo">
+          <div style="float:left;">
+            <a href="/"><img src="/en/images/logo.gif" alt="yousendit"
+            width="207" height="94" style="display:inline;"/></a> 
+            </div>
+            
+            <div style="margin-right:10px; margin-top:10px; float:right; width:280px; height:99px; text-align:right;">
+             
+        				<!--<a href="/login.php?es=">Login</a>
+			              |-->
+               <a href="http://support.yousendit.com/t5/Blogs/ct-p/Blog">Blog</a>
+            	|
+               <a href="/static.php?key=contact_us">Contact Us</a> <br><br>
+              
+             </div>
+
+  </div>
+	<!-- End of class="logo" -->
+
+	<!-- Start of class="globalNav" --> <div id="top-nav-bar">
+
+    <ul id="top-main-menu"> 
+    
+    <li><a href="/static.php?key=compareaccounts"> <img src="/en/images/new-header/signup-off.jpg" width="75" height="30" alt="Sign up" name="compareaccounts" class="navTabs"/></a></li>
+
+    <li><img src="../en/images/new-header/button-divider.jpg" width="2" height="30" name="button-divider" class="navTabs" /></li>
+
+    <li><a href="/signup.php?action=promo_display"> <img src="/en/images/new-header/start-off.jpg"  width="165" height="30" alt="Promo Signup" name="promosignup" class="navTabs"/></a></li>        
+    
+    <li><img src="../en/images/new-header/button-divider.jpg" width="2" height="30" name="button-divider" class="navTabs" /></li>
+
+    <li><a href="/static.php?key=testimonials_home"> <img src="/en/images/new-header/test-off.jpg" width="112" height="30" alt="Testimonials" name="test" class="navTabs"/></a></li>
+    
+    <li><img src="../en/images/new-header/button-divider.jpg" width="2" height="30" name="button-divider" class="navTabs" /></li>
+
+    <li><a href="/cms/solutions"> <img src="/en/images/new-header/solutions-off.jpg" width="86" height="30" alt="Solutions" name="solution" class="navTabs"/></a></li>
+    
+    <li><img src="../en/images/new-header/button-divider.jpg" width="2" height="30" name="button-divider" class="navTabs" /></li>
+
+    <li><a href="/static.php?key=how"> <img src="/en/images/new-header/how-off.jpg" width="115" height="30" alt="How it works" name="how" class="navTabs"/></a></li>
+    
+    </ul>
+	</div> <!-- End of class="globalNav" -->
+
+    </div> <!-- End of id="Header" --> <!-- Include the proper Sub-master
+    according to the main tab selected -->
+    
+ <div class="applicationContent">    
+ 
+ 	 <div style="margin-left:auto; margin-right:auto; width:648px;">
+       
+  	 <SCRIPT LANGUAGE="JavaScript"> document.write('<SCRIPT LANGUAGE="JavaScript1.1"SRC="http://ad.doubleclick.net/adj/notfound.yousendit.tmus/kw=;tile=1;dcopt=ist;sz=728x90;ord=1169080553?"><\/SCRIPT>'); 
+      </SCRIPT> 
+       <SCRIPT> 
+       if ((!document.images&& navigator.userAgent.indexOf("Mozilla/2.") >= 0)  || navigator.userAgent.indexOf("WebTV")>= 0) { 
+         document.write('<A HREF="http://ad.doubleclick.net/jump/notfound.yousendit.tmus/kw=;tile=1;dcopt=ist;sz=728x90; ord=1169080553?" TARGET="_blank">');         document.write('<IMG SRC="http://ad.doubleclick.net/ad/notfound.yousendit.tmus/kw=;tile=1;dcopt=ist;sz=728x90;ord=1169080553?" WIDTH="728" HEIGHT="90" BORDER="0" ALT=""></A>'); } </SCRIPT> <NOSCRIPT> <A HREF="http://ad.doubleclick.net/jump/notfound.yousendit.tmus/kw=;tile=1;dcopt=ist;sz=728x90;ord=123456789?" TARGET="_blank"> <IMG SRC="http://ad.doubleclick.net/ad/notfound.yousendit.tmus/kw=;tile=1;dcopt=ist;sz=728x90;ord=123456789?" WIDTH="728" HEIGHT="90" BORDER="0" ALT=""></A> </NOSCRIPT>
+    </div>
+    
+    <br />
+    
+     <div style="margin-left:auto; margin-right:auto; width:648px;">
+    <div class="pgTitleBlue">
+    404 ERROR
+	</div>
+
+<div class="int-content" style="width:610px; margin-bottom:10px;">
+
+ 
+<table>
+<tr>
+<td width="80"><img src="en/images/Triangle_exclamation.gif" /></td>
+<td><h4 class="blackTitle">THE PAGE YOU REQUESTED CANNOT BE FOUND </h4></br>
+<script>if(document.referrer !="") {document.write("Redirected from " + document.referrer + ".")}</script>
+To learn more about sending files with the YouSendIt? service, <a href="cms/compareaccounts"><b>click here! </b></a></td>
+</tr>
+</table>
+<ul>
+<li>Make sure you entered the correct web address</li>
+<li>Go back to <a href="/"><b>YouSendIt homepage</b></a></li>
+</ul>
+
+
+
+<div id="ads-medium-left-rectangle" align="center">
+<table>
+<tr>
+<td>
+<script language="Javascript">
+<!--
+var axel = Math.random() + "";
+var ord = axel * 1000000000000000000;
+//-->
+
+</script>
+
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<SCRIPT LANGUAGE="JavaScript1.1"SRC="http://ad.doubleclick.net/adj/registereddown.yousendit.tmus/kw=Female;kw=21;tile=2;sz=300x250;ord=1183379493?" ><\/SCRIPT>');
+</SCRIPT>
+<SCRIPT>
+if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0)  || navigator.userAgent.indexOf("WebTV")>= 0) {
+document.write('<A HREF="http://ad.doubleclick.net/jump/registereddown.yousendit.tmus/kw=Female;kw=21;tile=2;sz=300x250; ord=1183379493?" TARGET="_blank">'
+);
+document.write('<IMG SRC="http://ad.doubleclick.net/ad/registereddown.yousendit.tmus/kw=Female;kw=21;tile=2;sz=300x250; ord=1183379493?" WIDTH="300" HEIGHT="250" BORDER="0" ALT=""></A>');
+}
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://ad.doubleclick.net/jump/registereddown.yousendit.tmus/kw=Female;kw=21;tile=2;sz=300x250;ord=123456789?" TARGET="_blank">
+<IMG SRC="http://ad.doubleclick.net/ad/registereddown.yousendit.tmus/kw=Female;kw=21;tile=2;sz=300x250;ord=123456789?" WIDTH="300" HEIGHT="250" BORDER="0" ALT=""></A>
+</NOSCRIPT>
+</td>
+<td>
+                                      <script language="Javascript">
+<!--
+var axel = Math.random() + "";
+var ord = axel * 1000000000000000000;
+//-->
+
+</script>
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<SCRIPT LANGUAGE="JavaScript1.1"SRC="http://ad.doubleclick.net/adj/registereddown.yousendit.tmus/partner;kw=html ;tile=4;sz=300x250;ord=' +ord + '?" ><\/SCRIPT>');
+</SCRIPT>
+<SCRIPT>
+if ((!document.images && navigator.userAgent.indexOf("Mozilla/2.") >= 0)  || navigator.userAgent.indexOf("WebTV")>= 0) {
+document.write('<A HREF="http://ad.doubleclick.net/jump/registereddown.yousendit.tmus/partner;kw=html;tile=4;sz=300x250; ord=' + ord + '?" TARGET="_blank">');
+document.write('<IMG SRC="http://ad.doubleclick.net/ad/registereddown.yousendit.tmus/partner;kw=html;tile=4;sz=300x250; ord=' + ord + '?" WIDTH="300" HEIGHT="250" BORDER="0" ALT=""></A>');
+}
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://ad.doubleclick.net/jump/registereddown.yousendit.tmus/partner;kw=html;tile=4;sz=300x250;ord=123456789?" TARGET="_blank">
+<IMG SRC="http://ad.doubleclick.net/ad/registereddown.yousendit.tmus/partner;kw=html;tile=4;sz=300x250;ord=123456789?" WIDTH="300" HEIGHT="250" BORDER="0"
+ALT=""></A>
+</NOSCRIPT>
+</td>
+</tr>
+</table>
+</div>   
+    
+
+</div><!--end of in-content-->
+</div>
+</div>
+
+<script src="/en/js/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-31390-1";
+urchinTracker();
+</script>
+
+
+<div id="footer" style="text-align:center">
+<ul>
+<li><img src="../en/images/logo_small.gif" alt="yousendit" width="97" height="16" /> <span class="copyRight">&copy; 2004 - <script type="text/javascript">document.write((new Date()).getFullYear());</script>&nbsp;</span></li>
+
+<li><a href="/cms/support">Contact Support</a></li>
+<li><a href="/cms/careers">Careers</a></li>   
+<li><a href="/cms/company">About us</a></li>
+<li><a href="/cms/privacypolicy">Privacy</a></li>
+<li><a href="/cms/dmca">DMCA</a></li>
+<li><a href="/cms/termsofservice">Terms of Service</a></li>
+<li class="last"><a href="/cms/events">Events</a></li>
+
+</ul>
+</div>
+<!-- End of id="footer" -->
+
+    </body>
+
+</html>
+

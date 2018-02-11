@@ -1,0 +1,231 @@
+/* ::::: http://www.els.edu/assets/css/global.css ::::: */
+
+html { overflow-y: scroll; }
+a:active, a:focus { outline: medium none; }
+img { border: 0px none; }
+p, h1, h2, h3, h4, h5, ul, ol, li { margin: 0px; padding: 0px; }
+ul, ul li { list-style-type: none; }
+h2 { font: 22px "Trebuchet MS"; padding-bottom: 15px; }
+h2 span { color: rgb(123, 123, 123); font-size: 16px; line-height: 24px; }
+h3 { font: 18px "Trebuchet MS"; padding-bottom: 5px; }
+h4 { font: 16px "Trebuchet MS"; }
+h5 { font: 14px "Trebuchet MS"; padding-top: 15px; }
+p { color: rgb(85, 85, 85); font: 14px/18px "Trebuchet MS",Arial,Helvetica,sans-serif; padding: 0px 0px 14px; }
+sup { margin: 0px; padding: 0px; line-height: 0; font-size: 0.7em; }
+a { color: rgb(252, 116, 27); cursor: pointer; text-decoration: none; }
+a:hover { color: rgb(234, 97, 21); }
+li.on a, a.on { cursor: default; }
+.column { float: left; margin-right: 30px; width: 326px; }
+img.icon { float: left; margin: 0px 10px; }
+p.readmore { margin-top: -10px; }
+.form-required { font-weight: bold; color: rgb(240, 76, 11); }
+.form-item { margin-bottom: 12px; }
+.form-item label { color: rgb(85, 85, 85); font-family: Arial,Helvetica,sans-serif; margin: 0px 0px 3px 3px; }
+.error .field-title, .error label, .error .field-description, #payment .section .form-item.text.error label, #payment .section .form-item.text.error, #required-fields-msg, #requiredLogin-fields-msg, p.error { color: rgb(180, 5, 1) ! important; }
+.close { float: right; height: 28px; margin-top: 1px; width: 108px; }
+div.button { background: transparent url('button-bg.png') no-repeat scroll left center; border-radius: 0px; display: inline-block; float: left; height: 30px; margin: 0px; padding: 0px; }
+div.button.alignright { margin-left: 15px; }
+div.button input, div.button a { background: transparent url('button-orange.png') no-repeat scroll right center; border: medium none; color: rgb(255, 255, 255); display: block; font: bold 14px/30px Arial; height: 30px; margin: 0px; padding: 0px 34px 0px 10px; text-shadow: 1px 1px 2px rgb(34, 34, 34); }
+div.button a:hover, div.button input:hover { color: rgb(238, 95, 38); cursor: pointer; }
+#mask, #app-load-mask { background-color: rgb(75, 79, 87); display: none; left: 0px; position: fixed; top: 0px; z-index: 9998; }
+div.modal { background: transparent url('modal-bottom.png') no-repeat scroll 0px bottom; display: none; padding: 0px 0px 25px; position: fixed; width: 918px; z-index: 9999; }
+div.modal div.top { background: transparent url('modal-top.png') no-repeat scroll 0px 0px; margin: 0px; padding: 25px 30px 0px; width: auto; }
+div.modal a.close { background: transparent url('close.png') no-repeat scroll left bottom; display: block; float: right; height: 12px; width: 12px; padding-right: 0px ! important; }
+div.modal div.top h2 { color: rgb(62, 62, 62); font: bold 24px Arial,Helvetica,sans-serif; }
+div.modal div.content { background: transparent url('modal-bg.png') repeat-y scroll 0px 0px; padding: 10px 30px; }
+div.modal div.bottom { padding: 10px 15px 0px; }
+div.modal div.graybox { padding: 10px 20px; width: auto; }
+div.modal div.graybox p { padding: 0px; }
+div.modal h3 { font: bold 16px Arial,Helvetica,sans-serif; }
+div.modal h2 { font: bold 20px Arial; padding-bottom: 0px; }
+div.modal p { font-family: Arial; }
+div.modal.small { background: transparent none repeat scroll 0% 0%; border-radius: 0px; display: none; padding: 0px; width: 500px; }
+div.modal.small .top { background-image: url('small-top.png'); background-repeat: no-repeat; background-attachment: scroll; background-position: 0% 0%; background-clip: border-box; background-origin: padding-box; background-size: auto auto; padding: 20px 30px 10px; background-color: transparent ! important; height: auto ! important; min-height: 12px; margin-left: 0px ! important; width: auto ! important; }
+div.modal.small div.top h2 { color: rgb(62, 62, 62); font: bold 20px Arial,Helvetica,sans-serif; }
+div.modal.small .content { background: transparent url('small-content.png') no-repeat scroll center bottom; padding: 0px 30px 20px; }
+div.modal.small div.bottom { padding: 10px 10px 0px; }
+div.section { border-bottom: 1px solid rgb(230, 230, 230); padding: 10px 20px; position: relative; }
+.content-container div.section::after, sidebar-section::after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }
+div.section.bottom { border: medium none; clear: both; padding: 16px 20px; }
+body { background-color: rgb(126, 134, 137); color: rgb(17, 17, 17); font: 14px/20px "Trebuchet MS",Arial,Helvetica,sans-serif; margin: 0px; }
+body#home { background-color: rgb(75, 79, 87); }
+#container { background: transparent url('container-bg.png') no-repeat scroll 0% 0%; margin: auto; position: relative; top: 0px; width: 1012px; z-index: 2; }
+#main, #main-full { position: relative; z-index: 1; }
+#background { position: absolute; top: 0px; }
+#background img { position: absolute; left: 0px; top: 0px; z-index: 0; }
+#header { height: 250px; margin: auto; padding-top: 6px; position: relative; width: 1000px; z-index: 250; }
+#logo { float: left; margin: 10px 20px; position: relative; z-index: 1; }
+#logo-print { display: none; float: left; }
+#share { height: 22px; position: absolute; right: 15px; z-index: 1; }
+#share p { color: rgb(255, 255, 255); float: left; font: bold 14px/22px "Trebuchet MS"; margin-left: 5px; padding: 0px; }
+#share a { background-position: center center; background-repeat: no-repeat; display: block; float: left; font-size: 14px; height: 22px; margin-left: 5px; width: 22px; }
+#share a.twitter { background-image: url('icon-twitter_001.png'); }
+#share a.print { background-image: url('icon-print.png'); }
+#footer { background: transparent url('body-bg.png') repeat-x scroll center top; clear: both; color: rgb(255, 255, 255); padding: 0px 0px 10px; position: relative; z-index: 1; }
+#footer .content { margin: auto; width: 1032px; }
+#footer ul { background: transparent url('footer-ul.png') no-repeat scroll right 0px; float: left; padding: 0px 1%; margin-bottom: 10px; min-height: 292px; width: 18%; }
+#footer li { line-height: 16px; padding-bottom: 5px; }
+#footer li h3 { color: rgb(255, 255, 255); font: bold 16px "Trebuchet MS"; padding: 30px 0px 4px; text-transform: uppercase; }
+#footer li a { color: rgb(209, 216, 231); font: 14px "Trebuchet MS"; margin-bottom: 6px; }
+#footer li a:hover { color: rgb(255, 255, 255); }
+#footer p { clear: both; color: rgb(209, 216, 231); font-size: 11px; margin-top: 10px; text-align: right; }
+#footer ul.language { background: transparent none repeat scroll 0% 0%; padding-right: 0px; }
+#footer ul.language li { float: left; height: 28px; padding: 0px; width: 82px; }
+#footer ul.language li.h3 { float: none; height: auto; width: auto; }
+#footer ul.language li a { display: block; height: 26px; line-height: 26px; padding: 0px 10px; width: 62px; white-space: nowrap; }
+#footer ul.language li.on a { background: transparent linear-gradient(to bottom, rgb(82, 87, 95) 0%, rgb(71, 74, 82) 100%) repeat scroll 0% 0%; border: 1px solid rgb(68, 73, 79); border-radius: 6px; }
+#topnav { position: absolute; left: 278px; z-index: 60; }
+#nav { left: 162px; position: absolute; top: 43px; width: 842px; z-index: 20; }
+#topnav li, #nav li { display: inline; float: left; }
+#topnav li { font-size: 14px; padding-right: 10px; }
+#nav li { font: bold 16px/20px Arial,Helvetica,sans-serif; padding-right: 18px; text-shadow: 1px 1px 1px rgb(68, 68, 68); width: auto; }
+#topnav a, #nav a { color: rgb(255, 255, 255); display: block; }
+#topnav a:hover, #topnav li.on a { color: rgb(252, 173, 122); }
+#user-country-name { font-weight: bold; }
+#nav a:hover { color: rgb(252, 116, 27); }
+#nav a { height: 66px; margin-left: 5px; padding: 5px 8px 0px 5px; }
+#topnav { left: 250px; z-index: 60; }
+#nav { width: 840px; }
+#myels-dropdown { left: 164px; position: absolute; top: 0px; width: 248px; z-index: 50; }
+div.container #myels-dropdown, #static #myels-dropdown { top: -6px; }
+#myels-dropdown div.tab { background: transparent url('tab-bg-l.png') no-repeat scroll 0px 0px; height: 33px; padding-left: 10px; position: relative; z-index: 1; }
+#myels-dropdown div.tab a { background: transparent url('tab-bg-r.png') repeat scroll right 0px; color: rgb(255, 255, 255); display: block; height: 21px; float: left; padding: 6px 10px 6px 0px; }
+#myels-dropdown div.tab a:hover { color: rgb(252, 116, 27); }
+#myels-dropdown div.tab span { background: transparent url('nav-arrow.png') no-repeat scroll right center; padding-right: 16px; }
+#myels-dropdown div.dropdown { background: transparent url('dropdown-top.png') no-repeat scroll 0px 0px; display: none; font-size: 13px; left: 0px; line-height: 16px; padding-top: 16px; position: absolute; top: 28px; }
+#myels-dropdown div.content { background: transparent url('dropdown-bg.png') no-repeat scroll 0px bottom; height: auto ! important; min-height: 80px; padding: 0px 16px 20px; width: 216px; }
+#myels-dropdown div.dropdown a.close { background: transparent url('close.png') no-repeat scroll right top; display: none; float: right; height: 16px; margin: -8px -8px 0px 0px; width: 16px; }
+#myels-dropdown p { font-size: 13px; line-height: 16px; padding-bottom: 4px; }
+#myels-dropdown .form-item { margin: 0px; }
+#myels-dropdown label { display: block; font: bold 16px/20px "Trebuchet MS",Arial,Helvetica,sans-serif; padding: 6px 0px 2px; }
+#myels-dropdown input.login-text { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(219, 219, 219); border-radius: 3px; color: rgb(119, 119, 119); font: 11px "Trebuchet MS",Arial,Helvetica,sans-serif; margin-bottom: 6px; padding: 5px; width: 205px; }
+#myels-dropdown div.button { margin-top: 5px; }
+#myels-dropdown a.join { background: transparent url('join-arrow.png') no-repeat scroll right center; padding-right: 20px; }
+#content { left: 0px; margin-top: -1px; position: relative; width: 753px; z-index: 10; }
+#main { background: transparent url('main-bg.png') repeat-y scroll right bottom; }
+#content .top { background: transparent url('content-top.png') no-repeat scroll center bottom; height: 6px; }
+#content .bottom { background: transparent url('content-bottom.png') no-repeat scroll center top; clear: both; height: 6px; }
+#content .main { background: transparent url('content-bg.png') repeat-y scroll center center; padding: 20px 20px 30px 30px; }
+#main #content .main { float: left; width: 703px; }
+div.button a, div.button-dark a { color: rgb(255, 255, 255); }
+@media not all {
+}
+#location-list ul.country.large::after { clear: left; content: "."; display: block; height: 0px; visibility: hidden; }
+iframe { margin-bottom: 20px; }
+#search-results::after { clear: left; content: "."; display: block; height: 0px; visibility: hidden; }
+a.textonly { color: rgb(252, 116, 27); font: bold 14px/30px Arial,Helvetica,sans-serif; margin-right: 20px; }
+a.textonly:hover { color: rgb(234, 97, 21); }
+#centerdashboard .button a:hover, .button input:hover, .browseButton:hover { color: rgb(238, 95, 38); cursor: pointer; }
+#editEventPhotos .button a:hover, .button input:hover, .browseButton:hover { color: rgb(238, 95, 38); cursor: pointer; }
+.error .field-title, .error label, .error .field-description, #payment .section .form-item.text.error label, #payment .section .form-item.text.error, #required-fields-msg, #requiredLogin-fields-msg { color: rgb(180, 5, 1); }
+.close { float: right; height: 28px; margin-top: 1px; width: 108px; }
+div#video { background-image: url('video-bottom.png'); height: 430px; overflow: hidden; width: 700px; }
+div#video div.top { background-image: url('video-top.png'); }
+div#video div.content { background-image: url('video-bg.png'); }
+.clear { clear: both; height: 0px; font-size: 1px; line-height: 0; }
+.selfclear { height: 1%; }
+.selfclear::after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }
+.right, .alignright { float: right ! important; }
+#nav li.calculator, div.finder { background: transparent url('orange-arrow.png') no-repeat scroll 148px 31px; padding: 0px; position: relative; width: 254px; margin-left: -4px; }
+#nav li.calculator a, #nav .calculator a.active { background: transparent url('calculator-icon-big.png') no-repeat scroll 15px 7px; padding: 5px 5px 0px 59px; margin: 0px; height: 49px; }
+.calculator-content, .finder-content { background: transparent url('form-bg.png') no-repeat scroll center bottom; left: 0px; padding: 0px 17px 25px; position: absolute; }
+.calculator label, .finder label { color: rgb(34, 34, 34); display: block; font-family: trebuchet MS,arial; font-size: 14px; text-shadow: 1px 2px 1px rgb(255, 255, 255); }
+.calculator .form-item, .finder .form-item { padding-top: 15px; position: relative; }
+.calculator select, .finder select { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 2px; border: 1px solid rgb(204, 204, 204); width: 220px; height: 30px; padding: 5px 2px; color: rgb(85, 85, 85); }
+.calculator option, .finder option { background: rgb(255, 255, 255) none repeat scroll 0px 0px; border: 1px solid rgb(255, 255, 255); font-size: 0.95em; padding: 2px 5px; }
+.calculator input, .finder input { background: transparent url('buttons.png') no-repeat scroll 0% 0%; width: 221px; height: 38px; color: rgb(255, 255, 255); font-family: trebuchet ms,arial; font-size: 16px; text-shadow: 1px 1px 1px rgb(0, 0, 0); margin-top: 20px; border: medium none; text-align: left; vertical-align: middle; cursor: pointer; }
+.calculator input:hover, .finder input:hover { background-position: 0px -38px; border: medium none; }
+.total, .finder-results { background: transparent url('border.jpg') repeat-x scroll 0% 0%; font-size: 12px; padding: 12px 0px 0px; margin: 12px 0px 0px; text-shadow: none; }
+.total span.estimate-legal, #estimate-legal { display: block; font: 10px/13px Arial; padding-top: 10px; text-shadow: none; }
+.calculator-content .field-validation, .finder-content .field-validation, .rs-counselor-finder .field-validation { position: absolute; top: 13px; right: 0px; }
+div.graybox { background-color: rgb(242, 242, 242); border: 1px solid rgb(219, 219, 219); border-radius: 4px; padding: 20px; font-family: Arial,Helvetica,sans-serif; width: 580px; }
+#promo { background: transparent linear-gradient(to bottom, rgb(254, 254, 254) 0%, rgb(232, 241, 241) 100%) repeat scroll 0% 0%; height: 72px; position: relative; z-index: 1; }
+#promo .container { position: relative; width: 950px ! important; margin: auto; }
+#promo .control { background: transparent url('promo-controls.png') no-repeat scroll 0px 0px; cursor: pointer; height: 28px; position: absolute; right: 0px; top: 25px; width: 28px; }
+#promo h2 { color: rgb(85, 85, 85); font: 28px/72px "Trebuchet MS",Arial,Helvetica,sans-serif; }
+#promo div.closed { background: transparent url('promo-plane.png') no-repeat scroll center 0px; }
+#promo .closed h2 { display: none; }
+#promo div.opened { background: transparent url('promo-phones.png') no-repeat scroll center bottom; display: none; height: 272px; }
+#promo div.opened .container { padding: 40px 0px 0px 370px; width: 530px ! important; }
+#promo div.opened .control { background-position: -40px 0px; right: 0px; top: 10px; }
+#promo div.opened h2 { font-size: 34px; }
+#promo a.download { background: transparent url('buttons_001.png') no-repeat scroll 0px 0px; display: block; float: left; height: 59px; margin-right: 10px; width: 157px; }
+#promo a.download:hover { background-position: 0px bottom; }
+#promo a.download.google { background-position: -170px 0px; }
+#promo a.download.google:hover { background-position: -170px bottom; }
+#promo a.download.website { background-position: -340px 0px; }
+#promo a.download.website:hover { background-position: -340px bottom; }
+#smartbanner .sb-icon.gloss::after { content: ""; position: absolute; left: 0px; top: -1px; border-top: 1px solid rgba(255, 255, 255, 0.8); width: 100%; height: 50%; border-radius: 10px 10px 12px 12px; }
+.zocial, a.zocial { border-width: 1px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.4); color: rgb(255, 255, 255); box-shadow: 0px 0.08em 0px rgba(255, 255, 255, 0.4) inset, 0px 0px 0.1em rgba(255, 255, 255, 0.9) inset; cursor: pointer; display: inline-block; font: bold 100%/2.1 "Lucida Grande",Tahoma,sans-serif; padding: 0px 0.95em 0px 0px; text-align: center; text-decoration: none; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5); white-space: nowrap; -moz-user-select: none; position: relative; border-radius: 0.3em; }
+.zocial::before { content: ""; border-right: 0.075em solid rgba(0, 0, 0, 0.1); float: left; font: 100%/2.1 zocial; margin: 0px 0.5em 0px 0px; padding: 0px 0.5em; text-align: center; text-decoration: none; text-transform: none; box-shadow: 0.075em 0px 0px rgba(255, 255, 255, 0.25); }
+.zocial:active { outline: medium none; }
+.zocial { background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05) 49%, rgba(0, 0, 0, 0.05) 51%, rgba(0, 0, 0, 0.1)); }
+.zocial:hover, .zocial:focus { background-image: linear-gradient(rgba(255, 255, 255, 0.15) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.15)); }
+.zocial:active { background-image: -moz-linear-gradient(center bottom , rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 30%, transparent 50%, rgba(0, 0, 0, 0.1)); }
+.zocial.facebook::before { content: "f"; }
+.zocial.google::before { content: "G"; }
+.zocial.facebook { background-color: rgb(72, 99, 174); font-size: 11.4px; }
+@font-face {
+	font-family: "zocial";
+	font-style: normal;
+	font-weight: normal;
+	src: url('zocial-regular-webfont.eot'), url('undefined') format("woff"), url('zocial-regular-webfont.ttf') format("truetype"), url('zocial-regular-webfont.svg') format("svg");
+}
+#smartbanner .sb-icon.gloss::after { content: ""; position: absolute; left: 0px; top: -1px; border-top: 1px solid rgba(255, 255, 255, 0.8); width: 100%; height: 50%; border-radius: 10px 10px 12px 12px; }
+/* ::::: http://www.els.edu/assets/css/home.css ::::: */
+
+#home #content .main h3 { background: transparent url('h3-bg.png') no-repeat scroll right center; border-left: 3px solid rgb(215, 84, 18); color: rgb(255, 255, 255); float: left; font: 21px/29px "Trebuchet MS"; height: 29px; margin: 0px 0px 12px -3px; padding: 0px 20px; text-shadow: 1px 1px 1px rgb(68, 68, 68); }
+#home #content .main h4 { color: rgb(17, 17, 17); font-size: 18px; padding-bottom: 6px; }
+#container { background: transparent url('container-bg_001.png') repeat-y scroll 0% 0%; width: 1037px; }
+#main { background: transparent none repeat scroll 0% 0%; }
+#background img { display: none; }
+#header { height: 447px; left: 0px; padding-top: 0px; width: 1029px; }
+#logo { margin-left: 35px; }
+#topnav { left: 294px; }
+#myels-dropdown { left: 178px; }
+body#home #nav { left: 181px; z-index: 20; }
+#nav { left: 170px; top: 37px; }
+#static { left: 0px; position: absolute; top: 6px; z-index: 20; width: 1029px; }
+#header-slider { height: 447px; overflow: hidden; position: relative; width: 1029px; }
+#header-bg { position: absolute; top: 0px; z-index: 10; width: 8240px; }
+#header-bg div.bg { float: left; height: 453px; overflow: hidden; position: relative; width: 1029px; }
+#header-bg img { left: 0px; position: absolute; top: 0px; z-index: 0; }
+#header-bg div.info { max-width: 400px; min-width: 350px; left: 66px; overflow: visible; position: absolute; top: 120px; z-index: 10; }
+#header-bg div.info p, #header-bg div.info { color: rgb(120, 120, 120); font: italic 14px/18px "Trebuchet MS"; }
+#header-bg div.info h2 { color: rgb(17, 17, 17); font: bold 34px/35px "Trebuchet MS"; letter-spacing: -1.5px; padding-bottom: 6px; }
+#header-bg div.info div.content { background-color: rgb(255, 255, 255); padding: 10px 20px; border-radius: 5px; }
+#header-bg div.info div.bottom { background: transparent url('info-bottom.png') no-repeat scroll right top; float: left; min-height: 20px; margin-left: 10px; padding: 5px 50px 0px 0px; }
+#header-bg div.bottom a { color: rgb(255, 255, 255); display: block; float: left; font: italic bold 16px/34px "Trebuchet MS"; height: 34px; margin-right: 3px; padding-left: 30px; text-align: center; }
+#header-bg div.bottom a:hover { color: rgb(252, 116, 27); }
+#header-bg div.bottom a.choose { background: transparent url('button-choose.png') no-repeat scroll 0% 0%; padding-left: 30px; width: 278px; }
+#header-bg div.bottom a.learn { background: transparent url('button-learn.png') no-repeat scroll 0% 0%; width: 110px; }
+#homenav { height: 72px; left: 2px; position: absolute; top: 365px; }
+#homenav li { float: left; font: bold 13px "Trebuchet MS"; height: 72px; padding-left: 2px; width: 144px; }
+#homenav li a { background: transparent url('homenav-bg.png') no-repeat scroll center bottom; color: rgb(255, 255, 255); display: block; height: 36px; padding-top: 36px; text-align: center; width: 144px; }
+#homenav li a:hover { color: rgb(252, 116, 27); }
+#homenav li.on a { background-image: url('homenav-bg-on.png'); color: rgb(255, 255, 255); }
+#prev, #next { cursor: pointer; height: 71px; position: absolute; top: 170px; width: 22px; }
+#prev { background: transparent url('prev.png') no-repeat scroll 0% 0%; left: -1px; }
+#next { background: transparent url('next.png') no-repeat scroll 0% 0%; right: -1px; }
+#content { top: 0px; width: 1037px; }
+#content .top { background: transparent url('content-top_001.png') no-repeat scroll center center; }
+#content .bottom { background: transparent url('content-bottom_001.png') no-repeat scroll center center; }
+#main #content .main { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 0px; float: left; width: 1037px; }
+#content div.column { background: transparent url('column-bg.png') repeat-y scroll right center; margin: -6px 0px; min-height: 270px; padding: 10px 0px 20px; }
+#content div.column div.content { clear: both; padding: 10px 30px 0px 40px; }
+#content div.column div.content p { line-height: 22px; }
+#content div.column div.content p.readmore { font: bold 16px "Trebuchet MS"; margin-top: 10px; text-align: right; }
+#content div.column div.content p.readmore a { background: transparent url('arrow-gray.png') no-repeat scroll right center; padding-right: 10px; }
+#content div.last { background: transparent none repeat scroll 0% 0%; width: 300px; }
+#content div.last img.icon { margin-left: -10px; }
+#header-bg div.info p.anniversary { color: rgb(0, 0, 0); font: 18px "Trebuchet MS",Arial,Helvetica,sans-serif; left: 0px; position: absolute; text-align: center; top: 180px; width: 897px; }
+#anniv-content { background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: none; padding: 20px; float: left; letter-spacing: -0.05em; width: 997px; }
+#anniv-content div.col { float: left; padding: 10px 40px 30px 30px; width: 250px; }
+#anniv-content p { border-bottom: 1px solid rgb(204, 204, 204); color: rgb(85, 85, 85); font: 12px/18px "Trebuchet MS"; }
+#anniv-content h2 { color: rgb(115, 115, 115); font: 23px "Trebuchet MS"; padding: 0px 30px 15px; }
+#anniv-content h2 span { color: rgb(248, 105, 26); font: italic bold 18px "Trebuchet MS"; }
+#anniv-content h3 { color: rgb(248, 105, 26); font: bold 24px "Trebuchet MS"; padding-top: 10px; }
+#anniv-content h4 { font: bold 16px/18px "Trebuchet MS"; }
+#anniv-content div.button { margin-top: 30px; }
+.fb_reset { background: transparent none repeat scroll 0% 0%; border: 0px none; border-spacing: 0px; color: rgb(0, 0, 0); cursor: auto; direction: ltr; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 1; margin: 0px; overflow: visible; padding: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-shadow: none; text-transform: none; visibility: visible; white-space: normal; word-spacing: normal; }
+.fb_reset > div { overflow: hidden; }

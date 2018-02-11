@@ -1,0 +1,10 @@
+:first-child + html #at_email textarea { height: 42px ! important; }
+* html #at16psf input, :first-child + html #at16psf input { padding: 0px; }
+:first-child + html #at_email #at16eatdr { top: 115px ! important; width: 272px ! important; }
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-height: 700px) and (max-width: 400px) {
+}
+.at-branding-info::before { content: "i"; font-family: "Times New Roman"; }

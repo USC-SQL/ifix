@@ -1,0 +1,556 @@
+/* ::::: http://www.rentalcars.com/css/rw-style_responsive_pl.1061a.1.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0px none; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; font-size-adjust: inherit; font-stretch: inherit; font-feature-settings: inherit; font-language-override: inherit; font-kerning: inherit; font-synthesis: inherit; font-variant: inherit; font-size: 100%; margin: 0px; padding: 0px; vertical-align: baseline; }
+body { line-height: 1; }
+ol, ul { list-style: outside none none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+.clearfix { clear: both; height: 0px; }
+legend { display: none; }
+body { font-family: Arial,Helvetica,sans-serif; font-size: 16px; }
+h1 { font-size: 3.25em; font-weight: 700; line-height: 1.2em; }
+h2 { font-size: 2em; font-weight: 700; line-height: 1.3em; color: rgb(0, 0, 0); }
+h3 { font-size: 1.75em; line-height: 1.3em; color: rgb(85, 85, 85); }
+h4 { font-size: 1.375em; line-height: 1.3em; }
+h5 { font-size: 1em; font-weight: 700; line-height: 1.5em; }
+p { line-height: 1.5em; }
+a { text-decoration: none; color: rgb(0, 100, 200); border-bottom: 1px solid rgb(0, 100, 200); padding: 0px 0px 2px; }
+a:hover { border: medium none; color: rgb(98, 158, 213); }
+.content { width: 960px; margin: 0px auto; color: rgb(85, 85, 85); }
+.left, .right { float: left; width: 50%; }
+#form .left { float: left; width: 48%; margin: -100px 0px 0px; }
+#form .right { float: right; width: 48%; margin: -120px 0px 0px; }
+div.cf { clear: both; float: none ! important; }
+.opt-toggle { display: none; }
+#forgotten-box { width: 360px; position: absolute; top: 50%; left: 25%; background: rgb(241, 241, 241) none repeat scroll 0% 0%; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); border-radius: 5px; padding: 25px; z-index: 100; }
+#forgotten-box * { clear: both; }
+#forgotten-box > a { float: right; font-size: 0.688em; margin: -10px 0px 0px; background: transparent url('sprite-general.png') no-repeat scroll 0px -367px; padding: 0px 0px 0px 15px; }
+#forgotten-box p { line-height: 1.5; padding: 5px 0px 10px; }
+#forgotten-box label { display: block; width: 100%; padding: 0px 0px 7px; font-weight: 700; }
+#forgotten-box input { width: 340px; padding: 8px; border-radius: 5px; font-size: 1em; }
+#forgotten-box input#forgotSubmit { display: block; height: 38px; width: 122px; margin: 10px auto; background: transparent -moz-linear-gradient(center top , rgb(162, 195, 117) 0%, rgb(116, 158, 58) 100%) repeat scroll 0% 0%; border-radius: 5px; border: 1px solid rgb(104, 138, 52); font-family: Arial,Helvetica,sans-serif; font-size: 1.2em; font-weight: 700; color: rgb(255, 255, 255); text-shadow: 1px 1px 0px rgb(104, 138, 52); text-align: center; text-decoration: none; box-shadow: 0px 1px 2px rgb(155, 129, 40); cursor: pointer; }
+#not-found h5 { color: red; }
+#feature { width: 100%; height: 650px; position: absolute; }
+#sub { padding: 20px 0px 100px; margin: 0px 0px 30px; position: relative; background-color: rgb(72, 154, 227); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset; background-position: 100% 100%; background-repeat: no-repeat; }
+#title { height: 56px; width: 100%; line-height: 56px; }
+#subTitle { height: 36px; width: 100%; line-height: 36px; }
+#sub * { color: rgb(255, 255, 255); text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5); }
+#sub p { color: rgb(255, 232, 156); font-size: 1.375em; }
+#form { margin: 0px auto; display: block; width: 960px; border-radius: 5px; position: relative; }
+#form .left { background: transparent linear-gradient(to bottom, rgb(245, 211, 97) 0%, rgb(231, 191, 59) 100%) repeat scroll 0% 0%; border-radius: 8px; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); }
+#search, form#SearchResultsForm { padding: 5%; }
+form h2 { text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); padding: 0px 0px 15px; }
+form#search fieldset div, form#SearchResultsForm fieldset div { clear: both; height: 30px; line-height: 30px; padding: 0px 0px 5px; }
+form#search div.clearfix, form#SearchResultsForm div.clearfix { height: 0px; padding: 0px; }
+form label { display: block; width: 25%; float: left; font-size: 0.875em; color: rgb(0, 0, 0); text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); }
+form#search div.checkboxcontainer, form#SearchResultsForm div.checkboxcontainer { height: auto; float: left; }
+.checkboxcontainer label, .checkboxcontainer input { float: left; }
+.checkboxcontainer label { width: auto; padding: 0px; }
+.checkboxcontainer input { width: 13px; height: 13px; margin: 8px 5px 0px 0px; }
+form#search div.tooltip, form#SearchResultsForm div.tooltip { position: relative; display: block; height: 30px; width: 20px; float: left; background: transparent url('information.png') no-repeat scroll 50% 50%; border: medium none; margin: 0px 0px 0px 5px; padding: 0px; clear: none; }
+.checkboxcontainer #driver-input { margin: 0px 0px 0px 18px; }
+.checkboxcontainer #driver-input input { width: 26px; height: auto; margin: 0px 0px 0px 5px; border-radius: 4px; background: rgb(254, 254, 254) none repeat scroll 0% 0%; border-color: rgb(142, 142, 142) rgb(225, 225, 225) rgb(225, 225, 225) rgb(142, 142, 142); border-style: solid; border-width: 1px; font-size: 0.813em; padding: 5px; text-align: center; }
+#do-location-fieldset { display: none; }
+#pu-fieldset, #do-fieldset { width: 260px; float: left; padding: 0px 0px 15px; }
+#pu-fieldset label, #do-fieldset label { width: 100%; padding: 0px 0px 5px; }
+#pu-fieldset select, #do-fieldset select, #putime-fieldset select, #dotime-fieldset select { float: left; margin: 0px 5px 0px 0px; border-radius: 4px; background: rgb(254, 254, 254) none repeat scroll 0% 0%; border-color: rgb(142, 142, 142) rgb(225, 225, 225) rgb(225, 225, 225) rgb(142, 142, 142); border-style: solid; border-width: 1px; font-size: 0.813em; padding: 5px; height: 30px; }
+#putime-fieldset, #dotime-fieldset { float: left; width: 30%; }
+#putime-fieldset label, #dotime-fieldset label { width: 100%; padding: 0px 0px 5px; }
+#location-fieldset, #btn-fieldset {  }
+.datepicker { display: block; float: left; height: 30px; width: 23px; text-indent: 100%; white-space: nowrap; overflow: hidden; border: medium none; background: transparent url('ico-calendar.png') no-repeat scroll 0px 50%; }
+#form form input[type="submit"] { display: block; float: right; cursor: pointer; border-radius: 5px; font-size: 1.75em; font-weight: bold; font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); padding: 14px 30px; margin: 10px auto 0px; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5); border-width: 1px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); background: transparent linear-gradient(to bottom, rgb(162, 195, 117) 0%, rgb(116, 158, 58) 100%) repeat scroll 0% 0%; box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05); }
+#form form input[type="submit"]:hover { background: rgb(137, 175, 85) none repeat scroll 0% 0%; }
+#form form input[type="submit"]:active, #form form input[type="submit"]:focus {  }
+form fieldset#location-fieldset input[type="text"], form fieldset#do-location-fieldset input[type="text"] { width: 96%; height: 30px; float: left; margin: 0px; border-radius: 4px; background: rgb(254, 254, 254) none repeat scroll 0% 0%; border-color: rgb(142, 142, 142) rgb(225, 225, 225) rgb(225, 225, 225) rgb(142, 142, 142); border-style: solid; border-width: 1px; font-size: 0.813em; padding: 2%; }
+.hero { width: 100%; }
+.pic { width: 100%; position: relative; }
+#providers {  }
+#providers h3 { margin: 0px 0px 20px; font-size: 1.375em; font-weight: bold; color: rgb(27, 101, 164); }
+#providers img { margin: 0px 10px 10px 0px; padding: 0px; height: 48px; width: 98px; }
+#reviews { margin: 20px 0px 0px; }
+#reviews ul { width: 100%; }
+#reviews ul li { position: relative; width: 100%; }
+#reviews ul li .comment { background: rgb(216, 240, 250) none repeat scroll 0% 0%; border-radius: 6px; border-width: 1px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgb(216, 240, 250) rgb(221, 221, 221) rgb(221, 221, 221) rgb(216, 240, 250); text-shadow: 1px 1px 0px rgb(255, 255, 255); text-align: center; font-style: italic; font-size: 20px; line-height: 20px; padding: 25px 15px; }
+#reviews ul li .comment-arrow { position: absolute; left: 30px; top: 71px; width: 41px; height: 20px; background: transparent url('comment-arrow.gif') no-repeat scroll 0px 100%; }
+#reviews ul li .user { padding: 5px 0px 5px 75px; }
+.customer-rating-5 { background: transparent url('sprite-general_001.png') no-repeat scroll -26px -106px; display: inline-block; height: 12px; margin: 0px 0px 0px 5px; width: 65px; }
+#topdeals { background: rgb(238, 238, 238) none repeat scroll 0% 0%; padding: 25px 0px 50px; margin-top: 20px; }
+#topdeals .content > p { clear: both; font-size: 0.75em; color: rgb(85, 85, 85); text-align: center; padding: 25px 0px; border-top: 1px dotted rgb(222, 210, 194); border-bottom: 1px dotted rgb(222, 210, 194); }
+.destination { clear: both; height: 81px; margin: 25px 0px; color: rgb(0, 0, 0); }
+.left .destination { margin: 30px 25px 30px 0px; }
+.destination > img { border: 3px solid rgb(255, 255, 255); width: 25%; height: auto; float: right; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3); }
+.destinationinfo { float: left; width: 55%; padding: 12px 0px 0px; }
+.destinationinfo img, .destinationinfo p { float: left; }
+.destinationinfo img { padding: 3px 5px 0px 0px; }
+#secondary { padding: 75px 0px 50px; }
+#newsletter { padding: 15px 0px 50px; background: transparent linear-gradient(to bottom, rgb(251, 251, 251) 0%, rgb(245, 245, 245) 100%) repeat scroll 0% 0%; border: 1px solid rgb(232, 232, 232); border-radius: 5px; margin: 0px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); position: relative; }
+#newsletter h4 { color: rgb(47, 87, 143); text-align: center; padding: 30px 0px 0px; }
+#newsletter p { text-align: center; padding: 5px 0px 10px; }
+#newsletter label { display: none; }
+#newsletter input { display: block; }
+#newsletter input[type="text"] { border: 1px solid rgb(207, 207, 207); border-radius: 5px; font-size: 1em; width: 248px; max-width: 90%; padding: 15px 5px; margin: 10px auto; text-align: center; }
+#newsletter input[type="submit"] { width: 50%; display: block; padding: 20px 15px; margin: 25px auto 0px; cursor: pointer; font-size: 1em; color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5); border-width: 1px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border-radius: 5px; background: transparent linear-gradient(to bottom, rgb(63, 114, 185) 0%, rgb(47, 87, 143) 100%) repeat scroll 0% 0%; box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05); }
+#newsletter input[type="submit"]:hover { background: rgb(63, 114, 185) none repeat scroll 0% 0%; }
+#newsletter span.top { display: block; height: 12px; width: 100%; background: transparent url('bg-stripes.png') repeat-x scroll 0px 0px; border-radius: 5px 5px 0px 0px; position: absolute; top: 0px; left: 0px; }
+#newsletter span.bottom { display: block; height: 12px; width: 100%; background: transparent url('bg-stripes.png') repeat-x scroll 0px 0px; border-radius: 0px 0px 5px 5px; position: absolute; bottom: 0px; left: 0px; }
+#subscribeSuccess { font-size: 1.3em; text-align: center; width: 90%; margin: 0px auto; padding: 25px 0px ! important; color: rgb(116, 158, 58); font-weight: 600; }
+#subscribeFail { color: rgb(241, 83, 83); }
+#signup { max-width: 80%; margin: 0px auto; }
+#footer { background: rgb(238, 238, 238) none repeat scroll 0% 0%; border-top: 1px solid rgb(230, 230, 230); padding: 50px 0px; }
+#footer p { color: rgb(0, 0, 0); }
+#footer .content div { width: 25%; float: left; }
+#footer ul { padding: 10px 0px 35px; font-size: 0.875em; }
+#footer ul li { padding: 0px 0px 11px; line-height: 20px; }
+#footercopy { float: none; clear: both; width: auto; border-top: 1px solid rgb(230, 230, 230); text-align: center; }
+#footercopy p { padding: 25px 0px 0px; }
+#footer .content div#footerlogos { width: 500px; padding: 25px 0px 0px; margin: 0px auto; float: none; min-height: 0px; }
+#footerlogos img { margin: 0px 20px; }
+#footer #norton { background: transparent url('norton.png') no-repeat scroll 0px 0px; display: block; height: 130px; width: 241px; }
+@media screen and (max-width: 960px) {
+	#header .container, .content { width: 95%; }
+	#sub { background-position: 300px 100%; }
+	#sub h1 { font-size: 2.6em; }
+	#title { height: auto; }
+	#subTitle { height: auto; }
+	#form .left { margin: -100px auto 0px; width: 95%; float: none; }
+	#form .right { margin: 20px auto 0px; width: 95%; float: none; }
+	#form, #form .content { width: auto; }
+	form h2 { text-align: left; }
+	form#search div, form#SearchResultsForm div { padding: 0px 0px 10px; }
+	#pu-fieldset, #do-fieldset { height: 30px; line-height: 30px; width: 62%; padding: 0px 0px 10px; }
+	#putime-fieldset, #dotime-fieldset { height: 30px; line-height: 30px; width: 38%; padding: 0px 0px 10px; }
+	#pu-fieldset label, #do-fieldset label { width: 40%; padding: 0px; }
+	#putime-fieldset label, #dotime-fieldset label { width: auto; padding: 0px 2% 0px 6%; }
+	#form form input[type="submit"] { width: 100%; padding: 16px 0px; }
+	.hero { display: none; }
+	#providers { padding: 40px 0px 0px; }
+	#providers .logos { width: 600px; margin: 0px auto; }
+	#reviews { padding: 20px 0px 0px; }
+	.destination > img { margin: 3% 0px 0px; }
+	#footer #norton { width: auto; background-size: contain; }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 800px) {
+	#header .container, .content { width: 90%; }
+	#sub h1 { font-size: 32px ! important; }
+	.left, .right { float: none; width: auto; }
+	#form .left, #form .right { float: none; width: 90%; }
+	#form .right { text-align: center; }
+	#form .right #providers, #form .right #reviews { text-align: left; }
+	#form .right #providers h3 { font-size: 1.75em; }
+	#pu-fieldset, #do-fieldset { height: 30px; line-height: 30px; width: 70%; padding: 0px 0px 10px; }
+	#putime-fieldset, #dotime-fieldset { height: 30px; line-height: 30px; width: 30%; padding: 0px 0px 10px; }
+	#pu-fieldset label, #do-fieldset label { width: 36%; padding: 0px; }
+	#pu-fieldset select, #do-fieldset select, #putime-fieldset select, #dotime-fieldset select { padding: 4px; }
+	.checkboxcontainer input { width: 19px; height: 19px; margin: 5px 5px 0px 0px; }
+	.content { width: 90%; }
+	#providers { overflow: hidden; }
+	#providers .logos-wrap { width: 100%; height: 50px; overflow-x: scroll; overflow-y: hidden; }
+	#providers .logos { width: 920px; }
+	.right .destination, .left .destination { margin: 30px 0px; }
+	.destination > img { width: 119px; margin: 0px; }
+	#secondary { padding: 50px 0px; }
+	#footer .content div { width: 50%; min-height: 210px; }
+	#footer #norton { width: 241px; background-size: inherit; margin: 0px auto 40px; }
+	.loading_logos { text-align: center; display: block; }
+}
+@media screen and (max-width: 600px) {
+	#form .left, #form .right { float: none; width: 90%; }
+	#pu-fieldset, #do-fieldset { height: auto; width: 58%; float: left; }
+	#putime-fieldset, #dotime-fieldset { height: auto; float: left; width: 42%; }
+	#pu-fieldset label, #do-fieldset label, #putime-fieldset label, #dotime-fieldset label { width: 100%; }
+	#pu-fieldset select, #do-fieldset select, #putime-fieldset select, #dotime-fieldset select { height: 30px; padding: 5px; }
+}
+@media screen and (max-width: 568px) {
+	body { min-width: 100%; }
+	.opt-toggle { margin: 0px; display: block; float: right; padding: 5px 0px; }
+	.opt-toggle-bar { background-color: rgb(27, 101, 164); display: block; height: 3px; width: 20px; line-height: 14px; margin-top: 3px; vertical-align: text-top; }
+	#sub { display: none; }
+	#form .left { width: 100%; margin: 0px auto; border-radius: 0px; }
+	form h2 { font-size: 1.6em; padding: 0px; }
+	form#search fieldset div, form#SearchResultsForm fieldset div { height: 26px; line-height: 26px; padding: 0px; }
+	form label, form div select { width: 100%; }
+	form#search div.checkboxcontainer, form#SearchResultsForm div.checkboxcontainer { margin: 0px; padding: 5px 0px; }
+	#pu-fieldset, #do-fieldset { height: auto; width: 62%; float: left; }
+	#putime-fieldset, #dotime-fieldset { height: auto; float: left; width: 38%; }
+	#pu-fieldset label, #do-fieldset label, #putime-fieldset label, #dotime-fieldset label { width: 100%; padding: 0px; }
+	#pu-fieldset select, #do-fieldset select, #putime-fieldset select, #dotime-fieldset select { width: 46%; height: 30px; padding: 5px 1%; margin: 0px 2% 0px 0px; }
+	#putime-fieldset select.twelvehour, #dotime-fieldset select.twelvehour { width: auto; }
+	.datepicker { display: none; }
+	.hero { display: none; }
+	#providers .logos-wrap { width: 100%; overflow: visible; height: auto; text-align: center; }
+	#providers .logos-wrap .logos { width: 100% ! important; }
+	#providers img { height: auto; margin: 0px 1% 2% 0px; padding: 0px; width: 22%; }
+	#reviews { width: 100%; }
+	#reviews { width: 100%; }
+	#reviews ul li .comment-arrow { display: none; }
+	#reviews ul li .user { padding: 5px 0px 5px 10px; }
+	#topdeals h3 { font-size: 1.375em; line-height: 1.3em; }
+	.destinationinfo { width: 100%; padding: 4px 0px 0px; font-size: 0.8em; }
+	.destination > img { position: absolute; right: 6%; width: 100px; }
+	#footer { padding: 20px 0px; }
+	#footer .content div { min-height: 100%; width: 100%; }
+	#footer ul { padding: 15px 0px; }
+	#footer .content div#footerlogos { width: 90%; }
+	#footer #norton { width: 241px; margin: 0px auto 40px; }
+	#footercopy { width: 90%; }
+}
+.ui-autocomplete.ui-menu { position: absolute ! important; clear: both; top: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(230, 230, 230); font-size: 1em; z-index: 9999; margin: 0px; padding: 0px; overflow-y: scroll; height: 250px; }
+#form form[name="FreeTextSearchResultsForm"] #do-location-fieldset { margin-bottom: 20px; }
+#form form[name="FreeTextSearchResultsForm"] #do-location-fieldset .do-location-container { padding: 0px ! important; }
+#form form[name="FreeTextSearchResultsForm"] .pu-location-container, #form form[name="FreeTextSearchResultsForm"] .do-location-container { height: 60px; }
+#form form[name="FreeTextSearchResultsForm"] .pu-location-container input { height: auto; }
+@media screen and (max-width: 568px) {
+}
+#form .datetime-section { margin-top: 15px; }
+.ui-datepicker { padding: 0.2em; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { border-bottom-right-radius: 4px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { border-bottom-left-radius: 4px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { border-top-right-radius: 4px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { border-top-left-radius: 4px; }
+.ui-widget-content { border: medium none ! important; }
+#loading_box { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 6px; border: 1px solid rgb(204, 204, 204); box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6); position: relative; display: none; color: rgb(51, 51, 51); text-align: center; width: 800px; padding: 15px; }
+#loading_box h3 { font-size: 18px; margin: 0px; padding: 0px; }
+.loading { text-align: center; margin: 20px 0px 0px; padding: 0px; }
+.loading_includes_wrap { width: 800px; }
+.loading_includes { display: inline-block; margin: 20px auto; padding: 0px; }
+.loading_includes li { float: left; background-image: url('tick_sml.png'); background-repeat: no-repeat; background-position: 0px 0px; padding-left: 22px; line-height: 16px; font-size: 16px; font-style: italic; list-style: outside none none; margin: 0px 15px 0px 0px; }
+.loading_includes ul { margin: 0px; padding: 0px; }
+.loading_logos { margin: 0px auto; padding: 0px; display: inline-block; }
+.more_destination_info_box { border-top: 1px solid rgb(238, 238, 238); border-left: 1px solid rgb(238, 238, 238); width: 73% ! important; }
+.more_destination_info_tabs li.destinations_active_tab { border-top: 1px solid rgb(238, 238, 238); border-right: 1px solid rgb(238, 238, 238); }
+#topdeals .right .us-advert, #topdeals .third .us-advert { margin: 29px 0px 0px; background-color: black; height: 250px; width: 300px; overflow: hidden; }
+#topdeals .right .us-advert, #topdeals .third .us-advert div { float: right; }
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 800px) {
+	#topdeals .right .us-advert, #topdeals .third .us-advert { margin: 29px auto 0px; }
+	#topdeals .right .us-advert, #topdeals .third .us-advert div { float: none; }
+}
+#sub_search_plane_icon { background: transparent url('sub_search_plane_icon.jpg') no-repeat scroll left top; }
+.us_worldwide_statement { font-size: 0.875em; color: rgb(154, 154, 154); margin-top: 6px; }
+.us_worldwide_statement strong { font-weight: bold; }
+/* ::::: http://www.rentalcars.com/css/ui.css ::::: */
+
+.ui-helper-hidden-accessible { position: absolute; left: -1e+8px; }
+.ui-helper-clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+.ui-helper-clearfix { display: block; }
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 0.75em; }
+.ui-widget-content { border: 1px solid rgb(170, 170, 170); background: rgb(255, 255, 255) url('ui-bg_flat_75_ffffff_40x100.png') repeat-x scroll 50% 50%; color: rgb(34, 34, 34); }
+.ui-corner-all {  }
+.ui-datepicker { width: 18em; padding: 0.2em 0.2em 0px; }
+.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content, .ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar { filter: none; }
+/* ::::: http://www.rentalcars.com/css/site.css ::::: */
+
+#mobile_banner_img { bottom: 0px; right: -28px; position: absolute; }
+.mobile_banner_text h2 { font-size: 1.25em; color: rgb(85, 85, 85); margin-top: 29px; font-weight: normal; }
+.mobile_banner_text p { font-size: 0.875em; margin-bottom: 10px; color: rgb(144, 144, 144); }
+.mobile_banner_text a { border: medium none; }
+.mobile_banner_text img { margin-right: 3px; border: medium none; height: 35px; }
+span.rating-star { background-image: url('sprite-general_002.png'); background-repeat: no-repeat; height: 14px; margin: 3px auto 0px; width: 70px; display: inline-block; float: right; clear: both; }
+.customer-rating-4 { background-position: -39px -106px; }
+.customer-rating-5 { background-position: -26px -106px; }
+.hreview-aggregate { width: 100%; height: auto; padding: 15px 0px; overflow: hidden; }
+.item { color: rgb(85, 85, 85); font-size: 17px; }
+.review-lft { float: left; width: 240px; padding-top: 21px; }
+.review-lft img { margin-top: 20px; }
+.review-rgt { float: right; width: 150px; background-color: rgb(255, 255, 255); border-radius: 6px; padding: 16px 17px 13px; }
+.rating { color: rgb(54, 158, 229); font-size: 24px; float: right; }
+.review-count { color: rgb(85, 85, 85); font-size: 13px; float: right; margin-top: 10px; text-align: right; clear: both; }
+#mobile_banner_img { bottom: 0px; right: 23px; }
+.mobile_banner_ad { position: relative; margin-bottom: 22px; }
+.hreview-aggregate { padding: 15px 0px 0px; }
+.mobile_banner_text { margin-left: 0px; }
+.hreview-aggregate { width: 91%; height: auto; padding: 15px 0px; overflow: hidden; }
+@media screen and (max-width: 960px) {
+	.review-lft { width: 50%; }
+	.mobile_banner_text { width: 45%; margin-bottom: 17px; position: relative; z-index: 200; }
+	.review-lft img { width: auto; }
+}
+@media screen and (max-width: 800px) {
+	.rating { font-size: 18px; }
+	.mobile_banner_text { margin-left: 0px; }
+	#mobile_banner_img { right: 0px; }
+	.hreview-aggregate { width: 100% ! important; }
+}
+@media screen and (max-width: 568px) {
+	.review-lft { width: 46%; padding-top: 11px; }
+	.hreview-aggregate { width: 100%; margin-bottom: 29px; }
+	.review-lft img { width: 68%; margin-top: 6px; }
+	.item { display: block; }
+	#mobile_banner_img { width: 40%; }
+	.mobile_banner_text { width: 42%; }
+	.mobile_banner_text h2 { margin-top: 0px; }
+}
+.review-lft { float: left; width: 245px; padding-top: 21px; }
+#mobile_banner_img { bottom: 0px; right: 23px; }
+.mobile_banner_ad { position: relative; margin-bottom: 22px; }
+.mobile_banner_text { margin-left: 0px; }
+@media screen and (max-width: 960px) {
+	.review-lft img { width: auto; }
+}
+@media screen and (max-width: 568px) {
+	.mobile_banner_text { width: 42%; }
+	.mobile_banner_text h2 { margin-top: 0px; }
+	.hreview-aggregate { margin-bottom: 29px; }
+}
+.rating { color: rgb(54, 158, 229); font-size: 24px; float: right; }
+.mobile_banner_text { float: left; width: 53%; color: rgb(65, 162, 225); margin-left: 32px; }
+#abt_txt { padding: 30px 0px 40px; }
+#abt_txt { margin: 27px 0px; }
+.review-lft img { margin-top: 20px; }
+/* ::::: http://www.rentalcars.com/css/redesigned/crm_header.css ::::: */
+
+.logo-header { border: 0px none; float: left; }
+#header-main { background: transparent -moz-linear-gradient(center top , rgb(249, 249, 249) 0%, rgb(238, 238, 238) 100%) repeat scroll 0% 0%; border-top: 4px solid rgb(27, 101, 164); border-bottom: 1px solid rgb(230, 230, 230); padding: 10px 0px; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); position: relative; z-index: 10; }
+#header-main .container { width: 960px; margin: 0px auto; }
+#options-site { float: right; padding: 7px 0px 0px; }
+#options-site a { border: 0px none; }
+.btn-dd { float: left; margin-left: 15px; position: relative; border: 1px solid transparent; font-size: 13px; }
+.btn-dd > a { background: rgb(232, 232, 232) none repeat scroll 0% 0%; border-radius: 2px; color: rgb(0, 105, 160); position: relative; z-index: 10; font-size: 13px; }
+.btn-dd a { text-decoration: none; }
+.btn-dd:hover { border: 1px solid rgb(232, 232, 232); border-radius: 2px; }
+.btn-dd:hover > a { background: rgb(246, 246, 246) none repeat scroll 0% 0%; }
+.dd-menu.btn, .dd-menu a.btn, .dd-menu a.btn:visited, .dd-menu a.btn:link { margin-bottom: 5px; padding: 8px 10px; line-height: 1.2; border-radius: 2px; font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); font-size: 14px; text-decoration: none; font-weight: 300; text-align: center; }
+#btn-my-booking .dd-menu {  }
+#btn-language .dd-menu {  }
+.dd-selected { padding: 4px 14px 3px; display: inline-block; }
+#language { background-image: url('sprite-flags.png'); background-repeat: no-repeat; height: 18px; padding-top: 6px; width: 24px; }
+.btn-dd i, .btn-dd em { height: 19px; padding-top: 5px; display: inline-block; font-style: normal; }
+.btn-dd i { margin-left: 10px; }
+.dd-menu { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(232, 232, 232); z-index: 9; position: absolute; right: -1px; top: 30px; display: none; padding: 10px 15px; overflow-y: auto; max-height: 150px; border-radius: 2px 0px 2px 2px; }
+.dd-menu a { text-decoration: none; color: rgb(0, 100, 200); border: medium none; }
+.dd-menu a:hover { border: medium none; color: rgb(98, 158, 213); }
+.dd-menu-inner.dd-list { margin-right: 0px; }
+.dd-menu p { font-size: 13px; margin-bottom: 7px; }
+.dd-list li { list-style: outside none none; }
+.dd-list li > a { display: block; padding: 8px 10px; white-space: nowrap; font-size: 13px; }
+.dd-list li a span { width: 50px; display: inline-block; }
+.dd-list li a:hover { background: rgb(220, 235, 241) none repeat scroll 0% 0%; }
+#btn-language ul li a { position: relative; padding-left: 50px; }
+#btn-language ul li a span { background-image: url('sprite-flags.png'); background-repeat: no-repeat; height: 24px; width: 24px; position: absolute; top: 5px; left: 7px; }
+#my-booking { background-image: url('icon-my-booking.png'); background-repeat: no-repeat; background-position: 0px 3px; height: 19px; padding-top: 5px; width: 19px; }
+#btn-my-booking > a { color: rgb(255, 255, 255); cursor: pointer; background: transparent linear-gradient(to bottom, rgb(63, 114, 185) 0%, rgb(47, 87, 143) 100%) repeat scroll 0% 0%; }
+#btn-my-booking:hover, #btn-my-booking.active { border: 1px solid rgb(63, 114, 185); border-radius: 2px; }
+#btn-my-booking:hover > a, #btn-my-booking.active > a { border-radius: 0px; filter: none; }
+#btn-my-booking:hover > a { color: rgb(255, 255, 255); background: rgb(63, 114, 185) none repeat scroll 0% 0%; }
+.fm { margin: 5px 0px; min-height: 28px; vertical-align: middle; }
+.dd-menu .fm { margin: 3px 0px; }
+.tb { font-size: 14px; padding: 5px; border: 1px solid rgb(167, 173, 177); width: 240px; border-radius: 2px; display: inline-block; }
+.tb.small { font-size: 14px; padding: 4px; border: 1px solid rgb(167, 173, 177); width: 180px; border-radius: 2px; display: inline-block; }
+.dd-menu .tb { font-size: 13px; width: 190px; }
+.forgot { width: 100%; font-size: 11px; display: block; text-decoration: underline; margin: 2px 0px 5px; }
+.forgot:hover { text-decoration: none; }
+#options-site a.btn { margin-bottom: 5px; padding: 8px 10px; line-height: 1.2; border-radius: 2px; font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); display: inline-block; font-size: 14px; text-decoration: none; font-weight: 300; text-align: center; height: auto; }
+#options-site a:focus, #options-site a:active { top: 0px; }
+#options-site .btn.small { padding: 7px 15px; font-size: 13px; }
+#options-site .btn.primary { margin: 10px 0px 0px; background: rgb(149, 185, 102) none repeat scroll 0% 0%; border: 1px solid rgb(104, 138, 51); }
+#options-site .primary:hover { background: rgb(135, 173, 96) none repeat scroll 0% 0%; }
+#options-site a.btn:hover { text-decoration: none; background-image: none; filter: none; cursor: pointer; color: rgb(255, 255, 255); }
+@media screen and (max-width: 960px) {
+	#header-main .container { width: 95%; }
+}
+@media screen and (max-width: 900px) {
+	#options-site i { display: none; }
+}
+@media screen and (max-width: 568px) {
+	#options-site { display: none; }
+}
+.dd-list ul { margin: 0px; padding: 0px; }
+.dd-list li { margin: 0px; }
+#btn-my-booking .dd-menu-inner { display: block; float: left; margin: 0px; padding: 10px 15px; width: 200px; }
+#forgotten-box > a { float: right; font-size: 1em; margin: -10px 0px 0px; background: transparent url('sprite-general_001.png') no-repeat scroll 0px -367px; padding: 0px 0px 0px 15px; }
+#forgotten-box { display: none; background: rgb(241, 241, 241) none repeat scroll 0% 0%; border-radius: 6px; border: 1px solid rgb(229, 229, 229); box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6); width: 320px; color: rgb(102, 102, 102); font-size: 12px; padding: 24px 20px 20px; text-shadow: 1px 1px 0px rgb(255, 255, 255); }
+#forgotten-box a.close:link, a.close:visited { border-bottom: 0px none; right: 6px; top: 6px; position: absolute; height: 14px; padding: 0px 18px 0px 0px; display: block; background: transparent url('close-x.png') no-repeat scroll 100% 50%; z-index: 1; color: rgb(102, 102, 102); font-size: 10px; }
+#forgotten-box div { display: block; }
+#forgotten-box p { margin: 0px; padding: 10px 0px 0px; font-size: 14px; }
+#forgotten-box label { display: block; font-size: 16px; padding: 0px 0px 5px; color: rgb(68, 68, 68); }
+#forgotten-box input { width: 300px; border-radius: 4px; background: rgb(254, 254, 254) none no-repeat scroll 0% 0%; border-color: rgb(142, 142, 142) rgb(225, 225, 225) rgb(225, 225, 225) rgb(142, 142, 142); border-style: solid; border-width: 1px; font-size: 14px; padding: 8px; margin: 0px; color: rgb(68, 68, 68); }
+#language { width: 24px; float: none; margin-top: 0px; padding-left: 0px ! important; }
+div.cf { clear: both; float: none ! important; }
+#footer { clear: both; }
+.es-crm { background-position: -24px -24px; }
+.fr-crm { background-position: -96px -24px; }
+.us-crm { background-position: -672px -72px; }
+#header-main form { border-radius: 0px; background: transparent none repeat scroll 0% 0%; }
+/* ::::: http://www.rentalcars.com/css/site.css ::::: */
+
+.ui-datepicker { padding: 0.2em; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { border-bottom-right-radius: 4px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { border-bottom-left-radius: 4px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { border-top-right-radius: 4px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { border-top-left-radius: 4px; }
+.ui-widget-content { border: medium none ! important; }
+@media screen and (max-width: 800px) {
+	#providers .logos-wrap { width: 100%; overflow: hidden; height: auto; }
+	#providers .logos { width: 100%; }
+}
+div.trustpilot { padding-left: 75px; font-size: 12px; }
+#reviews ul li .comment { background: rgb(216, 240, 250) none repeat scroll 0% 0%; border-radius: 6px; border-width: 1px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: rgb(216, 240, 250) rgb(221, 221, 221) rgb(221, 221, 221) rgb(216, 240, 250); text-shadow: 1px 1px 0px rgb(255, 255, 255); text-align: center; font-style: italic; font-size: 20px; line-height: 20px; padding: 15px; position: relative; }
+#reviews ul li .comment a { background: rgb(195, 232, 246) url('reviews-nextarrow.png') no-repeat scroll 50% center; border-radius: 0px 6px 6px 0px; position: absolute; height: 99%; width: 20px; border-bottom: 0px none; top: -1px; right: 0px; }
+#reviews ul li .comment a:hover { background-color: rgb(183, 226, 243); }
+.customer-rating-5 { background: transparent url('sprite-general-v2.png') no-repeat scroll 0px -759px ! important; display: inline-block; height: 20px; margin: 5px 0px 0px 5px; width: 73px; clear: both; }
+.customer-rating-4 { background: transparent url('sprite-general-v2.png') no-repeat scroll -17px -759px ! important; display: inline-block; height: 20px; margin: 5px 0px 0px 5px; width: 73px; clear: both; }
+#reviews ul li .comment p {  }
+#reviews ul li .comment-arrow { position: absolute; left: 30px; top: auto; bottom: 10px; width: 41px; height: 20px; background: transparent url('comment-arrow_001.gif') no-repeat scroll 0px 100%; }
+#reviews { margin: 20px 0px 35px; }
+.reviews-list { position: relative; width: 100%; }
+.reviews-list li { position: absolute; top: 0px; left: 0px; display: none; z-index: 10; width: 100% ! important; }
+.trustpilot {  }
+.trustpilot img { width: 107px; }
+#form .left { margin-bottom: 15px; }
+#sub_search { background-color: rgb(238, 238, 238); padding: 34px 0px 46px; box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1) inset; }
+#sub_search .content { overflow: hidden; }
+.sub_search_section { min-height: 120px; width: 28%; margin-right: 2%; float: left; background-color: rgb(255, 255, 255); border-radius: 8px; text-align: center; padding: 37px 2% 2%; position: relative; margin-top: 21px; }
+.sub_search_section h2 { color: rgb(0, 105, 160); font-size: 1.125em; }
+.sub_search_section:last-child { margin-right: 0px; }
+.sub_search_icons { position: absolute; top: -23px; left: 43%; width: 50px; height: 47px; }
+#sub_search_why_icon { background: transparent url('sub_search_tick_icon.jpg') no-repeat scroll left top; }
+#sub_search_trusted_icon { background: transparent url('sub_search_lock_icon.jpg') no-repeat scroll left top; }
+#topdeals.container { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 36px 0px; }
+#secondary.container { background-color: rgb(248, 248, 248); padding: 48px 0px 55px; }
+.content .hreview-aggregate { border-radius: 8px; margin-bottom: 0px; }
+#newsletter { border-radius: 8px; background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; }
+#sub_search_trusted {  }
+#sub_search_why ul { margin-top: 6px; }
+#sub_search_why li { font-size: 0.875em; padding-bottom: 8px; color: rgb(116, 158, 58); }
+#sub_search_why li.sub_search_why_alt_colour { color: rgb(154, 154, 154); }
+#topdeals .content > p { border-bottom: medium none; padding: 10px 0px; }
+.sub_search_norton { background: transparent url('norton_logo.gif') no-repeat scroll right top; width: 50%; height: 63px; float: right; margin-top: 15px; }
+.sub_search_reviews { float: left; width: 50%; text-align: left; }
+.sub_search_reviews img { margin-top: 20px; }
+.sub_search_rating { color: rgb(54, 158, 229); font-size: 1.313em; display: block; margin-top: 8px; }
+.sub_search_reviews .customer-rating-3, .sub_search_reviews .customer-rating-4, .sub_search_reviews .customer-rating-5 { display: block; margin-left: 0px; }
+.mobile_banner_text { width: 57%; margin-right: 3%; }
+#sub_search_trusted {  }
+#mobile_banner_img { float: left; }
+.hreview-aggregate .item strong {  }
+.review-count {  }
+@media screen and (max-width: 960px) {
+	.sub_search_reviews { float: none; width: 100%; text-align: center; }
+	.sub_search_norton { float: none; width: 100%; background-position: center top; }
+	.sub_search_reviews .customer-rating-3, .sub_search_reviews .customer-rating-4, .sub_search_reviews .customer-rating-5 { margin: 0px auto; }
+}
+@media screen and (max-width: 568px) {
+	.sub_search_section { float: none; width: 92%; padding-left: 4%; padding-right: 4%; margin-top: 36px; margin-right: 0px ! important; }
+	.sub_search_reviews { float: left; width: 50%; text-align: left; }
+	.sub_search_norton { float: right; width: 50%; background-position: right top; }
+	#sub_search { padding: 14px 0px 27px; }
+	.sub_search_reviews .customer-rating-3, .sub_search_reviews .customer-rating-4, .sub_search_reviews .customer-rating-5 { margin: 5px 0px 0px; }
+}
+ul.more-results { float: left; width: 47%; margin-right: 6%; margin-bottom: 40px; overflow: hidden; }
+ul.more-results li { font-size: 13px; line-height: 30px; border-bottom: 1px dashed black; float: left; width: 100%; }
+ul.more-results li a { font-size: 13px; text-align: left; border: medium none; padding: 0px; float: left; }
+.more-results img { margin-right: 10px; margin-top: 6px; display: block; float: left; }
+#topdeals { background: rgb(238, 238, 238) none repeat scroll 0% 0%; padding: 25px 0px 50px; overflow: hidden; }
+span.priceEmph { color: rgb(71, 154, 227); font-weight: 700; }
+ul.more-results { float: left; width: 47%; margin-right: 6%; margin-bottom: 40px; overflow: hidden; }
+ul.more-results li { font-size: 13px; line-height: 30px; border-bottom: 1px dashed black; float: left; width: 100%; }
+ul.more-results li a { font-size: 13px; text-align: left; border: medium none; padding: 0px; float: left; }
+.more-results img { margin-right: 10px; margin-top: 6px; display: block; float: left; }
+#topdeals { background: rgb(238, 238, 238) none repeat scroll 0% 0%; padding: 25px 0px 50px; overflow: hidden; }
+span.priceEmph { color: rgb(71, 154, 227); font-weight: 700; }
+#more_destination_info { overflow: hidden; padding-bottom: 8px; margin-top: 50px; position: relative; clear: none ! important; }
+.more_destination_info_box { background-color: rgb(255, 255, 255); border-radius: 5px 0px 5px 5px; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); width: 74%; float: left; min-height: 240px; position: relative; }
+.more_destination_info_box .info_text { color: rgb(148, 148, 148); float: left; font-size: 0.813em; padding: 3%; width: 94%; }
+.more_destination_info_tabs { width: 26%; float: left; }
+.more_destination_info_tabs li { padding: 17px 11px 15px 18px; background: rgb(232, 232, 232) url('more_destinations_tab_shadow.jpg') repeat-y scroll left top; margin-bottom: 1px; border-bottom: 1px solid rgb(45, 159, 223); color: rgb(85, 85, 85); font-size: 0.813em; cursor: pointer; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.more_destination_info_tabs li:hover { background: rgb(236, 236, 236) none repeat scroll 0% 0%; }
+.more_destination_info_tabs li.destinations_active_tab { background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-left: 0px; position: relative; margin-bottom: 0px; border-bottom: 2px solid rgb(160, 160, 160); }
+#more_destination_info h3 { font-size: 1.5em; margin-bottom: 0.5em; }
+#more_destination_info ul.more-results { float: none; width: auto; margin-right: 0px; margin-bottom: 0px; }
+#more_destination_info ul.more-results li { float: left; width: 46%; margin-right: 6%; position: relative; display: inline; overflow: hidden; }
+#more_destination_info ul.more-results li.even { margin-right: 0px; }
+#more_destination_info ul.more-results li a { width: 90%; line-height: normal; padding-top: 7px; padding-bottom: 6px; }
+#brand_links_logos li { position: relative; margin: 3px 0px; border-bottom: 1px dotted rgb(215, 215, 215); min-height: 47px; }
+#brand_links_logos li img { position: absolute; top: 0px; left: 0px; margin-top: 4px; }
+#brand_links_logos li a { line-height: 14px; padding-left: 68px; color: rgb(90, 89, 86); font-size: 0.875em; }
+#brand_links_logos li a strong { font-size: 110%; font-weight: bold; width: 63%; }
+@media screen and (max-width: 840px) {
+	#more_destination_info ul.more-results li a { width: 80%; }
+}
+@media screen and (max-width: 800px) {
+	#brand_links_logos li a { width: 58%; padding-left: 40%; }
+	#brand_links_logos li img { width: 37%; }
+	#brand_links_logos li { min-height: 91px; }
+}
+@media screen and (max-width: 568px) {
+	.more_destination_info_box { width: 70% ! important; }
+	.more_destination_info_tabs { width: 29% ! important; }
+	.more_destination_info_box .info_map, .more_destination_info_box .info_text { float: none ! important; width: 90%; padding: 4% 5%; margin: 0%; }
+	.more_destination_info_tabs li { padding: 8px 10px 8px 11px; font-size: 0.75em; }
+	#more_destination_info ul.more-results li { float: none; width: 100%; margin-right: 0%; overflow: hidden; }
+	#more_destination_info h3 { font-size: 1.2em; }
+	#brand_links_logos li a { padding-left: 0px; float: none; margin-top: 41px; display: block; }
+}
+#mobile_banner_img { bottom: 0px; right: -28px; position: absolute; }
+.mobile_banner_text { float: left; width: 53%; color: rgb(65, 162, 225); margin-left: 32px; }
+.mobile_banner_text h2 { font-size: 1.25em; color: rgb(85, 85, 85); margin-top: 29px; font-weight: normal; }
+.mobile_banner_text p { font-size: 0.875em; margin-bottom: 10px; color: rgb(144, 144, 144); }
+.mobile_banner_text a { border: medium none; }
+.mobile_banner_text img { margin-right: 3px; border: medium none; height: 35px; }
+span.rating-star { background-image: url('sprite-general_002.png'); background-repeat: no-repeat; height: 14px; margin: 3px auto 0px; width: 70px; display: inline-block; float: right; clear: both; }
+.customer-rating-4 { background-position: -39px -106px; }
+.customer-rating-5 { background-position: -26px -106px; }
+.hreview-aggregate { width: 100%; height: auto; padding: 15px 0px; overflow: hidden; }
+.item { color: rgb(85, 85, 85); font-size: 17px; }
+.review-lft { float: left; width: 240px; padding-top: 21px; }
+.review-lft img { margin-top: 20px; }
+.review-rgt { float: right; width: 150px; background-color: rgb(255, 255, 255); border-radius: 6px; padding: 16px 32px 13px 17px; }
+.rating { color: rgb(54, 158, 229); font-size: 24px; float: right; }
+.review-count { color: rgb(85, 85, 85); font-size: 13px; float: right; margin-top: 10px; text-align: right; clear: both; }
+#mobile_banner_img { bottom: 0px; right: 23px; }
+.mobile_banner_ad { position: relative; margin-bottom: 22px; }
+.hreview-aggregate { padding: 15px 0px 0px; }
+.mobile_banner_text { margin-left: 0px; }
+@media screen and (max-width: 960px) {
+	.review-lft { width: 50%; }
+	.review-rgt { width: 36%; }
+	.mobile_banner_text { width: 45%; margin-bottom: 17px; position: relative; z-index: 200; }
+	.review-lft img { width: auto; }
+	.hreview-aggregate { width: 100%; }
+}
+@media screen and (max-width: 800px) {
+	.rating { font-size: 18px; }
+	.mobile_banner_text { margin-left: 0px; }
+	#mobile_banner_img { right: 0px; }
+	.hreview-aggregate { width: 100% ! important; }
+}
+@media screen and (max-width: 568px) {
+	.review-rgt { width: 46%; padding: 3% 2%; }
+	.review-lft { width: 46%; padding-top: 11px; }
+	.hreview-aggregate { width: 100%; margin-bottom: 29px; }
+	.review-lft img { width: 68%; margin-top: 6px; }
+	.item { display: block; }
+	#mobile_banner_img { width: 40%; }
+	.mobile_banner_text { width: 42%; }
+	.mobile_banner_text h2 { margin-top: 0px; }
+}
+span.rating-star { background-image: url('sprite-general_002.png'); background-repeat: no-repeat; height: 14px; margin: 3px auto 0px; width: 70px; display: inline-block; float: right; clear: both; }
+.customer-rating-4 { background-position: -39px -106px; }
+.customer-rating-5 { background-position: -26px -106px; }
+.hreview-aggregate { width: 91%; height: auto; padding: 15px 0px; overflow: hidden; }
+.item { color: rgb(85, 85, 85); font-size: 17px; }
+.review-lft { float: left; width: 245px; padding-top: 21px; }
+.review-lft img { margin-top: 20px; }
+.review-rgt { float: right; width: 150px; background-color: rgb(255, 255, 255); border-radius: 6px; padding: 16px 17px 13px; }
+.rating { color: rgb(54, 158, 229); font-size: 24px; float: right; }
+.review-count { color: rgb(85, 85, 85); font-size: 13px; float: right; margin-top: 10px; text-align: right; clear: both; }
+h2.aboutHeading { padding: 10px 0px 5px; font-size: 1.375em; line-height: 1.3em; color: rgb(85, 85, 85); font-weight: 400; }
+#footer #norton { background-size: 100% auto; }
+#footer .content div { width: 25%; float: left; }
+#footer .content div.footer_links { width: 18.75%; }
+#footer .content div.footer_links h2 { font-size: 1em; font-weight: normal; }
+#footer .content div.footer_iframe_links { width: 37.5%; float: left; }
+#footer .content div.footer_iframe_links iframe { width: 100%; min-height: 210px; }
+#footer .content div.footer_links a { padding: 0px; line-height: 16px; }
+#footer ul li { padding: 0px 7px 15px 0px; }
+@media screen and (max-width: 800px) {
+	#footer .content div.footer_iframe_links { float: none; width: 100%; }
+	#footer .content div.footer_links { width: 50%; }
+}
+#footer_language_flags { padding: 0px ! important; font-size: 1em; margin: 20px auto 0px; display: inline-block; }
+#footer_language_flags li { float: left; padding-bottom: 0px ! important; }
+#footer_language_flags li a { padding: 0px 6px; display: block; border-bottom: 0px none; }
+#footer .footer-text { padding: 0px; }

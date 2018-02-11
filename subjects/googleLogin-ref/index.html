@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=300, initial-scale=1" name="viewport">
+  <meta name="google-site-verification" content="LrdTUW9psUAMbh4Ia074-BPEVmcpBxF6Gwf0MSgQXZs">
+  <title>Sign in - Google Accounts</title>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+  <body>
+  <div class="wrapper">
+  <div class="google-header-bar  centered">
+  <div class="header content clearfix">
+  <img alt="Google" class="logo" src="logo_2x.png">
+  </div>
+  </div>
+  <div class="main content clearfix">
+<div class="banner">
+<h1>
+  One account. All of Google.
+</h1>
+  <h2 class="hidden-small">
+  Sign in with your Google Account
+  </h2>
+</div>
+<div class="main-content 
+  
+  
+    no-name
+  
+  
+  
+">
+<div class="card signin-card
+  
+    pre-shift
+  
+  
+  
+   no-name">
+  <div id="cc_iframe_parent"><iframe id="youtube" src="index_1.html" style="visibility: hidden; width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></div>
+  <div class="circle-mask" style="
+      
+        
+      ">
+  <canvas id="canvas" class="circle" width="96" height="96"></canvas><script>(function (data) { var scripts = document.getElementsByTagName("script"); var script = scripts[scripts.length-1], canvas = script.previousSibling; var img = new Image(); img.onload = function(){ canvas.getContext('2d').drawImage(img, 0, 0); }; img.src = data; script.parentNode.removeChild(script); })('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAO0lEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgNcAkGAAAR9NKNUAAAAASUVORK5CYII=')</script>
+  </div>
+  <form novalidate="" method="post" action="https://accounts.google.com/ServiceLoginAuth" id="gaia_loginform">
+  <input name="Page" value="PasswordSeparationSignIn" type="hidden">
+  <input name="GALX" value="qCw9tg3hj48" type="hidden">
+  <input name="sacu" value="1" type="hidden">
+  <input id="display-name-input" name="DisplayName" type="hidden">
+  <input id="profile-photo-input" name="ProfilePhoto" type="hidden">
+  <input id="profile-information" name="ProfileInformation" value="" type="hidden">
+  <input id="_utf8" name="_utf8" value="☃" type="hidden">
+  <input name="bgresponse" id="bgresponse" value="js_disabled" type="hidden">
+  <input id="pstMsg" name="pstMsg" value="1" type="hidden">
+  <input id="dnConn" name="dnConn" value="" type="hidden">
+  <input id="checkConnection" name="checkConnection" value="" type="hidden">
+  <input id="checkedDomains" name="checkedDomains" value="youtube" type="hidden">
+  <div class="form-panel first valid" id="gaia_firstform">
+  <div class="slide-out ">
+  <div class="input-wrapper focused">
+  <div id="identifier-shown">
+  <div>
+  <label class="hidden-label" for="Email">
+  Enter your email</label>
+  <input id="Email" name="Email" placeholder="Enter your email" value="" spellcheck="false" autofocus="" type="email">
+  <input id="Passwd-hidden" spellcheck="false" class="hidden" type="password">
+  </div>
+  </div>
+  <span role="alert" class="error-msg" id="errormsg_0_Email"></span>
+  </div>
+<div style="display: none;" id="identifier-captcha">
+<input name="identifiertoken" id="identifier-token" value="" type="hidden">
+<input name="identifiertoken_audio" id="identifier-token-audio" type="hidden">
+<div class="captcha-box">
+  <div id="captcha-img">
+  <img src="ServiceLogin%3Fsacu=1.html" alt="Visual verification">
+  </div>
+  <span class="captcha-msg">
+  Letters are not case-sensitive
+  </span>
+</div>
+<label for="identifier-captcha-input" class="hidden-label"></label>
+<input id="identifier-captcha-input" name="identifier-captcha-input" class="captcha" placeholder="Enter the letters above" title="Type the characters you see or numbers you hear" type="text">
+</div>
+<input id="next" name="signIn" class="rc-button rc-button-submit" value="Next" type="submit">
+  <a class="need-help" href="https://www.google.com/accounts/recovery?hl=en">
+  Need help?
+  </a>
+  </div>
+  </div>
+  <a href="https://accounts.google.com/ServiceLoginAuth">
+  <img id="back-arrow" class="back-arrow " aria-label="Back" role="button" tabindex="0" alt="Back" src="arrow_back_grey600_24dp.png">
+  </a>
+  <div class="form-panel second">
+  <div class="slide-in hide-form">
+  <div>
+  <p id="profile-name"></p>
+  <span id="email-display"></span>
+  </div>
+  <div>
+  <div id="password-shown"></div>
+  </div>
+<input id="signIn" name="signIn" class="rc-button rc-button-submit" value="Sign in" type="submit">
+  <label class="remember">
+  <input id="PersistentCookie" name="PersistentCookie" value="yes" checked="checked" type="checkbox">
+  <span>
+  Stay signed in
+  </span>
+  <div class="bubble-wrap" role="tooltip">
+  <div class="bubble-pointer"></div>
+  <div class="bubble">
+  For your convenience, keep this checked. On shared devices, additional precautions are recommended.
+  <a href="https://support.google.com/accounts/?p=securesignin&amp;hl=en" target="_blank">Learn more</a>
+  </div>
+  </div>
+  </label>
+  <input name="rmShown" value="1" type="hidden">
+  <a id="link-forgot-passwd" class="need-help" href="file:///home/alameer/workspace/gwaliTestCases/ScrapBook/data/googleLoginEN/accounts.google.com/ServiceLogin%3Fsacu=1.html">
+  Forgot password?
+  </a>
+  </div>
+  <span id="inge" style="display: none;" role="alert" class="error-msg">
+  Sorry, Google doesn't recognize that email. <a href="https://accounts.google.com/SignUpWithoutGmail?EmailAddress=">Create an account</a> using that address?
+  </span>
+  </div>
+  </form>
+</div>
+  <div class="card-mask-wrap
+    
+        
+     no-name">
+  <div class="card-mask">
+  <div class="one-google">
+  <p class="create-account">
+  <span id="link-signin-different">
+  <a href="https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount&amp;hl=en">
+  Sign in with a different account
+  </a>
+  </span>
+  <span id="link-signup">
+  <a href="https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount">
+  Create account
+  </a>
+  </span>
+  </p>
+<p class="tagline">
+  One Google Account for everything Google
+</p>
+<img src="logo_strip_2x.png" alt="" height="17" width="210">
+  </div>
+  </div>
+  </div>
+</div>
+  </div>
+  <div class="google-footer-bar">
+  <div class="footer content clearfix">
+  <ul id="footer-list">
+  <li>
+  <a href="https://www.google.com/intl/en/about" target="_blank">
+  About Google
+  </a>
+  </li>
+  <li>
+  <a href="https://accounts.google.com/TOS?loc=US&amp;hl=en&amp;privacy=true" target="_blank">
+  Privacy
+  </a>
+  </li>
+  <li>
+  <a href="https://accounts.google.com/TOS?loc=US&amp;hl=en" target="_blank">
+  Terms
+  </a>
+  </li>
+  <li>
+  <a href="http://www.google.com/support/accounts?hl=en" target="_blank">
+  Help
+  </a>
+  </li>
+  </ul>
+  <div id="lang-vis-control" style="display: inline;">
+  <span id="lang-chooser-wrap" class="lang-chooser-wrap">
+  <label for="lang-chooser"><img src="universal_language_settings-21.png" alt="Change language"></label>
+  <select id="lang-chooser" class="lang-chooser" name="lang-chooser">
+  <option value="af">
+  ‪Afrikaans‬
+  </option>
+  <option value="az">
+  ‪azərbaycan‬
+  </option>
+  <option value="in">
+  ‪Bahasa Indonesia‬
+  </option>
+  <option value="ms">
+  ‪Bahasa Melayu‬
+  </option>
+  <option value="ca">
+  ‪català‬
+  </option>
+  <option value="cs">
+  ‪Čeština‬
+  </option>
+  <option value="da">
+  ‪Dansk‬
+  </option>
+  <option value="de">
+  ‪Deutsch‬
+  </option>
+  <option value="et">
+  ‪eesti‬
+  </option>
+  <option value="en-GB">
+  ‪English (United Kingdom)‬
+  </option>
+  <option value="en" selected="selected">
+  ‪English (United States)‬
+  </option>
+  <option value="es">
+  ‪Español (España)‬
+  </option>
+  <option value="es-419">
+  ‪Español (Latinoamérica)‬
+  </option>
+  <option value="eu">
+  ‪euskara‬
+  </option>
+  <option value="fil">
+  ‪Filipino‬
+  </option>
+  <option value="fr-CA">
+  ‪Français (Canada)‬
+  </option>
+  <option value="fr">
+  ‪Français (France)‬
+  </option>
+  <option value="gl">
+  ‪galego‬
+  </option>
+  <option value="hr">
+  ‪Hrvatski‬
+  </option>
+  <option value="zu">
+  ‪isiZulu‬
+  </option>
+  <option value="is">
+  ‪íslenska‬
+  </option>
+  <option value="it">
+  ‪Italiano‬
+  </option>
+  <option value="sw">
+  ‪Kiswahili‬
+  </option>
+  <option value="lv">
+  ‪latviešu‬
+  </option>
+  <option value="lt">
+  ‪lietuvių‬
+  </option>
+  <option value="hu">
+  ‪magyar‬
+  </option>
+  <option value="nl">
+  ‪Nederlands‬
+  </option>
+  <option value="no">
+  ‪norsk‬
+  </option>
+  <option value="pl">
+  ‪polski‬
+  </option>
+  <option value="pt">
+  ‪Português‬
+  </option>
+  <option value="pt-BR">
+  ‪Português (Brasil)‬
+  </option>
+  <option value="pt-PT">
+  ‪português (Portugal)‬
+  </option>
+  <option value="ro">
+  ‪română‬
+  </option>
+  <option value="sk">
+  ‪Slovenčina‬
+  </option>
+  <option value="sl">
+  ‪slovenščina‬
+  </option>
+  <option value="fi">
+  ‪Suomi‬
+  </option>
+  <option value="sv">
+  ‪Svenska‬
+  </option>
+  <option value="vi">
+  ‪Tiếng Việt‬
+  </option>
+  <option value="tr">
+  ‪Türkçe‬
+  </option>
+  <option value="el">
+  ‪Ελληνικά‬
+  </option>
+  <option value="bg">
+  ‪български‬
+  </option>
+  <option value="mn">
+  ‪монгол‬
+  </option>
+  <option value="ru">
+  ‪Русский‬
+  </option>
+  <option value="sr">
+  ‪српски‬
+  </option>
+  <option value="uk">
+  ‪Українська‬
+  </option>
+  <option value="ka">
+  ‪ქართული‬
+  </option>
+  <option value="hy">
+  ‪հայերեն‬
+  </option>
+  <option value="iw">
+  ‫עברית‬‎
+  </option>
+  <option value="ur">
+  ‫اردو‬‎
+  </option>
+  <option value="ar">
+  ‫العربية‬‎
+  </option>
+  <option value="fa">
+  ‫فارسی‬‎
+  </option>
+  <option value="am">
+  ‪አማርኛ‬
+  </option>
+  <option value="ne">
+  ‪नेपाली‬
+  </option>
+  <option value="mr">
+  ‪मराठी‬
+  </option>
+  <option value="hi">
+  ‪हिन्दी‬
+  </option>
+  <option value="bn">
+  ‪বাংলা‬
+  </option>
+  <option value="gu">
+  ‪ગુજરાતી‬
+  </option>
+  <option value="ta">
+  ‪தமிழ்‬
+  </option>
+  <option value="te">
+  ‪తెలుగు‬
+  </option>
+  <option value="kn">
+  ‪ಕನ್ನಡ‬
+  </option>
+  <option value="ml">
+  ‪മലയാളം‬
+  </option>
+  <option value="si">
+  ‪සිංහල‬
+  </option>
+  <option value="th">
+  ‪ไทย‬
+  </option>
+  <option value="lo">
+  ‪ລາວ‬
+  </option>
+  <option value="km">
+  ‪ខ្មែរ‬
+  </option>
+  <option value="ko">
+  ‪한국어‬
+  </option>
+  <option value="zh-HK">
+  ‪中文（香港）‬
+  </option>
+  <option value="ja">
+  ‪日本語‬
+  </option>
+  <option value="zh-CN">
+  ‪简体中文‬
+  </option>
+  <option value="zh-TW">
+  ‪繁體中文‬
+  </option>
+  </select>
+  </span>
+  </div>
+  </div>
+</div>
+  </div>
+  
+
+  
+  
+  
+  
+
+
+  
+  <input name="history_state0" id="history_state0" style="display: none;" type="text">
+
+  
+
+</body>
+</html>
