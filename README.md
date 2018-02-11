@@ -8,13 +8,13 @@ In Proceedings of the 11th IEEE International Conference on Software Testing, Ve
 ```
 ## Evaluation Data
 #### Subjects: 
-The 23 real-world web pages used in the evaluation of IFix can be found [here]().
+The 23 real-world web pages used in the evaluation of IFix can be found [here](https://github.com/USC-SQL/ifix/tree/master/subjects).
 
 #### User Study Data: 
-The surveys used in the user study can be found [here]()
+The surveys used in the user study can be found [here](https://github.com/USC-SQL/ifix/tree/master/surveys)
 
 #### Results: 
-The evaluation and user study can be found [here]()
+The evaluation and user study can be found [here](https://github.com/USC-SQL/ifix/tree/master/data)
 
 ## Questions
 In case of any questions you can email at spmahaja [at] usc {dot} edu
