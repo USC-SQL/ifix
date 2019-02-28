@@ -1,0 +1,472 @@
+/* ::::: https://www.limburg.de/layout/limburg/jquery-ui.css?__ts=1529337001 (@media screen) ::::: */
+
+@media screen {
+}
+/* ::::: https://www.limburg.de/layout/limburg/layout.css?__ts=1529335895 (@media screen) ::::: */
+
+@media screen {
+body { width: 100%; margin: 0px auto; padding: 0px; background: rgb(255, 255, 255) url("bg_body.jpg") repeat scroll 0% 0%; font-family: "Cabin",Tahoma,Arial,Helvetica,sans-serif; font-size: 100%; color: rgb(82, 82, 84); }
+table, tr, td { font-size: 100%; }
+a img { border: medium none; }
+* { box-sizing: border-box; }
+a, a:link, a:visited { text-decoration: underline; color: rgb(14, 113, 180); }
+a:hover, a:active { text-decoration: none; color: rgb(74, 149, 199); }
+form { margin: 15px 0px 0px; padding: 0px; }
+label { display: block; color: rgb(82, 82, 84); }
+input, textarea, select, radio { width: 95%; margin: 0px 0px 15px; padding: 3px; border: 1px solid rgb(198, 199, 200); background: rgb(255, 255, 255) none repeat scroll 0% 0%; font-family: "Cabin",Tahoma,Arial,Helvetica,sans-serif; font-size: 1rem; color: rgb(82, 82, 84); }
+input:hover, select:hover, textarea:hover, input:focus, select:focus, textarea:focus, input:visited, select:visited, textarea:visited { margin: 0px 0px 15px; padding: 3px; border: 1px solid rgb(198, 199, 200); background: rgb(198, 199, 200) none repeat scroll 0% 0%; font-family: "Cabin",Tahoma,Arial,Helvetica,sans-serif; color: rgb(255, 255, 255); }
+h4 { clear: both; margin: 20px 0px 10px; padding: 0px 0px 2px; line-height: 1.15em; font-weight: normal; font-size: 1.5rem; color: rgb(82, 82, 84); }
+h4 a, h4 a:link, h4 a:hover, h4 a:active, h4 a:visited { text-decoration: none; }
+h5 { margin: 13px 0px 5px; text-transform: uppercase; font-weight: normal; font-size: 0.8em; color: rgb(82, 82, 84); }
+.cb { clear: both; overflow: hidden; height: 1px; margin: 0px; padding: 0px; line-height: 1px; }
+.trenner, hr { clear: both; height: 0px; margin: 14px 0px; padding: 0px 0px 2px; background: transparent url("trenner.png") repeat-x scroll center bottom; overflow: hidden; }
+.einleitung { margin: 0px 0px 5%; line-height: 1.5em; color: rgb(82, 82, 84); }
+.date { display: inline-block; font-size: 0.75rem; color: rgb(82, 82, 84); }
+.sprungziel { position: absolute; z-index: 5; top: -5000px; left: -5000px; }
+.sprungziel a:hover, .sprungziel a:focus, .sprungziel a:active { display: block; position: absolute; top: 5000px; left: 5000px; padding: 5px; background: rgb(119, 0, 0) none repeat scroll 0% 0%; text-decoration: none; font-weight: bold; color: rgb(255, 255, 255); white-space: nowrap; }
+.mc2_ac { line-height: 1.5em; font-size: 0.8em; }
+.mc_ac {  }
+a.csslink_intern { display: inline; padding: 0px; }
+.cookie-message { hyphens: auto; }
+.cookie-message, .tracking-box { box-sizing: border-box; width: 100%; background-color: rgb(240, 240, 240); padding: 25px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25); font-size: 1em; }
+.cookie-message p, .tracking-box p { margin-top: 0px; text-align: left; }
+.cookie-message .btn, .tracking-box .btn { margin: 0px 10px 0px 0px; }
+.cookie-message .pull-right .btn, .tracking-box .pull-right .btn { margin: 0px 0px 0px 10px; }
+.cookie-message.bottom-left { position: fixed; bottom: 30px; left: 30px; max-width: 500px; z-index: 10000; }
+.cookie-message button, .tracking-box button { display: inline-block; padding: 7px 30px; background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); font-weight: normal; font-size: 1em; font-family: "Dosis",Tahoma,Helvetica,sans-serif; position: relative; overflow: hidden; border: medium none ! important; margin: 10px 10px 0px 0px; cursor: pointer; }
+.cookie-message button:hover, .tracking-box button:hover { background-color: rgb(119, 119, 119); }
+.cookie-message .pull-left { float: left; }
+.cookie-message .pull-right { float: right; }
+#cookie-message { display: none; }
+@media screen and (max-width: 960px) {
+  .cookie-message.bottom-left, .cookie-message.bottom-right, .cookie-message.bottom { padding: 15px; font-size: 1em; }
+}
+@media screen and (max-width: 680px) {
+  .cookie-message.bottom-left, .cookie-message.bottom-right, .cookie-message.bottom { bottom: 0px; left: 0px; right: 0px; max-width: none; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25); }
+}
+a i.fa, button i.fa { line-height: 1.33; vertical-align: top; margin-right: 5px; }
+@media screen and (min-width: 960px) {
+}
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 960px) {
+}
+.sprachen { display: inline-block; background: transparent url("sprache.gif") no-repeat scroll left center; padding: 0px 3% 0px 20px; }
+.quicknavigation .goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value span { color: rgb(82, 82, 84); }
+.quicknavigation .goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value { padding: 0px; }
+}
+/* ::::: https://www.limburg.de/layout/limburg/layout_320.css?__ts=1427975509 (@media screen and (min-width: 100px)) ::::: */
+
+@media screen and (min-width: 100px) {
+#oben, #unten, #links, #rechts { display: none; }
+.wrapper { width: 98%; margin: 0px 1%; }
+.content { padding: 0px 0px 25px; }
+.quicknavigation { font-size: 0.75rem; background: rgb(82, 82, 84) none repeat scroll 0% 0%; text-align: center; padding: 0.5% 0px; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25); }
+.quicknavigation ul, .quicknavigation li { display: inline; margin: 0px; padding: 0px; list-style-type: none; color: rgb(255, 255, 255); }
+.quicknavigation a, .quicknavigation a:link, .quicknavigation a:active, .quicknavigation a:visited { padding: 0px 0px 0px 3%; text-decoration: none; color: rgb(255, 255, 255); }
+.quicknavigation a:hover { text-decoration: underline; }
+.quicknavigation a#anker_quickmenu { padding: 0px; }
+.quicknavigation .npt_first a, .quicknavigation .npt_first a:hover, .quicknavigation .npt_first a:link, .quicknavigation .npt_first a:active, .quicknavigation .npt_first a:visited { padding: 0px; }
+.header { width: 100%; }
+.signet { width: 100%; text-align: center; background: transparent url("bg_signet.png") no-repeat scroll center bottom; margin: 0px 0px 2%; }
+.signet img { width: 240px; }
+.header_optionen { display: none; }
+.header_optionen .links { display: none; }
+.header_optionen .startseite.links { display: block; float: left; width: 22%; }
+.suche-desktop { display: none; }
+.suche-mobil { position: relative; width: 100%; display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 0.5em 0px; margin: 0px 0px 2%; }
+.suche-mobil form { position: relative; margin: 0px; padding: 0px; }
+.suche-mobil form input { float: left; width: 90%; margin: 0px; padding: 0px 0px 0px 1.5%; border: 0px none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(82, 82, 84); }
+.suche-mobil form input:hover {  }
+.suche-mobil form input.lupe { position: absolute; top: -8px; right: 0px; width: 37px; margin: 0px; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; }
+.menu { margin: 0px 0px 3%; }
+.menu ul, .menu li { margin: 0px; padding: 0px; vertical-align: baseline; }
+.flexNav-touch [role="navigation"], .flexNav-no-touch [role="navigation"] { display: none; }
+.menu-button { display: block; width: auto; padding: 0.5em; font-weight: bold; background: rgb(159, 14, 33) url("bg_navigation.png") no-repeat scroll 96% 4px / 32px 26px; color: rgb(255, 255, 255); cursor: pointer; }
+[role="navigation"] { margin: 0px auto; width: 100%; }
+[role="navigation"]::after { visibility: hidden; clear: both; display: block; height: 0px; font-size: 0px; content: " "; }
+[role="navigation"] li { position: relative; list-style: outside none none; display: block; border-top: 1px solid rgb(255, 255, 255); background-color: rgb(74, 149, 199); width: 100%; }
+[role="navigation"] li.childs { background-color: rgb(14, 113, 180); }
+[role="navigation"] li li.childs { background-color: rgb(74, 149, 199); }
+[role="navigation"] li a { display: block; margin-right: 15%; padding: 0.5em; text-decoration: none; color: rgb(255, 255, 255); }
+[role="navigation"] li a.childs { background: transparent url("__.dat") repeat scroll 0% 0%; }
+[role="navigation"] li ul { position: relative; background: rgb(14, 113, 180) none repeat scroll 0% 0%; padding: 10px; }
+[role="navigation"] li ul ul { padding: 0px 0px 0px 30px; }
+[role="navigation"] li ul li { float: none; width: 100%; border-top: 1px solid rgb(255, 255, 255); font-size: 1rem; padding: 0px; margin: 0px; }
+[role="navigation"] li ul li a { display: block; padding: 0.5em 0.5em 0.5em 2em; }
+[role="navigation"] li ul li ul li { font-size: 0.875rem; background: rgb(98, 163, 206) none repeat scroll 0% 0%; }
+[role="navigation"] li ul li ul li a { display: block; padding: 0.5em 0.5em 0.5em 2em; }
+[role="navigation"] li ul li ul li ul li a { display: block; padding: 0.5em 0.5em 0.5em 6em; }
+[role="navigation"] .childs { background-image: url("menu.png"); background-repeat: no-repeat; background-position: 95% 10px; background-size: 16px 13px; }
+.nlv_2, .nlv_3, .nlv_4 { display: none; }
+.motionpic { display: none; height: 1px; }
+.footer { display: none; }
+.banner-detail-start { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 0px 4%; margin: 6% 0px 0px; }
+.banner-detail-start img, .banner-detail img { display: block; width: 100%; height: auto; }
+.banner-detail-start a, .banner-detail-start a:hover, .banner-detail-start a:active, .banner-detail-start a:visited, .banner-detail a, .banner-detail a:hover, .banner-detail a:active, .banner-detail a:visited { display: block; }
+.boxen { background: rgb(234, 234, 234) none repeat scroll 0% 0%; border-top: 1px solid rgb(255, 255, 255); padding: 2.5% 0px; box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.15) inset; }
+.boxen .box { float: left; width: 48%; font-size: 1.125rem; text-align: center; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.5% 0.5% 1%; margin: 0px 4% 0px 0px; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.boxen .box.eins { margin: 0px 4% 4% 0px; }
+.boxen .box.zwei { margin: 0px 0px 4%; }
+.boxen .box.drei { clear: both; }
+.boxen .box.last { margin: 0px; }
+.boxen .box img { display: block; width: 100%; height: auto; margin: 0px 0px 4%; }
+.boxen .box a, .boxen .box a:visited { display: block; text-decoration: none; }
+.start-links { position: relative; width: 100%; margin: 5% 0px; }
+.start-links h4 { font-family: "Gentium Basic",serif; font-size: 1.875rem; color: rgb(159, 14, 33); margin: 0px 0px 2%; }
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus { outline: medium none; }
+.slides, .flex-control-nav, .flex-direction-nav { margin: 0px; padding: 0px; list-style: outside none none; }
+.flexslider { margin: 0px; padding: 0px; }
+.flexslider .slides > li { display: none; position: relative; }
+.flexslider .slides img { width: 100%; height: auto; display: block; }
+.slides::after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+.flexslider {  }
+.flexslider .slides {  }
+.flex-control-nav { width: 100%; position: absolute; top: 5px; text-align: right; }
+.flex-control-nav li { margin: 0px 3px; display: inline-block; }
+.flex-control-paging li a { width: 10px; height: 10px; display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; cursor: pointer; text-indent: 9999px; border-radius: 20px; }
+.flex-control-paging li a:hover { background: rgb(14, 113, 180) none repeat scroll 0% 0%; }
+.flex-control-paging li a.flex-active { background: rgb(14, 113, 180) none repeat scroll 0% 0%; cursor: default; }
+.sl_oeffnungszeiten { width: 100%; margin: 5% 0px 0px; }
+.start-rechts { width: 100%; }
+.start-rechts .einleitung { margin: 0px; }
+.start-rechts h4 { font-family: "Gentium Basic",serif; font-size: 2.5rem; text-align: center; color: rgb(82, 82, 84); background: transparent url("h4-strich.png") no-repeat scroll center center; }
+.start-rechts .aktuelles { margin: 0px 0px 5%; }
+.start-rechts .aktuelles_bild { width: 99%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.5%; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.start-rechts .aktuelles_bild a { display: block; }
+.start-rechts .aktuelles_bild img { display: block; width: 100%; height: auto; }
+.start-rechts .aktuelles_text { width: 100%; }
+.start-rechts .aktuelles_text .date { padding: 0px 0px 1%; }
+.start-rechts .aktuelles_text h5 { font-size: 1.125rem; text-transform: none; color: rgb(82, 82, 84); margin: 0px; }
+.start-rechts .aktuelles_text h5 a, .start-rechts .aktuelles_text h5 a:visited { text-decoration: none; color: rgb(82, 82, 84); }
+.start-rechts .termine { background: transparent url("trenner.png") repeat-x scroll center bottom; padding: 0px 0px 2%; margin: 0px 0px 5%; }
+.start-rechts .termine .wochentag { display: inline; font-size: 1rem; font-weight: bold; }
+.start-rechts .termine .wochentag2 { padding: 0px 2px 0px 0px; font-weight: bold; }
+.start-rechts .termine .monat-jahr { display: inline; font-weight: bold; }
+.start-rechts .termine .monat-jahr br { display: none; }
+.start-rechts .termine .date { display: inline; font-size: 1rem; }
+.start-rechts .termine .kategorien { font-size: 0.75rem; }
+.start-rechts .termine .termine_bild { display: none; }
+.start-rechts .termine .termine_text { margin: 2% 0px 0px; }
+.start-rechts .termine .termine_text h5 { font-size: 1.125rem; text-transform: none; color: rgb(82, 82, 84); margin: 1% 0px; }
+.start-rechts .termine .termine_text h5 a, .start-rechts .termine .termine_text h5 a:visited { text-decoration: underline; color: rgb(14, 113, 180); }
+}
+/* ::::: https://www.limburg.de/layout/limburg/layout_700.css?__ts=1429079443 (@media screen and (min-width: 700px)) ::::: */
+
+@media screen and (min-width: 700px) {
+.date { display: block; font-size: 0.75rem; color: rgb(82, 82, 84); padding: 5px 0px; }
+.wrapper { position: relative; max-width: 948px; margin: 0px auto; }
+.content { padding: 0px; font-size: 0.875rem; }
+.quicknavigation { text-align: right; }
+.header_optionen { display: block; background: rgb(209, 209, 209) url("bg_banderole.png") repeat-x scroll left bottom; padding: 1.5% 0px; }
+.suche-mobil { position: relative; float: right; width: 48%; display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 0.5em 0px; margin: 0px; }
+.menu-button { display: block; width: 48%; padding: 0.5em; font-weight: bold; background: rgb(159, 14, 33) url("bg_navigation.png") no-repeat scroll 96% 4px / 32px 26px; color: rgb(255, 255, 255); cursor: pointer; }
+.footer { display: block; width: 100%; text-align: center; background: transparent url("bg_signet.png") no-repeat scroll center bottom; margin: 2% 0px; }
+.footer img { width: 240px; }
+#seitenanfang { position: fixed; bottom: 30px; right: 0px; z-index: 400; padding: 0px; margin: 0px; }
+#seitenanfang a { width: 39px; display: block; text-align: center; font: 11px/100% Arial,Helvetica,sans-serif; text-transform: uppercase; text-decoration: none; color: rgb(84, 76, 75); transition: all 1s ease 0s; }
+#seitenanfang a:hover { color: rgb(84, 76, 75); }
+#seitenanfang span { width: 39px; height: 39px; display: block; margin-bottom: 7px; background: rgb(26, 23, 27) url("seitenanfang.png") no-repeat scroll center center / 39px 39px; border-radius: 3px 0px 0px 3px; transition: all 1s ease 0s; }
+#seitenanfang a:hover span { background-color: rgb(82, 82, 84); }
+.motionpic { display: block; position: relative; width: 100%; height: 250px; border: 5px solid rgb(255, 255, 255); overflow: hidden; box-sizing: border-box; }
+.motionpic img { display: block; width: 100%; height: auto; }
+.motionpic.startseite { display: block; float: right; position: relative; width: 74%; height: auto; max-height: 295px; border: 5px solid rgb(255, 255, 255); overflow: hidden; box-sizing: border-box; }
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus { outline: medium none; }
+.slides, .flex-control-nav, .flex-direction-nav { margin: 0px; padding: 0px; list-style: outside none none; }
+.flexslider { margin: 0px; padding: 0px; }
+.flexslider .slides > li { display: none; position: relative; }
+.flexslider .slides img { width: 100%; height: auto; display: block; }
+.slides::after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+.flexslider {  }
+.flexslider .slides {  }
+.flex-control-nav { width: 100%; position: absolute; top: 5px; text-align: right; }
+.flex-control-nav li { margin: 0px 3px; display: inline-block; }
+.flex-control-paging li a { width: 10px; height: 10px; display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; cursor: pointer; text-indent: 9999px; border-radius: 20px; }
+.flex-control-paging li a:hover { background: rgb(14, 113, 180) none repeat scroll 0% 0%; }
+.flex-control-paging li a.flex-active { background: rgb(14, 113, 180) none repeat scroll 0% 0%; cursor: default; }
+.sl_oeffnungszeiten { float: right; width: 48%; margin: 0px; }
+.start-rechts h4 { font-family: "Gentium Basic",serif; font-size: 2.5rem; text-align: center; color: rgb(82, 82, 84); background: transparent url("h4-strich.png") no-repeat scroll center center; }
+.start-rechts .aktuelles { margin: 0px 0px 5%; }
+.start-rechts .aktuelles_bild { float: left; width: 22%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.5%; margin: 0px 4% 0px 0px; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.start-rechts .aktuelles_bild a { display: block; }
+.start-rechts .aktuelles_bild img { display: block; width: 100%; height: auto; }
+.start-rechts .aktuelles_text { float: right; width: 74%; }
+.start-rechts .aktuelles_text .date { padding: 0px 0px 1%; }
+.start-rechts .aktuelles_text h5 { font-size: 1.125rem; text-transform: none; color: rgb(82, 82, 84); margin: 0px; }
+.start-rechts .aktuelles_text h5 a, .start-rechts .aktuelles_text h5 a:visited { text-decoration: none; color: rgb(82, 82, 84); }
+.start-rechts .termine { background: transparent none repeat scroll 0% 0%; padding: 0px; margin: 0px 0px 1%; }
+.start-rechts .termine .wochentag { display: block; float: left; width: 22%; font-size: 2.5rem; font-weight: normal; text-align: right; padding: 7.5% 0px 0px; margin: 0px 4% 0px 0px; }
+.start-rechts .termine .wochentag2 { font-size: 6.875rem; font-weight: normal; padding: 0px; }
+.start-rechts .termine .monat-jahr { display: block; position: absolute; top: 0px; right: 0px; text-align: right; font-weight: normal; }
+.start-rechts .termine .monat-jahr br { display: block; }
+.start-rechts .termine .date { display: block; position: relative; float: left; width: 22%; font-size: 0.875rem; text-align: left; padding: 0px; margin: 0px 4% 0px 0px; }
+.start-rechts .termine .kategorien { font-size: 0.75rem; }
+.start-rechts .termine .termine_bild { display: block; float: left; width: 22%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.67568%; margin: 0px 4% 0px 0px; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.start-rechts .termine .termine_bild a { display: block; }
+.start-rechts .termine .termine_bild img { display: block; width: 100%; height: auto; }
+.start-rechts .termine .termine_text { float: left; width: 22%; margin: 0px; }
+.start-rechts .termine .termine_text h5 { font-size: 1.125rem; text-transform: none; color: rgb(82, 82, 84); margin: 3% 0px; }
+.start-rechts .termine .termine_text h5 a, .start-rechts .termine .termine_text h5 a:visited { text-decoration: underline; color: rgb(14, 113, 180); }
+.boxen { background: rgb(234, 234, 234) none repeat scroll 0% 0%; border-top: 1px solid rgb(255, 255, 255); padding: 2.5% 0px; box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.15) inset; }
+.boxen .box { float: left; width: 22%; font-size: 1.125rem; text-align: center; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.5% 0.5% 1%; margin: 0px 4% 0px 0px; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.boxen .box.eins { margin: 0px 4% 0px 0px; }
+.boxen .box.zwei { margin: 0px 4% 0px 0px; }
+.boxen .box.drei { clear: none; }
+.boxen .box.last { margin: 0px; }
+.boxen .box img { display: block; width: 100%; height: auto; margin: 0px 0px 4%; }
+.boxen .box a, .boxen .box a:visited { display: block; text-decoration: none; }
+}
+/* ::::: https://www.limburg.de/layout/limburg/layout_1024.css?__ts=1529334549 (@media screen and (min-width: 1024px)) ::::: */
+
+@media screen and (min-width: 1024px) {
+body { width: auto; padding: 20px; }
+#oben, #unten, #links, #rechts { display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: fixed; z-index: 300; }
+#links, #rechts { top: 0px; bottom: 0px; width: 20px; }
+#links { left: 0px; }
+#rechts { right: 0px; }
+#oben, #unten { left: 0px; right: 0px; height: 20px; }
+#oben { top: 0px; }
+#unten { bottom: 0px; }
+.header_optionen .startseite.links, .header_optionen .links { display: block; float: left; width: 22%; }
+.suche-mobil { display: none; }
+.suche-desktop { display: block; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin: 0px 0px 18%; }
+.suche-desktop form { position: relative; margin: 0px; padding: 0px; }
+.suche-desktop form input { float: left; width: 83%; margin: 0px; padding: 4%; border: 0px none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(82, 82, 84); }
+.suche-desktop form input:hover {  }
+.suche-desktop form input.lupe { float: right; width: 16%; margin: 0px; padding: 0px; border: 0px none; background: transparent none repeat scroll 0% 0%; }
+.motionpic { display: block; float: right; position: relative; width: 74%; height: 180px; }
+.menu { display: block; position: relative; width: 100%; overflow: visible; z-index: 60; margin: 0px 0px 20px; }
+.menu-button { display: none; }
+.menu ul#rid_0 { margin: 0px; padding: 0px; list-style: outside none none; font-size: 1.25rem; }
+.flexNav-touch [role="navigation"], .flexNav-no-touch [role="navigation"] { display: block; }
+[role="navigation"] { width: 100%; }
+[role="navigation"] li { float: left; display: block; width: auto; border-top: 0px none; background: transparent none repeat scroll 0% 0%; list-style: outside none none; margin: 0px 4.6% 0px 0px; }
+[role="navigation"] li.npt_last { margin: 0px; }
+[role="navigation"] li ul li { font-size: 0.875rem; border-top: medium none; }
+[role="navigation"] li.childs, [role="navigation"] li li.childs, [role="navigation"] li li li.childs { background: transparent none repeat scroll 0% 0%; }
+[role="navigation"] li a, [role="navigation"] li a:link, [role="navigation"] li a:visited { display: block; font-family: "Gentium Basic",serif; letter-spacing: 1px; text-align: center; margin: 0px auto; padding: 5px; background: transparent none repeat scroll 0% 0%; text-decoration: none; text-transform: uppercase; color: rgb(159, 14, 33); }
+[role="navigation"] li a:hover, [role="navigation"] li a:active, [role="navigation"] li.npt_on a, [role="navigation"] li.npt_on a:link, [role="navigation"] li.npt_on a:hover, [role="navigation"] li.npt_on a:active, [role="navigation"] li.npt_on a:visited { display: block; font-family: "Gentium Basic",serif; letter-spacing: 1px; text-align: center; margin: 0px auto; padding: 5px; text-transform: uppercase; color: rgb(14, 113, 180); }
+[role="navigation"] .nlv_2 li a, [role="navigation"] .nlv_2 li a:link, [role="navigation"] .nlv_2 li a:visited, [role="navigation"] .nlv_2 li a:hover, [role="navigation"] .nlv_2 li a:active, [role="navigation"] .nlv_2 li.npt_on a, [role="navigation"] .nlv_2 li.npt_on a:link, [role="navigation"] .nlv_2 li.npt_on a:hover, [role="navigation"] .nlv_2 li.npt_on a:active, [role="navigation"] .nlv_2 li.npt_on a:visited { font-family: "Cabin",sans-serif; padding: 6px 0px; }
+[role="navigation"] li .dropdown ul { padding: 0px 0px 0px 10px; text-indent: -10px; background: transparent none repeat scroll 0% 0%; }
+[role="navigation"] li ul, [role="navigation"] li ul li ul, [role="navigation"] li ul li ul li ul {  }
+[role="navigation"] li:hover a, [role="navigation"] li.npt_on a { color: rgb(14, 113, 180); }
+[role="navigation"] .nlv_2 li:hover a:hover, [role="navigation"] li:hover a:active { text-decoration: underline; }
+[role="navigation"] .nlv_2 { display: block; }
+[role="navigation"] .nlv_3, [role="navigation"] .nlv_4 { display: none; }
+[role="navigation"] .dropdown { width: 240px; margin: 0px auto; float: left; position: absolute; left: -999em; text-align: left; padding: 0px 10px; background-color: rgba(255, 255, 255, 0.95); border: 5px solid rgb(14, 113, 180); z-index: 220; }
+[role="navigation"] .nlv_2 .dropdown { width: auto; float: none; position: relative; left: auto ! important; border: medium none; padding: 0px; background: transparent none repeat scroll 0% 0%; }
+[role="navigation"] li .dropdown { opacity: 0; transition: opacity 0.5s ease-in-out 0s; }
+[role="navigation"] li:hover .dropdown { opacity: 1; transition: opacity 0.5s ease-in-out 0s; }
+[role="navigation"] .dropdown::after, .dropdown::before { top: -25px; border: medium solid transparent; content: " "; height: 0px; width: 0px; position: absolute; pointer-events: none; }
+[role="navigation"] .dropdown li .dropdown::after, .dropdown li .dropdown::before { border: medium none; }
+[role="navigation"] .dropdown::after { border-color: rgba(14, 113, 180, 0) rgba(14, 113, 180, 0) rgb(14, 113, 180); border-width: 10px; left: 55px; margin-left: -10px; }
+[role="navigation"] .dropdown::before { border-color: rgba(14, 113, 180, 0) rgba(14, 113, 180, 0) rgb(14, 113, 180); border-width: 10px; left: 55px; margin-left: -10px; }
+[role="navigation"] .dropdown li .dropdown::after, [role="navigation"] .dropdown li .dropdown::before { border-width: 0px; }
+[role="navigation"] li:hover .dropdown { left: 0px; top: auto; }
+[role="navigation"] #nlt_2212_6:hover .dropdown { left: -10px; }
+[role="navigation"] #nlt_2212_7:hover .dropdown { left: 0px; }
+[role="navigation"] #nlt_2212_8:hover .dropdown { left: -25px; }
+[role="navigation"] #nlt_2212_9:hover .dropdown { left: 0px; }
+[role="navigation"] #nlt_2212_10:hover .dropdown { left: 0px; }
+[role="navigation"] #nlt_2212_37:hover .dropdown { left: -70px; }
+[role="navigation"] #nlt_2212_37 .dropdown::after, #rid_0 #nlt_2212_37 .dropdown::before { left: 100px; }
+[role="navigation"] #nlt_2212_87:hover .dropdown { left: -180px; }
+[role="navigation"] #nlt_2212_87 .dropdown::after, #rid_0 #nlt_2212_87 .dropdown::before { left: 220px; }
+[role="navigation"] li:hover .nlv_2 li a { text-align: left; text-transform: none; color: rgb(14, 113, 180); background: transparent none repeat scroll 0% 0%; }
+[role="navigation"] li:hover .nlv_2 li a:hover { text-align: left; color: rgb(14, 113, 180); background: transparent none repeat scroll 0% 0%; }
+[role="navigation"] li:hover .nlv_2 li a::before { content: "» "; color: rgb(14, 113, 180); }
+[role="navigation"] li:hover .nlv_2 li a:hover::before { content: "» "; color: rgb(14, 113, 180); }
+[role="navigation"] li:hover .nlv_3 li a:hover { text-decoration: underline; color: rgb(14, 113, 180); }
+#seitenanfang { right: 20px; }
+.start-links { position: relative; float: left; width: 21%; padding: 0px 1% 0px 0px; margin: 5% 0px 0px; }
+.start-links::after { content: url("schatten-links.png"); position: absolute; top: 0px; right: -40px; height: 100px; }
+.start-links h4 { font-family: "Gentium Basic",serif; font-size: 1.875rem; color: rgb(159, 14, 33); margin: 0px 0px 2%; }
+.sl_oeffnungszeiten { float: none; width: 100%; margin: 10% 0px 0px; }
+.start-rechts { float: right; width: 74%; }
+.start-rechts .einleitung { margin: 0px; }
+.start-rechts h4 { font-family: "Gentium Basic",serif; font-size: 2.5rem; text-align: center; color: rgb(82, 82, 84); background: transparent url("h4-strich.png") no-repeat scroll center center; }
+.start-rechts .aktuelles { margin: 0px 0px 5%; }
+.start-rechts .aktuelles_bild { float: left; width: 29.7297%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.67568%; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.start-rechts .aktuelles_bild img { width: 100%; height: auto; }
+.start-rechts .aktuelles_text { float: right; width: 64.8649%; }
+.start-rechts .aktuelles_text .date { padding: 0px 0px 1%; }
+.start-rechts .aktuelles_text h5 { font-size: 1.125rem; text-transform: none; color: rgb(82, 82, 84); margin: 0px; }
+.start-rechts .aktuelles_text h5 a, .start-rechts .aktuelles_text h5 a:visited { text-decoration: none; color: rgb(82, 82, 84); }
+.start-rechts .termine { margin: 0px 0px 1%; }
+.start-rechts .termine .wochentag { float: left; width: 29.7297%; font-size: 3rem; text-align: right; padding: 10% 0px 0px; margin: 0px 0px 0px -33%; }
+.start-rechts .termine .wochentag2 { font-size: 7.5rem; }
+.start-rechts .termine .date { position: relative; float: left; width: 29.7297%; font-size: 1.125rem; text-align: left; padding: 0px; margin: 0px 5.40541% 0px 0px; }
+.start-rechts .termine .kategorien { font-size: 0.75rem; }
+.start-rechts .termine .termine_bild { float: left; width: 29.7297%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(209, 209, 209); padding: 0.67568%; margin: 0px 5.40541% 0px 0px; overflow: hidden; box-sizing: border-box; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15); }
+.start-rechts .termine .termine_bild img { width: 100%; height: auto; }
+.start-rechts .termine .termine_text { float: left; width: 29.7297%; }
+.start-rechts .termine .termine_text h5 { font-size: 1.125rem; text-transform: none; color: rgb(82, 82, 84); margin: 3% 0px; }
+.start-rechts .termine .termine_text h5 a, .start-rechts .termine .termine_text h5 a:visited { text-decoration: underline; color: rgb(14, 113, 180); }
+}
+/* ::::: https://www.limburg.de/layout/limburg/tooltipster.css?__ts=1427958831 (@media screen and (min-width: 1024px)) ::::: */
+
+@media screen and (min-width: 1024px) {
+}
+/* ::::: https://www.limburg.de/layout/limburg/print.css?__ts=1528983328 (@media print) ::::: */
+
+@media print {
+* { position: static ! important; overflow: visible ! important; }
+body, html { height: auto; }
+body { width: 16cm; height: 100%; background: transparent none repeat scroll 0% 0%; text-align: left; font-family: "Cabin",Tahoma,Arial,Helvetica,sans-serif; font-size: 12pt; padding: 0px; margin: 0px; }
+#oben, #unten, #links, #rechts { display: none; }
+.wrapper { position: static ! important; height: auto ! important; width: 100%; max-width: 100%; padding: 0px; margin: 0px; overflow: visible; }
+.quicknavigation { display: none; }
+.header { display: none; }
+.header_optionen { display: none; }
+.footer { display: none; }
+.sprungziel, .mtp_footer, .highslide-container, .absenden { display: none ! important; }
+.cb { clear: both; overflow: hidden; height: 1px; margin: 0px; padding: 0px; line-height: 1px; }
+.boxen { display: none; }
+.start-links { border-bottom: 1px solid rgb(0, 0, 0); padding: 0px 0px 2%; margin: 5% 0px; }
+.sl_oeffnungszeiten { float: right; width: 48%; }
+.start-rechts h4 { font-family: "Gentium Basic",serif; font-size: 2.5rem; padding: 0px; margin: 0px; }
+.start-rechts .aktuelles { margin: 0px 0px 4%; }
+.start-rechts .aktuelles_bild { display: none; }
+.start-rechts .aktuelles_text { float: none; width: 100%; }
+.start-rechts .aktuelles_text h5 { padding: 0px; margin: 0px; }
+.start-rechts .termine .wochentag { display: inline; font-size: 1rem; font-weight: bold; }
+.start-rechts .termine .wochentag2 { padding: 0px 2px 0px 0px; font-weight: bold; }
+.start-rechts .termine .monat-jahr { display: inline; font-weight: bold; }
+.start-rechts .termine .monat-jahr br { display: none; }
+.start-rechts .termine .date { display: inline; font-size: 1rem; }
+.start-rechts .termine .kategorien { font-size: 0.75rem; }
+.start-rechts .termine .termine_bild { display: none; }
+.start-rechts .termine .termine_text { margin: 2% 0px 0px; }
+.start-rechts .termine .termine_text h5 { font-size: 1.125rem; margin: 1% 0px; }
+#cookie-message, .sprachen { display: none ! important; }
+}
+/* ::::: https://www.limburg.de/layout/limburg/fonts/cabin.css?__ts=1529336356 ::::: */
+
+@font-face {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin"), local("Cabin-Regular"), url("cabin-v12-latin-regular.eot") format("embedded-opentype"), url("cabin-v12-latin-regular.woff2") format("woff2"), url("cabin-v12-latin-regular.woff") format("woff"), url("cabin-v12-latin-regular.ttf") format("truetype"), url("cabin-v12-latin-regular.svg") format("svg");
+}
+@font-face {
+  font-family: "Cabin";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Cabin Italic"), local("Cabin-Italic"), url("cabin-v12-latin-italic.eot") format("embedded-opentype"), url("cabin-v12-latin-italic.woff2") format("woff2"), url("cabin-v12-latin-italic.woff") format("woff"), url("cabin-v12-latin-italic.ttf") format("truetype"), url("cabin-v12-latin-italic.svg") format("svg");
+}
+@font-face {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cabin Bold"), local("Cabin-Bold"), url("cabin-v12-latin-700.eot") format("embedded-opentype"), url("cabin-v12-latin-700.woff2") format("woff2"), url("cabin-v12-latin-700.woff") format("woff"), url("cabin-v12-latin-700.ttf") format("truetype"), url("cabin-v12-latin-700.svg") format("svg");
+}
+@font-face {
+  font-family: "Cabin";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Cabin Bold Italic"), local("Cabin-BoldItalic"), url("cabin-v12-latin-700italic.eot") format("embedded-opentype"), url("cabin-v12-latin-700italic.woff2") format("woff2"), url("cabin-v12-latin-700italic.woff") format("woff"), url("cabin-v12-latin-700italic.ttf") format("truetype"), url("cabin-v12-latin-700italic.svg") format("svg");
+}
+/* ::::: https://www.limburg.de/layout/limburg/fonts/gentium.css?__ts=1529336356 ::::: */
+
+@font-face {
+  font-family: "Gentium Basic";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gentium Basic"), local("GentiumBasic"), url("gentium-basic-v9-latin-regular.eot") format("embedded-opentype"), url("gentium-basic-v9-latin-regular.woff2") format("woff2"), url("gentium-basic-v9-latin-regular.woff") format("woff"), url("gentium-basic-v9-latin-regular.ttf") format("truetype"), url("gentium-basic-v9-latin-regular.svg") format("svg");
+}
+@font-face {
+  font-family: "Gentium Basic";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gentium Basic Bold"), local("GentiumBasic-Bold"), url("gentium-basic-v9-latin-700.eot") format("embedded-opentype"), url("gentium-basic-v9-latin-700.woff2") format("woff2"), url("gentium-basic-v9-latin-700.woff") format("woff"), url("gentium-basic-v9-latin-700.ttf") format("truetype"), url("gentium-basic-v9-latin-700.svg") format("svg");
+}
+@font-face {
+  font-family: "Gentium Basic";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Gentium Basic Italic"), local("GentiumBasic-Italic"), url("gentium-basic-v9-latin-italic.eot") format("embedded-opentype"), url("gentium-basic-v9-latin-italic.woff2") format("woff2"), url("gentium-basic-v9-latin-italic.woff") format("woff"), url("gentium-basic-v9-latin-italic.ttf") format("truetype"), url("gentium-basic-v9-latin-italic.svg") format("svg");
+}
+@font-face {
+  font-family: "Gentium Basic";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Gentium Basic Bold Italic"), local("GentiumBasic-BoldItalic"), url("gentium-basic-v9-latin-700italic.eot") format("embedded-opentype"), url("gentium-basic-v9-latin-700italic.woff2") format("woff2"), url("gentium-basic-v9-latin-700italic.woff") format("woff"), url("gentium-basic-v9-latin-700italic.ttf") format("truetype"), url("gentium-basic-v9-latin-700italic.svg") format("svg");
+}
+/* ::::: https://www.limburg.de/output/js/jquery/jquery.autocomplete.css ::::: */
+
+/* ::::: https://www.limburg.de/output/js/highslide/highslide.css ::::: */
+
+.highslide-container div { font-family: Verdana,Helvetica; font-size: 10pt; }
+.highslide-container table { background: transparent none repeat scroll 0% 0%; }
+.highslide-wrapper, .highslide-outline { background: white none repeat scroll 0% 0%; }
+.highslide-loading { display: block; color: black; font-size: 9px; font-weight: bold; text-transform: uppercase; text-decoration: none; padding: 3px 3px 3px 22px; border: 1px solid white; background-color: white; background-image: url("loader.white.gif"); background-repeat: no-repeat; background-position: 3px 1px; }
+.highslide-viewport { display: none; position: fixed; width: 100%; height: 100%; z-index: 1; background: transparent none repeat scroll 0% 0%; left: 0px; top: 0px; }
+/* ::::: https://www.limburg.de/output/js/jplayer/css/jplayer.blue.monday.min.css ::::: */
+
+/* ::::: https://www.limburg.de/output/js/flowplayer/skin/minimalist.css ::::: */
+
+@media (max-width: 600px) {
+}
+@media not all {
+}
+@media not all {
+}
+@media not all {
+}
+@media not all {
+}
+@media not all {
+}
+@keyframes pulse {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes pulse {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+/* ::::: [internal] ::::: */
+
+.highslide-viewport-size { position: fixed; width: 100%; height: 100%; left: 0px; top: 0px; }
+/* ::::: https://translate.googleapis.com/translate_static/css/translateelement.css ::::: */
+
+.goog-te-banner-frame { left: 0px; top: 0px; height: 39px; width: 100%; z-index: 10000001; position: fixed; border-width: medium medium 1px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color rgb(107, 144, 218); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin: 0px; box-shadow: 0px 0px 8px 1px rgb(153, 153, 153); }
+.goog-te-menu-frame { z-index: 10000002; position: fixed; border: medium none; box-shadow: 0px 3px 8px 2px rgb(153, 153, 153); }
+.goog-te-gadget { font-family: arial; font-size: 11px; color: rgb(102, 102, 102); white-space: nowrap; }
+.goog-te-gadget img { vertical-align: middle; border: medium none; }
+.goog-te-gadget-simple { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(155, 155, 155) rgb(213, 213, 213) rgb(232, 232, 232); font-size: 10pt; display: inline-block; padding-top: 1px; padding-bottom: 2px; cursor: pointer; }
+.goog-te-gadget-icon { margin-left: 2px; margin-right: 2px; width: 19px; height: 19px; border: medium none; vertical-align: middle; }
+.goog-te-menu-value { text-decoration: none; color: rgb(0, 0, 204); white-space: nowrap; margin-left: 4px; margin-right: 4px; }
+.goog-te-menu-value span { text-decoration: underline; }
+.goog-te-menu-value img { margin-left: 2px; margin-right: 2px; }
+.goog-te-gadget-simple .goog-te-menu-value { color: rgb(0, 0, 0); }
+.goog-te-gadget-simple .goog-te-menu-value span { text-decoration: none; }
+.goog-te-spinner-pos { z-index: 1000; position: fixed; transition-delay: 0.6s; left: -1000px; top: -1000px; }
+.goog-te-spinner-animation { display: flex; align-items: center; justify-content: center; width: 104px; height: 104px; border-radius: 50px; background: rgb(255, 255, 255) url("translate_24dp_001.png") no-repeat scroll 50% 50%; transition: all 0.6s ease-in-out 0s; transform: scale(0.4); opacity: 0; }
+.goog-te-spinner { margin: 2px 0px 0px 2px; animation: 1.4s linear 0s normal none infinite running goog-te-spinner-rotator; }
+@keyframes goog-te-spinner-rotator {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(270deg); }
+}
+.goog-te-spinner-path { stroke-dasharray: 187; stroke-dashoffset: 0; stroke: rgb(66, 133, 244); transform-origin: center center 0px; animation: 1.4s ease-in-out 0s normal none infinite running goog-te-spinner-dash; }
+@keyframes goog-te-spinner-dash {
+0% { stroke-dashoffset: 187; }
+50% { stroke-dashoffset: 46.75; transform: rotate(135deg); }
+100% { stroke-dashoffset: 187; transform: rotate(450deg); }
+}
+#goog-gt-tt html, #goog-gt-tt body, #goog-gt-tt div, #goog-gt-tt span, #goog-gt-tt iframe, #goog-gt-tt h1, #goog-gt-tt h2, #goog-gt-tt h3, #goog-gt-tt h4, #goog-gt-tt h5, #goog-gt-tt h6, #goog-gt-tt p, #goog-gt-tt a, #goog-gt-tt img, #goog-gt-tt ol, #goog-gt-tt ul, #goog-gt-tt li, #goog-gt-tt table, #goog-gt-tt form, #goog-gt-tt tbody, #goog-gt-tt tr, #goog-gt-tt td { margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-style: inherit; font-weight: inherit; font-size: inherit; font-size-adjust: inherit; font-stretch: inherit; font-feature-settings: inherit; font-language-override: inherit; font-kerning: inherit; font-synthesis: inherit; font-variant: inherit; vertical-align: baseline; text-align: left; line-height: normal; }
+div#goog-gt-tt { padding: 10px 14px; }
+#goog-gt-tt { color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); border: 1px solid rgb(238, 238, 238); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); display: none; font-family: arial; font-size: 10pt; width: 420px; padding: 12px; position: absolute; z-index: 10000; }
+#goog-gt-tt .original-text, .gt-hl-layer { clear: both; font-size: 10pt; position: relative; text-align: justify; width: 100%; }
+#goog-gt-tt .title { color: rgb(153, 153, 153); font-family: arial,sans-serif; margin: 4px 0px; text-align: left; }
+#goog-gt-tt .logo { float: left; margin: 0px; }
+#goog-gt-tt .activity-links { display: inline-block; }
+#goog-gt-tt .started-activity-container { display: none; width: 100%; }
+#goog-gt-tt .activity-root { margin-top: 20px; }
+#goog-gt-tt .bottom { min-height: 15px; position: relative; height: 1%; }
+#goog-gt-tt .status-message { background: rgb(41, 145, 13) none repeat scroll 0% 0%; border-radius: 4px; box-shadow: 0px 2px 2px rgb(30, 102, 9) inset; color: white; font-size: 9pt; font-weight: bolder; margin-top: 12px; padding: 6px; text-shadow: 1px 1px 1px rgb(30, 102, 9); }
+#goog-gt-tt .activity-link { color: rgb(17, 85, 204); cursor: pointer; font-family: arial; font-size: 11px; margin-right: 15px; text-decoration: none; }
+#goog-gt-tt .gray { color: rgb(153, 153, 153); font-family: arial,sans-serif; }
+#goog-gt-tt span:focus { outline: medium none; }

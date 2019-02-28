@@ -1,0 +1,353 @@
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/core.css ::::: */
+
+body { margin: 0px; padding: 1em; background-color: rgb(255, 255, 255); font-size: 0.8em; font-family: Arial,Helvetica,sans-serif; }
+h1, h2, h3, h4, h5, h6 { margin: 1em 0px 0.5em; padding: 0px; font-weight: bold; }
+h1 { font-size: 1.8em; }
+p { margin: 0.5em 0px; line-height: 1.25em; }
+a { color: rgb(0, 0, 160); text-decoration: underline; }
+a:hover { color: rgb(0, 0, 255); text-decoration: underline; cursor: pointer; }
+a img { border: medium none; }
+ul, ol { margin: 0.75em 0px 1em 2.5em; padding: 0px; }
+ul ul, ol ul { margin: 0.3em 0px 0.5em 1.3em; }
+ul, ul ul { list-style-type: disc; }
+li { margin: 0px 0px 0.3em; padding: 0px; line-height: 1.25em; }
+form { margin: 0em; padding: 0em; }
+label { display: block; padding-right: 0.5em; white-space: nowrap; font-weight: bold; }
+textarea { font-size: 1em; font-family: Arial,Helvetica,sans-serif; }
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/validationEngine.jquery.css ::::: */
+
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/global.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; vertical-align: baseline; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; font-size-adjust: inherit; font-stretch: inherit; font-feature-settings: inherit; font-language-override: inherit; font-kerning: inherit; font-synthesis: inherit; font-variant: inherit; font-size: 100%; }
+body { line-height: 1; }
+ol, ul, ul ul { list-style: outside none none; }
+ul ul, ol ul { margin: 0px; }
+.cl { clear: left; }
+.fl { float: left; }
+.hidden { display: none ! important; visibility: hidden; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.clearfix {  }
+a, a:link, a:hover, a:visited { color: rgb(51, 51, 51); }
+a, a:hover { text-decoration: none; }
+label { white-space: normal; }
+@font-face {
+  font-family: "NovecentowideBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Novecentowide-Bold-webfont.eot") format("embedded-opentype"), url("Novecentowide-Bold-webfont.woff") format("woff"), url("Novecentowide-Bold-webfont.ttf") format("truetype"), url("Novecentowide-Bold-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "NovecentowideBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Novecentowide-Book-webfont.eot") format("embedded-opentype"), url("Novecentowide-Book-webfont.woff") format("woff"), url("Novecentowide-Book-webfont.ttf") format("truetype"), url("Novecentowide-Book-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "NovecentowideDemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Novecentowide-DemiBold-webfont.eot") format("embedded-opentype"), url("Novecentowide-DemiBold-webfont.woff") format("woff"), url("Novecentowide-DemiBold-webfont.ttf") format("truetype"), url("Novecentowide-DemiBold-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "NovecentowideLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Novecentowide-Light-webfont.eot") format("embedded-opentype"), url("Novecentowide-Light-webfont.woff") format("woff"), url("Novecentowide-Light-webfont.ttf") format("truetype"), url("Novecentowide-Light-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "NovecentowideMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Novecentowide-Medium-webfont.eot") format("embedded-opentype"), url("Novecentowide-Medium-webfont.woff") format("woff"), url("Novecentowide-Medium-webfont.ttf") format("truetype"), url("Novecentowide-Medium-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: "NovecentowideNormal";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Novecentowide-Normal-webfont.eot") format("embedded-opentype"), url("Novecentowide-Normal-webfont.woff") format("woff"), url("Novecentowide-Normal-webfont.ttf") format("truetype"), url("Novecentowide-Normal-webfont.svg") format("svg");
+}
+.nove_normal { font-family: "NovecentowideNormal",sans-serif; }
+.nove_medium { font-family: "NovecentowideMedium",sans-serif; }
+.nove_bold { font-family: "NovecentowideBold",sans-serif; }
+.nove_demibold { font-family: "NovecentowideDemiBold",sans-serif; }
+.nove_book { font-family: "NovecentowideBook",sans-serif; }
+#loader { display: none; width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 101; opacity: 0.8; background-color: rgb(235, 232, 225); padding-top: 400px; text-align: center; }
+#loader p { display: none; padding-right: 10px; font-size: 1.2em; color: rgb(51, 51, 51); }
+#redirectMobile { display: none; position: fixed; z-index: 99; top: 0px; left: 0px; width: 100%; height: 100%; text-align: center; text-transform: uppercase; }
+#redirectMobile .bg { position: absolute; z-index: 1; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(0, 0, 0); opacity: 0.9; }
+#redirectMobile .box { position: relative; z-index: 10; margin: 100px auto; padding: 40px 50px; width: 512px; background-color: rgb(235, 232, 225); border-radius: 4px; }
+#redirectMobile .box p { font-size: 1.6em; }
+#redirectMobile .box .button { font-size: 1.1em; margin: 30px 0px 0px; }
+#redirectMobile .box .button a { display: inline-block; width: 248px; height: 50px; line-height: 50px; background: rgb(228, 50, 138) none repeat scroll 0% 0%; border: medium none; color: rgb(255, 255, 255); cursor: pointer; border-radius: 4px; }
+#redirectMobile .box .button a:first-child { margin-right: 10px; }
+html, body { margin: 0px; padding: 0px; width: 100%; min-width: 1250px; height: 100%; min-height: 670px; background: rgb(235, 232, 225) none repeat scroll 0% 0%; color: rgb(51, 51, 51); font-size: 12px; font-family: Arial,serif; }
+.wrapper { position: relative; min-width: 1024px; min-height: 100%; }
+.center { position: relative; margin: 0px auto; width: 1250px; }
+.header { position: relative; z-index: 90; width: 100%; height: 50px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.header .center { z-index: 3; }
+.header .utils { float: right; width: 420px; height: 50px; }
+.header .utils > div { float: left; }
+.header .utils .search { margin: 4px 8px 4px 0px; width: 151px; height: 42px; background: rgb(255, 255, 255) url("bg_search.png") no-repeat scroll left top; }
+.header .utils .search input { float: left; border: medium none; }
+.header .utils .search input[type="text"] { padding: 5px 10px; width: 95px; height: 32px; background: transparent none repeat scroll 0% 0%; color: rgb(228, 51, 138); font-size: 1em; font-style: italic; }
+.header .utils .search input[type="submit"] { width: 20px; height: 23px; margin: 8px 0px 0px 5px; padding: 0px; background: transparent url("pictos.png") no-repeat scroll -182px 4px; color: rgb(255, 255, 255); text-align: center; text-transform: uppercase; font-size: 11px; cursor: pointer; }
+.header .utils .search input[type="submit"]:hover { background: transparent url("pictos.png") no-repeat scroll -150px 4px; }
+.header .utils .lang { position: absolute; top: 0px; right: 0px; z-index: 1; width: 80px; height: 50px; overflow: hidden; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.header .utils .lang:hover, .header .utils .lang:hover ul { height: auto; overflow: visible; }
+.header .utils .lang ul { overflow: hidden; margin: 15px 10px; width: 52px; height: 20px; }
+.header .utils .lang ul li { margin-bottom: 8px; height: 16px; text-align: right; }
+.header .utils .lang ul li a { position: relative; display: block; }
+.header .utils .lang ul li .picto { display: block; position: absolute; right: 0px; top: 50%; margin-top: -3px; width: 8px; height: 4px; background: transparent url("pictos.png") no-repeat scroll -60px 0px; }
+.header .utils .lang:hover ul li .picto { background-position: -120px 0px; }
+.header .utils .lang ul li a img { border: 2px solid rgb(255, 255, 255); margin-right: 12px; }
+.header .utils .lang ul li a:hover img { border: 2px solid rgb(211, 209, 205); border-radius: 4px; }
+.header .logo { position: absolute; top: 0px; left: 20px; }
+.header .menu { float: left; display: table; width: 670px; height: 50px; margin-left: 160px; }
+.header .menu li { position: relative; display: table-cell; vertical-align: middle; padding: 12px 0px 8px; text-align: center; border-bottom: 2px solid rgb(255, 255, 255); }
+.header .menu li a { display: block; padding: 0px 25px; border-left: 1px dotted rgb(193, 193, 193); text-transform: uppercase; font-size: 1.167em; }
+.header .menu li a:hover { color: rgb(144, 144, 144); }
+.header .menu li:first-child a { border-left: medium none; }
+.header .submenu { position: absolute; top: 50px; left: 0px; z-index: 2; display: none; padding-top: 70px; width: 100%; background: rgb(255, 255, 255) url("bg_submenu.png") repeat-x scroll center top; }
+.header .submenu .center > div { padding-left: 60px; }
+.header .submenu .left_side { float: left; width: 920px; }
+.header .submenu p { margin-bottom: 10px; color: rgb(134, 123, 116); font-size: 1.5em; text-transform: uppercase; }
+.header .submenu ul { margin-bottom: 20px; }
+.header .submenu.todo ul, .header .submenu ul.stay { float: left; margin-bottom: 0px; width: 690px; }
+.header .submenu ul li { float: left; margin-right: 13px; margin-bottom: 13px; }
+.header .submenu.todo ul li { margin-bottom: 50px; }
+.header .submenu ul a { position: relative; display: block; width: 217px; height: 120px; overflow: hidden; border-radius: 4px; }
+.header .submenu .shadow { position: absolute; top: 0px; left: 0px; z-index: 1; display: block; width: 217px; height: 120px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6) inset; }
+.header .submenu a:hover .shadow { border: 3px solid rgb(99, 90, 84); width: 211px; height: 114px; box-shadow: none; }
+.header .submenu ul a img { position: relative; z-index: 0; display: block; }
+.header .submenu ul a .text { position: absolute; bottom: 0px; left: 0px; z-index: 2; display: block; padding: 12px; width: 197px; color: rgb(255, 255, 255); background-color: rgb(227, 50, 138); text-align: center; text-transform: uppercase; }
+.header .submenu ul a:hover .text { background-color: rgb(99, 90, 84); }
+.header .submenu .shadow { position: absolute; top: 0px; left: 0px; z-index: 1; display: block; width: 217px; height: 120px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6) inset; }
+.header .submenu ul.stay a .text { background-color: rgb(137, 180, 10); }
+.header .submenu ul.stay a:hover .text { background-color: rgb(99, 90, 84); }
+.header .submenu ul.push { float: left; width: 217px; height: 281px; }
+.header .submenu ul.push li { float: none; margin: 0px 0px 7px; }
+.header .submenu ul.push li a { padding: 0px 20px; width: 177px; height: 65px; color: rgb(255, 255, 255); background-color: rgb(226, 53, 137); font-size: 1.083em; line-height: 65px; text-align: center; }
+.header .submenu ul.push li a:hover { background-color: rgb(99, 90, 84); }
+.header .submenu ul.push li a span { position: relative; z-index: 1; display: inline-block; line-height: 1.3em; vertical-align: middle; }
+.header .submenu ul.push li a.diaporama { box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6) inset; }
+.header .submenu ul.push li a.diaporama:hover { opacity: 0.8; }
+.header .submenu ul.push li a.diaporama img { position: absolute; top: 0px; left: 0px; z-index: 0; }
+.header .submenu ul.childs { float: left; width: 691px; }
+.header .submenu ul.childs > li { position: relative; float: left; margin: 0px 0px 0px 13px; border-radius: 4px; width: 217px; height: 281px; overflow: hidden; background-color: rgb(142, 179, 16); }
+.header .submenu ul.childs > li span.title, .header .submenu ul.childs > li a { display: block; border-radius: 0px; width: auto; height: auto; overflow: auto; color: rgb(255, 255, 255); text-align: center; }
+.header .submenu ul.childs > li a:hover { color: rgb(0, 0, 0); }
+.header .submenu ul.childs > li > .shadow { height: 92px; }
+.header .submenu ul.childs > li > span.title, .header .submenu ul.childs > li > a { margin: 5px 20px; padding: 5px 0px; line-height: 1.3em; text-transform: uppercase; font-size: 1.167em; }
+.header .submenu ul.childs > li ul { margin-bottom: 0px; }
+.header .submenu ul.childs > li ul li { display: block; float: none; margin: 7px 20px; }
+.header .submenu ul.childs > li ul li span.title, .header .submenu ul.childs > li ul li a { font-size: 1.167em; line-height: 1.2em; }
+.header .submenu .left_side .childs img { max-width: 217px; max-height: 92px; }
+.header .submenu .push_blog { position: relative; float: left; margin-bottom: 25px; padding-left: 0px; width: 225px; height: 315px; text-align: center; }
+.container { padding-bottom: 100px; background-color: rgb(255, 255, 255); }
+.content { position: relative; z-index: 10; padding-top: 90px; padding-right: 10px; padding-left: 20px; width: 950px; }
+.content h1 { margin-bottom: 5px; color: rgb(134, 123, 116); text-transform: uppercase; font-size: 1.833em; }
+.content p { color: rgb(81, 74, 70); }
+.content a { color: rgb(226, 53, 137); }
+.content a:hover { color: rgb(0, 0, 0); }
+.content img { border-radius: 4px; }
+.content .chapo { width: 930px; }
+.columns_wrap { margin-top: 30px; padding-right: 0px; padding-left: 0px; width: 930px; }
+.breadcrumb { position: absolute; top: 15px; left: 170px; z-index: 60; width: 730px; }
+.breadcrumb .pages { float: left; display: inline-block; }
+.breadcrumb .pages li { float: left; margin-right: 10px; padding: 4px 20px 3px 15px; background: transparent url("breadcrumb_li.png") no-repeat scroll right center; }
+.breadcrumb .pages li.last { background: transparent none repeat scroll 0% 0%; }
+.breadcrumb .pages li a { color: rgb(166, 151, 141); font: italic 1.167em "Georgia",serif; }
+.breadcrumb .pages li a:hover { color: rgb(51, 51, 51); }
+.breadcrumb .pages li.active { position: relative; margin-right: 20px; padding-right: 30px; min-width: 80px; border-radius: 4px; background: transparent none repeat scroll 0% 0%; }
+.breadcrumb .pages li.active span { color: rgb(135, 123, 115); font: italic 1.167em "Georgia",serif; }
+.tools { position: relative; z-index: 70; float: right; margin: 3px 0px 5px; }
+.tools li { float: left; margin-top: 4px; margin-left: 5px; padding-left: 5px; border-left: 1px solid rgb(191, 187, 181); }
+.tools li:first-child, .tools li.augmenter { margin-left: 0px; padding-left: 0px; border: medium none; }
+.tools li a { display: block; overflow: hidden; width: 15px; height: 13px; background: transparent url("pictos.png") repeat scroll 0px -270px; }
+.tools li.augmenter a { background-position: -30px -270px; }
+.tools li.imprimer a { background-position: -90px -270px; }
+.tools li.addthis a { position: relative; background-position: -60px -270px; }
+.tools li.addthis a img { position: absolute; left: -240px; visibility: hidden ! important; }
+.tools .last { margin-right: 0px; padding-right: 0px; border: medium none; }
+.sidebar { position: absolute; top: 0px; right: 0px; bottom: 0px; z-index: 80; padding-left: 0px; width: 269px; height: 100%; background-color: rgb(235, 232, 225); }
+.sidebar .loader_ajax { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 10; width: 100%; height: 100%; background-color: rgb(235, 232, 225); display: none; }
+.sidebar .loader_ajax img { position: absolute; top: 300px; left: 50%; }
+.petite_sidebar { position: relative; overflow: hidden; width: 269px; background-color: rgb(235, 232, 225); }
+.big_bouton_communaute { margin-top: 10px; margin-left: 10px; padding: 20px 10px 25px; width: 227px; height: 259px; border-radius: 4px; background: rgb(183, 173, 166) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.big_bouton_communaute p { margin: 20px 10px; text-align: center; font-style: italic; font-size: 1.083em; font-family: "Georgia",serif; line-height: 1.5; }
+.big_bouton_communaute .title { display: block; margin: 0px 10px; color: rgb(255, 255, 255) ! important; text-align: center; text-transform: uppercase; font-size: 1.667em; }
+.big_bouton_communaute .sub_title { display: block; margin: 5px 10px; color: rgb(255, 255, 255); text-align: center; text-transform: uppercase; font-size: 1.167em; }
+.big_bouton_communaute a { position: relative; display: block; padding: 43px 10px 40px; border-radius: 4px; background: rgb(134, 123, 116) url("boutons_communaute_inside.png") no-repeat scroll center 10px; color: rgb(183, 173, 166); text-align: center; font-weight: bold; font-size: 1.167em; line-height: 1.2; }
+.big_bouton_communaute a.dut-NL { background-image: url("boutons_communaute_inside_001.png"); }
+.big_bouton_communaute a:hover { background-color: rgb(165, 151, 143); color: rgb(255, 255, 255); }
+.big_bouton_communaute a .picto { position: absolute; bottom: 10px; left: 50%; display: block; margin-left: -10px; width: 20px; height: 20px; background: transparent url("pictos.png") repeat scroll -90px -180px; }
+.big_bouton_communaute a:hover .picto { background-position: -240px -180px; }
+.grande_sidebar { position: relative; display: none; overflow: hidden; padding: 10px 10px 0px 40px; }
+.grande_sidebar > div { position: relative; }
+.close_sidebar { position: absolute; top: 0px; right: 10px; display: block; width: 24px; height: 24px; background: transparent url("pictos.png") no-repeat scroll -60px -150px; }
+.grande_sidebar .big_bouton_communaute { float: right; margin-top: -25px; width: 210px; }
+.grande_sidebar .title { position: relative; z-index: 2; color: rgb(134, 123, 116); text-transform: uppercase; font-size: 1.667em; }
+.grande_sidebar .picto_temoignages { display: block; margin-bottom: 5px; }
+.grande_sidebar .conteneur_temoignages { float: left; overflow-y: scroll; margin-top: 20px; width: 425px; height: 650px; }
+.sidebar .form_temoignage { margin: 20px auto; width: 230px; }
+.grande_sidebar .form_temoignage { float: right; padding: 10px 0px 0px; }
+.form_temoignage .title { display: block; color: rgb(134, 123, 116); font-size: 1.667em; }
+.form_temoignage .sub_title { display: block; margin-top: 3px; margin-bottom: 20px; color: rgb(134, 123, 116); font-size: 1em; }
+.form_brochure label, .form_temoignage label, .form_temoignage p.label { margin-top: 10px; margin-bottom: 2px; color: rgb(134, 123, 116); font-weight: bold; }
+.form_brochure input[type="text"], .form_brochure input[type="file"], .form_brochure textarea, .form_brochure select, .form_temoignage input[type="text"], .form_temoignage input[type="file"], .form_temoignage textarea, .form_temoignage select { margin-bottom: 10px; padding: 2px; width: 226px; height: 18px; border: medium none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(134, 123, 116); resize: none; }
+.form_brochure select, .form_temoignage select { width: 230px; height: 22px; }
+.form_brochure input[type="checkbox"], .form_temoignage input[type="checkbox"], .form_temoignage input[type="radio"] { margin-left: 0px; background-color: transparent; }
+.form_brochure .inline input, .form_brochure .inline label, .form_temoignage .inline input, .form_temoignage .inline label { float: left; }
+.form_brochure .inline label, .form_temoignage .inline label { margin: 5px 20px 0px 5px; }
+.form_temoignage .inline label.category { margin-right: 0px; }
+.form_brochure textarea, .form_temoignage textarea { height: 50px; }
+.form_temoignage a#openSmoothbox { float: right; padding: 9px 30px; border: medium none; background: rgb(228, 50, 138) none repeat scroll 0% 0%; color: rgb(255, 255, 255); cursor: pointer; }
+.sidebar .form_temoignage a#openSmoothbox { float: right; margin: 15px 0px 0px; width: auto; }
+a#openSmoothbox:hover { background: black none repeat scroll 0% 0%; }
+a#openSmoothbox { border-radius: 4px; }
+.footer { position: fixed; bottom: 0px; left: 0px; z-index: 90; width: 100%; height: 50px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: 0px 6px 20px rgb(193, 193, 193); }
+.footer .logo_crt { float: left; display: block; margin-top: 2px; margin-left: 20px; }
+.footer .copy { float: left; margin-top: 12px; margin-left: 20px; color: rgb(144, 144, 144); line-height: 1.2em; }
+.footer ul { float: left; height: 50px; overflow: hidden; }
+.footer ul.first { margin-left: 45px; }
+.footer ul li { float: left; }
+.footer li a { display: block; margin: 18px 0px; padding: 0px 10px; border-left: 1px dotted rgb(193, 193, 193); }
+.footer li.first a { padding-left: 0px; border-left: medium none; }
+.footer li a:hover { color: rgb(144, 144, 144); }
+.footer a.presse { float: left; margin: 12px 1px 10px; padding: 7px 35px 7px 10px; border-left: medium none; border-radius: 4px; background: rgb(134, 123, 116) url("presse.png") no-repeat scroll right center; color: rgb(255, 255, 255); font-size: 0.917em; text-transform: uppercase; }
+.footer a.presse:hover { background-color: rgb(144, 144, 144); color: rgb(255, 255, 255); }
+.footer ul.gris { margin-left: 0px; }
+.footer ul.gris li a { color: rgb(133, 133, 133); }
+.footer ul.gris li a:hover { color: rgb(51, 51, 51); }
+.footer .list_communaute { overflow: visible; position: relative; z-index: 1; display: block; float: right; margin: 13px 20px 12px 0px; width: auto; height: 26px; }
+.footer .list_communaute li { float: right; }
+.footer .list_communaute li a { display: block; width: 25px; height: 26px; overflow: hidden; border-left: 0px none; margin: 0px; padding: 0px 3px; }
+.footer .list_communaute li a:hover img { margin-top: -26px; }
+.footer .list_communaute li a.fb img { margin-left: -30px; }
+.footer .list_communaute li a.twitter img { margin-left: -60px; }
+.footer .list_communaute li a.pinterest img { margin-left: -120px; }
+.footer .list_communaute li a.youtube img { margin-left: -150px; }
+.footer .list_communaute li a.blog img { margin-left: -180px; }
+.footer .list_communaute li a.instagram img { margin-left: -210px; }
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/cookie.css ::::: */
+
+#cookieBlock { display: none; position: relative; z-index: 99; width: 100%; margin: 0px; padding: 0px; text-align: justify; font-family: Arial,sans-serif; background: rgba(0, 0, 0, 0.85) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-size: 11px; line-height: 11px; }
+@media screen and (min-width: 1024px) {
+  #cookieBlock { position: fixed; text-align: center; bottom: 0px; }
+}
+#cookieBlock #cookieCenter { position: relative; width: 100%; margin: 0px; height: 34px; padding: 8px 0px; }
+@media screen and (min-width: 1024px) {
+  #cookieBlock #cookieCenter { width: 1024px; margin: 0px auto; }
+}
+@media screen and (min-width: 1280px) {
+  #cookieBlock #cookieCenter { width: 1280px; margin: 0px auto; }
+}
+#cookieBlock #cookieCenter #cookieButtonOk { display: block; position: absolute; top: 50%; right: 20px; width: 34px; height: 34px; line-height: 34px; margin: -17px 0px 0px; padding: 0px; border-radius: 17px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(51, 51, 51); font-weight: bold; text-align: center; cursor: pointer; }
+@media screen and (min-width: 1280px) {
+  #cookieBlock #cookieCenter #cookieButtonOk { right: 78px; }
+}
+#cookieBlock #cookieCenter p { width: auto; margin: 0px 64px 0px 10px; padding: 0px; color: rgb(255, 255, 255); }
+@media screen and (min-width: 1024px) {
+  #cookieBlock #cookieCenter p { margin: 0px 74px 0px 20px; }
+}
+@media screen and (min-width: 1280px) {
+  #cookieBlock #cookieCenter p { margin: 0px 165px; }
+}
+#cookieBlock #cookieCenter a, #cookieBlock #cookieCenter #cookieButtonDelete { text-decoration: underline; cursor: pointer; color: rgb(255, 255, 255); }
+@media screen and (min-width: 1024px) {
+  #cookieBlock #cookieCenter .break { display: block; }
+}
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/dropkick.css (@media screen) ::::: */
+
+@media screen {
+}
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/colorbox.css (@media screen) ::::: */
+
+@media screen {
+#colorbox, #cboxOverlay, #cboxWrapper { position: absolute; top: 0px; left: 0px; z-index: 9999; overflow: hidden; }
+#cboxOverlay { position: fixed; width: 100%; height: 100%; }
+#cboxMiddleLeft, #cboxBottomLeft { clear: left; }
+#cboxContent { position: relative; }
+#cboxLoadedContent { overflow: auto; }
+#cboxTitle { margin: 0px; }
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow { cursor: pointer; }
+#colorbox, #cboxContent, #cboxLoadedContent { box-sizing: content-box; }
+#cboxOverlay { background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+#colorbox {  }
+#cboxContent { margin-top: 20px; }
+#cboxLoadedContent { border-radius: 8px; background: rgb(235, 232, 225) none repeat scroll 0% 0%; }
+#cboxTitle { position: absolute; top: -20px; left: 0px; color: rgb(204, 204, 204); }
+#cboxCurrent { position: absolute; top: -20px; right: 0px; color: rgb(204, 204, 204); }
+#cboxSlideshow { position: absolute; top: -20px; right: 90px; color: rgb(255, 255, 255); }
+#cboxPrevious { position: absolute; top: 50%; left: 5px; margin-top: -12px; width: 25px; height: 25px; background: transparent url("pictos.png") repeat scroll -120px -30px; text-indent: -9999px; }
+#cboxPrevious:hover { background-position: -150px -30px; }
+#cboxNext { position: absolute; top: 50%; right: 5px; margin-top: -12px; width: 25px; height: 25px; background: transparent url("pictos.png") repeat scroll 0px -90px; text-indent: -9999px; }
+#cboxNext:hover { background-position: -180px -90px; }
+#cboxClose { position: absolute; top: 20px; right: 20px; display: block; width: 24px; height: 24px; background: transparent url("pictos.png") no-repeat scroll -60px -150px; text-indent: -9999px; }
+#cboxClose:hover {  }
+}
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/smoothness/jquery-ui-1.9.0.custom.min.css (@media screen) ::::: */
+
+@media screen {
+}
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/print.css (@media print) ::::: */
+
+@media print {
+html, body { margin: 0px; padding: 0px; color: rgb(0, 0, 0); word-spacing: 1px; letter-spacing: 0.2px; font: 26px/1.4em Arial,Helvetica,"Lucida Grande",serif; min-width: 1px; }
+.header, .background, .breadcrumb, .tools, .desc_visual, .content .inspiration a.btn, .gallery, .diapo, .sidebar, .footer { display: none; }
+.nove_normal { font-family: Arial,serif; }
+.nove_medium { font-family: Arial,sans-serif; }
+.nove_bold { font-family: Arial,sans-serif; }
+.nove_demibold { font-family: Arial,sans-serif; }
+.nove_book { font-family: Arial,sans-serif; }
+a:link, a:visited { background: transparent none repeat scroll 0% 0%; color: rgb(51, 51, 51); text-decoration: none; }
+a[href^="http://"]:link::after, a[href^="http://"]:visited::after { content: " (" attr(href) ") "; }
+a[href^="http://"] { color: rgb(0, 0, 0); }
+ul { list-style: inside none disc; }
+body::after { content: "Don\'t waste paper!"; font-weight: bold; font-style: italic; }
+.content { width: 100%; }
+h1, h2, h3 { font-weight: bold; }
+.landing { list-style: outside none none; }
+.landing .title { position: relative; height: auto ! important; }
+.center { width: 100%; }
+}
+/* ::::: http://nl.franche-comte.org/extension/crtfc/design/crtfc/stylesheets/landing.css (@media all) ::::: */
+
+.landing { margin: 10px 0px; }
+.landing > li { float: left; margin: 10px 18px 40px 0px; width: 298px; }
+#page .landing > li .thumb, .landing .thumb { position: relative; overflow: hidden; margin-bottom: 15px; width: 298px; height: 195px; border-radius: 4px; }
+.landing .thumb p { font-style: normal; font-family: "NovecentowideMedium",sans-serif; }
+.landing .thumb img { position: relative; height: 195px; z-index: 0; }
+.landing .title { position: absolute; bottom: 0px; left: 34px; z-index: 2; display: block; padding-top: 13px; padding-bottom: 10px; width: 239px; background: rgb(142, 179, 16) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-align: center; text-transform: uppercase; font-size: 1.15em; margin-bottom: 0px; }
+.landing .title a, .landing .title span { color: rgb(255, 255, 255); }
+.landing .title span::after, .landing .title span::before { display: inline-block; content: " "; width: 9px; height: 1px; background-color: rgb(255, 255, 255); margin-bottom: 5px; }
+.landing .title span::after { margin-left: 11px; }
+.landing .title span::before { margin-right: 11px; }
+.landing .filles { position: absolute; top: 0px; left: 0px; z-index: 3; display: none; overflow: hidden; padding: 14px 18px; width: 100%; height: 195px; background: rgba(142, 179, 16, 0.95) none repeat scroll 0% 0%; border-radius: 4px; }
+.landing .filles .first { margin-bottom: 10px; font-size: 1.15em; text-transform: uppercase; }
+.landing .filles .first, .landing .filles .first a { color: rgb(101, 127, 11); }
+.landing .filles .first a:hover { color: rgb(78, 98, 9); }
+.landing .filles li { padding-left: 15px; width: 270px; font-weight: 500; }
+.landing .filles li a { display: inline-block; margin: 3px 0px; color: rgb(255, 255, 255); }
+.landing .filles li a:hover { color: rgb(101, 127, 11); }
+.landing .thumb:hover .filles { display: block; }
+.landing .thumb:hover .title { display: none; }
+.landing p { color: rgb(81, 74, 70); font-size: 1em; line-height: 1.333; text-align: center; font-style: italic; font-family: "Georgia",serif; }
+#top_slider { position: relative; z-index: 11; padding-left: 20px; padding-right: 10px; }
+/* ::::: [internal] ::::: */
+
+.addthis_button, .at15t { cursor: pointer; }
+#_atssh { width: 1px ! important; height: 1px ! important; border: 0px none ! important; }
+@media print {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-height: 700px) and (max-width: 400px) {
+}
+/* ::::: [internal] ::::: */
+
+/* ::::: [internal] ::::: */
+
+/* ::::: [internal] ::::: */
+

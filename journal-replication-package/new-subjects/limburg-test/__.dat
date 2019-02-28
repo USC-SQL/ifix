@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+      <title>Rathaus / Stadt Limburg an der Lahn</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <meta name="keywords" content="" />
+   <meta name="description" content="" />
+   <meta name="language" content="deutsch, de" />
+   <meta name="author" content="Stadt Limburg an der Lahn" />
+   <meta name="publisher" content="Stadt Limburg an der Lahn" />
+   <meta name="designer" content="Advantic Systemhaus GmbH" />
+   <meta name="copyright" content="&copy; 2018 limburg.de" />
+   <meta name="robots" content="index,follow" />
+   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi" />
+
+   
+   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+   <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+   <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+   <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+   <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+   <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+
+   
+   <link rel="stylesheet" media="screen" type="text/css" href="/layout/limburg/jquery-ui.css?__ts=1529337001" />
+   <link rel="stylesheet" media="screen" type="text/css" href="/layout/limburg/layout.css?__ts=1529335895" />
+   <link rel="stylesheet" media="screen and (min-width:100px)" href="/layout/limburg/layout_320.css?__ts=1427975509" />
+   <link rel="stylesheet" media="screen and (min-width:700px)" href="/layout/limburg/layout_700.css?__ts=1429079443" />
+   <link rel="stylesheet" media="screen and (min-width:1024px)" href="/layout/limburg/layout_1024.css?__ts=1529334549" />
+      <link rel="stylesheet" media="print" type="text/css" href="/layout/limburg/print.css?__ts=1528983328"/>
+   <!--[if lte IE 8]>
+      <style type="text/css">
+         * {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:padding-box;-moz-box-sizing:padding-box;-webkit-box-sizing:padding-box;}
+         [role="navigation"] li {margin:0 2% 0 0 !important;}
+         [role="navigation"] li a, [role="navigation"] li a:link, [role="navigation"] li a:visited {letter-spacing:0px !important;}
+      </style>
+   <![endif]-->
+
+   <!--[if IE 7]>
+      <link rel="styleSheet" type="text/css" media="screen" href="/layout/limburg/layout_ie7.css?__ts=1383059208" />
+   <![endif]-->
+
+   <!--[if lte IE 6]>
+      <style type="text/css">
+         #oben, #unten, #links, #rechts {display:none;}
+      </style>
+   <![endif]-->
+
+   <!--[if IE]>
+   <script type="text/javascript" src="/layout/limburg/js/respond.js?__ts=1383059207"></script>
+   <![endif]-->
+
+   
+    <link rel="stylesheet" type="text/css" href="/layout/limburg/fonts/cabin.css?__ts=1529336356">
+    <link rel="stylesheet" type="text/css" href="/layout/limburg/fonts/gentium.css?__ts=1529336356">
+
+   
+   <script type="text/javascript" src="/layout/limburg/js/jquery.min.js?__ts=1383059207"></script>
+   <script type="text/javascript" src="/layout/limburg/js/jquery.easing.1.3.js?__ts=1383059207"></script>
+   <script type="text/javascript" src="/layout/limburg/js/jquery.flexnav.js?__ts=1383059206"></script>
+      <script type="text/javascript" src="/layout/limburg/js/functions.js?__ts=1427976351"></script>
+   <script type="text/javascript" src="/output/js/ikiss/basic.js"></script>
+   
+   
+
+   <script type='text/javascript' src='/output/js/jquery/jquery.bgiframe.min.js'></script>
+   <script type="text/javascript" src="/layout/limburg/js/jquery-ui.min.1.8.21.js?__ts=1529336803"></script>
+   <script type='text/javascript' src='/output/js/jquery/jquery.ajaxQueue.js'></script>
+   <script type="text/javascript" src="/output/js/jquery/jquery.ui.datepicker-de.js"></script>
+   <script type='text/javascript' src='/output/js/jquery/jquery.autocomplete.pack.js'></script>
+   <link rel="stylesheet" type="text/css" href="/output/js/jquery/jquery.autocomplete.css" />
+
+   
+   <link rel="stylesheet" type="text/css" href="/output/js/highslide/highslide.css">
+   <script type="text/javascript" src="/output/js/highslide/highslide-with-gallery.packed.js"></script>
+   <script type="text/javascript" src="/output/js/highslide/hs_config.js"></script>
+<!-- jPlayer -->
+<link rel="stylesheet" type="text/css" href="/output/js/jplayer/css/jplayer.blue.monday.min.css">
+<script type="text/javascript" src="/output/js/jplayer/jquery.jplayer.min.js"></script>
+
+<!-- flowplayer-CSS -->
+<script type="text/javascript" src="/output/js/flowplayer/flowplayer.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/output/js/flowplayer/skin/minimalist.css">
+
+
+	</head>
+<body>
+   <a name="start" id="start"></a>
+   <div class="sprungziel">
+      <h2><a name="anker_hilfsnavigation"></a>Hilfsnavigation</h2>
+      <ul>
+         <li><a href="#anker_quickmenu">direkt zur Quickmenu</a></li>
+         <li><a href="#anker_volltextsuche">direkt zur Volltextsuche</a></li>
+         <li><a href="#anker_hauptmenu">direkt zum Hauptmenu</a></li>
+         <li><a href="#anker_untermenu">direkt zum Untermenu</a></li>
+         <li><a href="#anker_seiteninhalt">direkt zum Seiteninhalt</a></li>
+      </ul>
+   </div>
+   
+		<script type="text/javascript">
+		$(document).ready(function() {
+			var showCookieMsg = ikiss_basic.getCookie('ikiss-cookie-msg');
+			if (showCookieMsg !== false) return;
+			$('#cookie-message').slideDown();
+			$('#cookie-message-btn').click(function(){
+				ikiss_basic.setCookie('ikiss-cookie-msg', 1, 365);	
+				if (window._paq) _paq.push(['trackEvent', 'ButtonCookieMsgOff','click']);
+				$('#cookie-message').slideUp();
+			});
+		});
+	</script>
+	<div id="cookie-message" class="cookie-message bottom-left">
+		<div class="pull-left">
+					<p>Diese Website verwendet Cookies, um Ihnen einen optimalen Service zu bieten.</p>
+<p><strong><a target="_self" href="/Quicknavigation/Datenschutzerkl%C3%A4rung" class="csslink_intern">Mehr dazu in unserer Datenschutzerkl&auml;rung.</a></strong></p>
+				</div>
+		<div class="pull-right">
+			<button id="cookie-message-btn" title="Cookie-Hinweis ausblenden" class="btn"><i class="fa fa-check" aria-hidden="true"></i>OK</button>
+		</div>
+	</div>
+   <div class="quicknavigation">
+      <div class="wrapper">
+         <div class="breadcrumb">
+		<a href="/Quicknavigation/Startseite" class="nlk_off npt_first">Startseite</a>
+/		<a href="/Rathaus" class="nlk_on npt_last childs">Rathaus</a>
+</div>    
+                       <div id="google_translate_element" class="sprachen">
+    	
+                        	<!-- Google Uebersetzer Platzhalter -->
+                        	<div class="google-translate-placeholder" dir="ltr">
+                        		<div style="white-space: nowrap;" class="goog-te-gadget-simple">
+                        			<span>
+                        				<a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)">
+                        					<span>Sprache</span>
+                        				</a>
+                        			</span>
+                        		</div>
+                        	</div>
+                        	<!-- /Google Uebersetzer Platzhalter -->
+                        	
+                        	<!-- Google Uebersetzer Infomeldung -->
+                        	<div class="google-translate-message">
+                        		Zum Aktivieren des Google-&Uuml;bersetzers bitte klicken. Wir m&ouml;chten darauf hinweisen, dass nach der Aktivierung Daten an Google übermittelt werden.<br/>
+                        		<a href="/Quicknavigation/Impressum" style="color: #fff;">Mehr Informationen zum Datenschutz</a>
+                        	</div>
+                        	<!-- /Google Uebersetzer Infomeldung -->
+                        	
+                        </div>
+                    <script>
+                    function googleTranslateElementInit() {
+                    	var transEl = new google.translate.TranslateElement({
+                    		pageLanguage: 'de',
+                    		layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                    		includedLanguages: 'de,en,fr,es,nl,ru,tr'
+                    	},
+                    	'google_translate_element');
+                    	
+                    	setTimeout(function(){
+                    		$('#google_translate_element div.goog-te-gadget-simple').trigger('click');
+                    	}, 150);
+                    }
+                    
+                    $(function() {
+                    							
+                    	//Extra Klasse für iPhone/iPad/iPod, da sonst keine Click-Events durchgereicht werden 
+                    	if (!!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform))
+                    		$('body').addClass('is-ios');
+                    							
+                    	//Setzt die Sichtbarkeit der Infomeldung und speichert diesen Wert zeitversetzt um 50ms 
+                    	var setMessageState = function(displayed) {
+                    		$('div.google-translate-message').css('display', displayed ? 'block' : 'none');
+                    		setTimeout(function() {
+                    			window.ikiss_googleTranslateMessageVisible = displayed;	
+                    		}, 50);	
+                    	};
+                    	
+                    	//Google Uebersetzer Zwei-Klick-Loesung
+                    	$('div.google-translate-placeholder').on('click', function() {
+                    		
+                    		if (window.ikiss_googleTranslateLoaded)
+                    			return;
+                    		
+                    		//Falls Infolayer nicht sichtbar -> einblenden da scheinbar mouseenter nicht unterstuetzt
+                    		if (window.ikiss_googleTranslateMessageVisible !== true) {
+                    			setMessageState(true);
+                    			
+                    			$(document).on('click', function(ev) {
+                    				if (($(ev.target).closest('div.google-translate-placeholder, div.google-translate-message')).length || window.ikiss_googleTranslateLoaded) 
+                    					return;
+                    		
+                    				setMessageState(false);	
+                    			});
+                    			return;
+                    		}
+                    		
+                    		window.ikiss_googleTranslateLoaded = true;
+                    		
+                    		$('div.google-translate-placeholder').remove();
+                    		$('div.google-translate-message').remove();
+                    
+                    		var d = document, 
+                    			g = d.createElement("script"), 
+                    			s = d.getElementsByTagName("script")[0]; 
+                    
+                    		g.type = "text/javascript";
+                    		g.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"; 
+                    		s.parentNode.insertBefore(g,s);
+                    	}); 
+                    	
+                    	$('div.google-translate-placeholder, div.google-translate-message').on('mouseenter', function() {
+                    		setMessageState(true);
+                    	});
+                    	
+                    	$('div.google-translate-placeholder, div.google-translate-message').on('mouseleave', function() {
+                    		setMessageState(false);
+                    	});
+                    	
+                    });
+                    </script>
+         <a name="anker_quickmenu" id="anker_quickmenu"></a>
+         
+	<ul>
+		<li class="npt_off npt_first"><a href="/Quicknavigation/Startseite" class="nlk_off npt_first">Startseite</a></li>
+		<li class="npt_off"><a href="/Quicknavigation/Kontakt" class="nlk_off">Kontakt</a></li>
+		<li class="npt_off"><a href="/Quicknavigation/Datenschutzerkl%C3%A4rung" class="nlk_off">Datenschutzerklärung</a></li>
+		<li class="npt_off"><a href="/Quicknavigation/Impressum" class="nlk_off">Impressum</a></li>
+		<li class="npt_off npt_last"><a href="/Quicknavigation/Sitemap" class="nlk_off npt_last">Sitemap</a></li>
+	</ul>
+      </div>
+   </div>
+   <div class="header">
+      <div class="wrapper">
+         <div class="signet">
+            <a href="/" title="Logo Stadt Limburg an der Lahn - Zur Startseite"><img src="/layout/limburg/media/logo_stadt-limburg.png?__ts=1383059205" title="Logo Stadt Limburg an der Lahn" alt="Logo Stadt Limburg an der Lahn" /></a>
+         </div>
+         <div class="suche-mobil">
+            <a name="anker_volltextsuche" id="anker_volltextsuche"></a>
+            <form name="suchform" action="/" method="get">
+               
+               <input type="hidden" class="vtopt3" name="opt3" value="" />
+               <input type="hidden" name="NavID" value="2212.211" />
+               <label for="such">
+                  <input type="text" name="qs" id="such" class="suchfeld" onblur="(this.value == '') &amp;&amp; (this.value = 'Webseite durchsuchen')" onfocus="(this.value == 'Webseite durchsuchen') &amp;&amp; (this.value = '')" value="Webseite durchsuchen" />
+                  <input type="image" name="suchanfrage" src="/layout/limburg/media/lupe.png?__ts=1383059205" title="Los" alt="Los" class="lupe" />
+                  <div class="cb"></div>
+               </label>
+            </form>
+         </div>
+         <div class="menu">
+            <div class='menu-button'>Navigation</div>
+            <nav>
+               <a name="anker_hauptmenu" id="anker_hauptmenu"></a>
+               
+	<ul id="rid_0" class="nlv_1" role='navigation'>
+		<li id="nlt_2212_7" class="npt_on npt_first childs"><a href="/Rathaus" id="nid_2212_7" class="nlk_on npt_first childs">Rathaus</a><div class="dropdown">
+		<ul id="rid_2212_7" class="nlv_2" >
+			<li id="nlt_2212_29" class="npt_off npt_first childs"><a href="/Rathaus/Stadtverwaltung" id="nid_2212_29" class="nlk_off npt_first childs">Stadtverwaltung</a><div class="dropdown">
+			<ul id="rid_2212_29" class="nlv_3" >
+				<li id="nlt_2212_45" class="npt_off npt_first"><a href="/Rathaus/Stadtverwaltung/%C3%96ffnungszeiten" id="nid_2212_45" class="nlk_off npt_first">Öffnungszeiten</a>				</li>
+				<li id="nlt_2212_51" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Formulare" id="nid_2212_51" class="nlk_off">Formulare</a>				</li>
+				<li id="nlt_2212_46" class="npt_off"><a href="/Rathaus/Stadtverwaltung/%C3%84mter-von-A-Z" id="nid_2212_46" class="nlk_off">Ämter von A-Z</a>				</li>
+				<li id="nlt_2212_47" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Finanzen-Haushalt-Jahresabschluss" id="nid_2212_47" class="nlk_off">Finanzen, Haushalt &amp; Jahresabschluss</a>				</li>
+				<li id="nlt_2212_48" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Ausschreibungen" id="nid_2212_48" class="nlk_off">Ausschreibungen</a>				</li>
+				<li id="nlt_2212_49" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Stellenangebote" id="nid_2212_49" class="nlk_off">Stellenangebote</a>				</li>
+				<li id="nlt_2212_50" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Ausbildung" id="nid_2212_50" class="nlk_off">Ausbildung</a>				</li>
+				<li id="nlt_2212_214" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Praktikumsangebot" id="nid_2212_214" class="nlk_off">Praktikumsangebot</a>				</li>
+				<li id="nlt_2212_31" class="npt_off childs"><a href="/Rathaus/Stadtverwaltung/Stadtrecht" id="nid_2212_31" class="nlk_off childs">Stadtrecht</a><div class="dropdown">
+				<ul id="rid_2212_31" class="nlv_4" >
+					<li id="nlt_2212_158" class="npt_off npt_first npt_last"><a href="/Rathaus/Stadtverwaltung/Stadtrecht/Limburger-Stadtrecht" id="nid_2212_158" class="nlk_off npt_first npt_last">Limburger Stadtrecht</a>					</li>
+				</ul>
+</div>				</li>
+				<li id="nlt_2212_67" class="npt_off"><a href="/Rathaus/Stadtverwaltung/Versteigerungen" id="nid_2212_67" class="nlk_off">Versteigerungen</a>				</li>
+				<li id="nlt_2212_175" class="npt_off npt_last"><a href="/Rathaus/Stadtverwaltung/Steuern-Geb%C3%BChren" id="nid_2212_175" class="nlk_off npt_last">Steuern &amp; Gebühren</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_338" class="npt_off"><a href="/Rathaus/Online-Rathaus" id="nid_2212_338" class="nlk_off">Online-Rathaus</a>			</li>
+			<li id="nlt_2212_52" class="npt_off childs"><a href="/Rathaus/Stadtpolitik" id="nid_2212_52" class="nlk_off childs">Stadtpolitik</a><div class="dropdown">
+			<ul id="rid_2212_52" class="nlv_3" >
+				<li id="nlt_2212_30" class="npt_off npt_first"><a href="https://limburg.more-rubin1.de/" target="_blank" id="nid_2212_30" class="nlk_off npt_first">Ratsinformationssystem</a>				</li>
+				<li id="nlt_2212_54" class="npt_off"><a href="/Rathaus/Stadtpolitik/Magistrat" id="nid_2212_54" class="nlk_off">Magistrat</a>				</li>
+				<li id="nlt_2212_55" class="npt_off"><a href="/Rathaus/Stadtpolitik/Stadtverordnetenversammlung" id="nid_2212_55" class="nlk_off">Stadtverordnetenversammlung</a>				</li>
+				<li id="nlt_2212_56" class="npt_off npt_last"><a href="/Rathaus/Stadtpolitik/Ortsbeir%C3%A4te" id="nid_2212_56" class="nlk_off npt_last">Ortsbeiräte</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_339" class="npt_off"><a href="/Rathaus/Neuer-Verwaltungssitz-" id="nid_2212_339" class="nlk_off">Neuer Verwaltungssitz?</a>			</li>
+			<li id="nlt_2212_261" class="npt_off childs"><a href="/Rathaus/Wahlen-Abstimmungen" id="nid_2212_261" class="nlk_off childs">Wahlen &amp; Abstimmungen</a><div class="dropdown">
+			<ul id="rid_2212_261" class="nlv_3" >
+				<li id="nlt_2212_277" class="npt_off npt_first npt_last"><a href="http://p127393.mittwaldserver.info/LM/wahl/wahlen/" target="_blank" id="nid_2212_277" class="nlk_off npt_first npt_last">Live Auszählung</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_57" class="npt_off"><a href="/Rathaus/B%C3%BCrgerinfosystem" id="nid_2212_57" class="nlk_off">Bürgerinfosystem</a>			</li>
+			<li id="nlt_2212_58" class="npt_off childs"><a href="/Rathaus/Aktuelles" id="nid_2212_58" class="nlk_off childs">Aktuelles</a><div class="dropdown">
+			<ul id="rid_2212_58" class="nlv_3" >
+				<li id="nlt_2212_180" class="npt_off npt_first"><a href="/Rathaus/Aktuelles/Pressestelle" id="nid_2212_180" class="nlk_off npt_first">Pressestelle</a>				</li>
+				<li id="nlt_2212_61" class="npt_off"><a href="/Rathaus/Aktuelles/Limburg-online" id="nid_2212_61" class="nlk_off">Limburg online</a>				</li>
+				<li id="nlt_2212_63" class="npt_off"><a href="/Rathaus/Aktuelles/Aktuelle-Hinweise" id="nid_2212_63" class="nlk_off">Aktuelle Hinweise</a>				</li>
+				<li id="nlt_2212_199" class="npt_off npt_last"><a href="/Rathaus/Aktuelles/Bildportal-Limburg" id="nid_2212_199" class="nlk_off npt_last">Bildportal Limburg</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_116" class="npt_off childs"><a href="/Rathaus/Stadtjugendpflege" id="nid_2212_116" class="nlk_off childs">Stadtjugendpflege</a><div class="dropdown">
+			<ul id="rid_2212_116" class="nlv_3" >
+				<li id="nlt_2212_150" class="npt_off npt_first"><a href="/Rathaus/Stadtjugendpflege/Programm" id="nid_2212_150" class="nlk_off npt_first">Programm</a>				</li>
+				<li id="nlt_2212_151" class="npt_off"><a href="/Rathaus/Stadtjugendpflege/Schulsozialarbeit" id="nid_2212_151" class="nlk_off">Schulsozialarbeit</a>				</li>
+				<li id="nlt_2212_152" class="npt_off"><a href="/Rathaus/Stadtjugendpflege/Ehrenamtliche-Mitarbeit" id="nid_2212_152" class="nlk_off">Ehrenamtliche Mitarbeit</a>				</li>
+				<li id="nlt_2212_154" class="npt_off"><a href="/Rathaus/Stadtjugendpflege/Projekte" id="nid_2212_154" class="nlk_off">Projekte</a>				</li>
+				<li id="nlt_2212_278" class="npt_off"><a href="/Rathaus/Stadtjugendpflege/Jugendr%C3%A4ume" id="nid_2212_278" class="nlk_off">Jugendräume</a>				</li>
+				<li id="nlt_2212_270" class="npt_off npt_last"><a href="/Rathaus/Stadtjugendpflege/Dschungelbuch" id="nid_2212_270" class="nlk_off npt_last">Dschungelbuch</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_252" class="npt_off"><a href="/Rathaus/Standesamt" id="nid_2212_252" class="nlk_off">Standesamt</a>			</li>
+			<li id="nlt_2212_240" class="npt_off"><a href="/Rathaus/St%C3%A4dtischer-Betriebshof" id="nid_2212_240" class="nlk_off">Städtischer Betriebshof</a>			</li>
+			<li id="nlt_2212_64" class="npt_off childs"><a href="/Rathaus/Beh%C3%B6rden-in-Limburg" id="nid_2212_64" class="nlk_off childs">Behörden in Limburg</a><div class="dropdown">
+			<ul id="rid_2212_64" class="nlv_3" >
+				<li id="nlt_2212_65" class="npt_off npt_first"><a href="/Rathaus/Beh%C3%B6rden-in-Limburg/Schieds%C3%A4mter" id="nid_2212_65" class="nlk_off npt_first">Schiedsämter</a>				</li>
+				<li id="nlt_2212_66" class="npt_off npt_last"><a href="/Rathaus/Beh%C3%B6rden-in-Limburg/Ortsgerichte" id="nid_2212_66" class="nlk_off npt_last">Ortsgerichte</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_190" class="npt_off"><a href="/Rathaus/Neu-in-Limburg" id="nid_2212_190" class="nlk_off">Neu in Limburg</a>			</li>
+			<li id="nlt_2212_232" class="npt_off npt_last"><a href="/Rathaus/Anfahrt" id="nid_2212_232" class="nlk_off npt_last">Anfahrt</a>			</li>
+		</ul>
+</div>		</li>
+		<li id="nlt_2212_8" class="npt_off childs"><a href="/Leben" id="nid_2212_8" class="nlk_off childs">Leben</a><div class="dropdown">
+		<ul id="rid_2212_8" class="nlv_2" >
+			<li id="nlt_2212_68" class="npt_off npt_first childs"><a href="/Leben/Stadtportrait" id="nid_2212_68" class="nlk_off npt_first childs">Stadtportrait</a><div class="dropdown">
+			<ul id="rid_2212_68" class="nlv_3" >
+				<li id="nlt_2212_69" class="npt_off npt_first childs"><a href="/Leben/Stadtportrait/Geschichte" id="nid_2212_69" class="nlk_off npt_first childs">Geschichte</a><div class="dropdown">
+				<ul id="rid_2212_69" class="nlv_4" >
+					<li id="nlt_2212_72" class="npt_off npt_first npt_last"><a href="/Leben/Stadtportrait/Geschichte/Denkm%C3%A4ler" id="nid_2212_72" class="nlk_off npt_first npt_last">Denkmäler</a>					</li>
+				</ul>
+</div>				</li>
+				<li id="nlt_2212_70" class="npt_off childs"><a href="/Leben/Stadtportrait/Stadtarchiv" id="nid_2212_70" class="nlk_off childs">Stadtarchiv</a><div class="dropdown">
+				<ul id="rid_2212_70" class="nlv_4" >
+					<li id="nlt_2212_178" class="npt_off npt_first"><a href="/Leben/Stadtportrait/Stadtarchiv/Bibliographien" id="nid_2212_178" class="nlk_off npt_first">Bibliographien</a>					</li>
+					<li id="nlt_2212_179" class="npt_off npt_last"><a href="/Leben/Stadtportrait/Stadtarchiv/Schriftenreihen" id="nid_2212_179" class="nlk_off npt_last">Schriftenreihen</a>					</li>
+				</ul>
+</div>				</li>
+				<li id="nlt_2212_307" class="npt_off"><a href="/Leben/Stadtportrait/Limburg-in-Zahlen" id="nid_2212_307" class="nlk_off">Limburg in Zahlen</a>				</li>
+				<li id="nlt_2212_253" class="npt_off"><a href="/Leben/Stadtportrait/Limburger-S%C3%A4cker" id="nid_2212_253" class="nlk_off">Limburger Säcker</a>				</li>
+				<li id="nlt_2212_202" class="npt_off"><a href="/Leben/Stadtportrait/Stolpersteine" id="nid_2212_202" class="nlk_off">Stolpersteine</a>				</li>
+				<li id="nlt_2212_71" class="npt_off"><a href="/Leben/Stadtportrait/Stadtteile" id="nid_2212_71" class="nlk_off">Stadtteile</a>				</li>
+				<li id="nlt_2212_73" class="npt_off childs"><a href="/Leben/Stadtportrait/Stiftungen" id="nid_2212_73" class="nlk_off childs">Stiftungen</a><div class="dropdown">
+				<ul id="rid_2212_73" class="nlv_4" >
+					<li id="nlt_2212_171" class="npt_off npt_first npt_last"><a href="/Leben/Stadtportrait/Stiftungen/Stiftungen-der-Kreisstadt-Limburg-a-d-Lahn" id="nid_2212_171" class="nlk_off npt_first npt_last">Stiftungen der Kreisstadt Limburg a. d. Lahn</a>					</li>
+				</ul>
+</div>				</li>
+				<li id="nlt_2212_146" class="npt_off"><a href="/Leben/Stadtportrait/Ehrungen" id="nid_2212_146" class="nlk_off">Ehrungen</a>				</li>
+				<li id="nlt_2212_74" class="npt_off"><a href="/Leben/Stadtportrait/St%C3%A4dtepartnerschaften" id="nid_2212_74" class="nlk_off">Städtepartnerschaften</a>				</li>
+				<li id="nlt_2212_75" class="npt_off"><a href="/Leben/Stadtportrait/Stadtplan" id="nid_2212_75" class="nlk_off">Stadtplan</a>				</li>
+				<li id="nlt_2212_269" class="npt_off npt_last"><a href="/Leben/Stadtportrait/Synagoge" id="nid_2212_269" class="nlk_off npt_last">Synagoge</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_265" class="npt_off"><a href="/Leben/WebCams" id="nid_2212_265" class="nlk_off">WebCams</a>			</li>
+			<li id="nlt_2212_313" class="npt_off"><a href="/Leben/Limburg-der-Song" id="nid_2212_313" class="nlk_off">Limburg - der Song</a>			</li>
+			<li id="nlt_2212_76" class="npt_off childs"><a href="/Leben/Gesundheit-Sicherheit" id="nid_2212_76" class="nlk_off childs">Gesundheit &amp; Sicherheit</a><div class="dropdown">
+			<ul id="rid_2212_76" class="nlv_3" >
+				<li id="nlt_2212_79" class="npt_off npt_first"><a href="/Leben/Gesundheit-Sicherheit/Notdienste-und-Notrufs%C3%A4ule" id="nid_2212_79" class="nlk_off npt_first">Notdienste und Notrufsäule</a>				</li>
+				<li id="nlt_2212_77" class="npt_off"><a href="/Leben/Gesundheit-Sicherheit/Krankenhaus" id="nid_2212_77" class="nlk_off">Krankenhaus</a>				</li>
+				<li id="nlt_2212_80" class="npt_off"><a href="http://www.selbsthilfe-limburg-weilburg.de/" target="_blank" id="nid_2212_80" class="nlk_off">Selbsthilfegruppen</a>				</li>
+				<li id="nlt_2212_200" class="npt_off"><a href="/Leben/Gesundheit-Sicherheit/Einbruchschutz-Tipps-der-Polizei" id="nid_2212_200" class="nlk_off">Einbruchschutz - Tipps der Polizei</a>				</li>
+				<li id="nlt_2212_245" class="npt_off npt_last"><a href="http://www.hwlz.de/" target="_blank" id="nid_2212_245" class="nlk_off npt_last">Hochwasser</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_82" class="npt_off childs"><a href="/Leben/Bildung-Erziehung" id="nid_2212_82" class="nlk_off childs">Bildung &amp; Erziehung</a><div class="dropdown">
+			<ul id="rid_2212_82" class="nlv_3" >
+				<li id="nlt_2212_113" class="npt_off npt_first"><a href="/Leben/Bildung-Erziehung/Kindertageseinrichtungen" id="nid_2212_113" class="nlk_off npt_first">Kindertageseinrichtungen</a>				</li>
+				<li id="nlt_2212_114" class="npt_off"><a href="/Leben/Bildung-Erziehung/Schulen" id="nid_2212_114" class="nlk_off">Schulen</a>				</li>
+				<li id="nlt_2212_115" class="npt_off"><a href="/Leben/Bildung-Erziehung/Schulsozialarbeit" id="nid_2212_115" class="nlk_off">Schulsozialarbeit</a>				</li>
+				<li id="nlt_2212_194" class="npt_off npt_last"><a href="/Leben/Bildung-Erziehung/Kinderstadtplan" id="nid_2212_194" class="nlk_off npt_last">Kinderstadtplan</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_267" class="npt_off"><a href="/Leben/Technische-Hochschule-Mittelhessen-Campus-Limburg" id="nid_2212_267" class="nlk_off">Technische Hochschule Mittelhessen - Campus Limburg</a>			</li>
+			<li id="nlt_2212_83" class="npt_off childs"><a href="/Leben/Gesellschaft-Soziales" id="nid_2212_83" class="nlk_off childs">Gesellschaft &amp; Soziales</a><div class="dropdown">
+			<ul id="rid_2212_83" class="nlv_3" >
+				<li id="nlt_2212_117" class="npt_off npt_first"><a href="/Leben/Gesellschaft-Soziales/Frauenb%C3%BCro" id="nid_2212_117" class="nlk_off npt_first">Frauenbüro</a>				</li>
+				<li id="nlt_2212_141" class="npt_off"><a href="/Leben/Gesellschaft-Soziales/Limburg-Pass" id="nid_2212_141" class="nlk_off">Limburg-Pass</a>				</li>
+				<li id="nlt_2212_142" class="npt_off"><a href="/Leben/Gesellschaft-Soziales/Rundfunkbeitrag" id="nid_2212_142" class="nlk_off">Rundfunkbeitrag</a>				</li>
+				<li id="nlt_2212_143" class="npt_off"><a href="/Leben/Gesellschaft-Soziales/%C3%84lter-werden" id="nid_2212_143" class="nlk_off">Älter werden</a>				</li>
+				<li id="nlt_2212_279" class="npt_off npt_last"><a href="/Leben/Gesellschaft-Soziales/Integrationskonzept" id="nid_2212_279" class="nlk_off npt_last">Integrationskonzept</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_122" class="npt_off childs"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement" id="nid_2212_122" class="nlk_off childs">Bürgerschaftliches Engagement</a><div class="dropdown">
+			<ul id="rid_2212_122" class="nlv_3" >
+				<li id="nlt_2212_120" class="npt_off npt_first"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/LEA-Limburger-EhrenamtsAgentur" id="nid_2212_120" class="nlk_off npt_first">LEA - Limburger EhrenamtsAgentur</a>				</li>
+				<li id="nlt_2212_324" class="npt_off"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/LEA-Angebote" id="nid_2212_324" class="nlk_off">LEA - Angebote</a>				</li>
+				<li id="nlt_2212_119" class="npt_off"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/Lokales-B%C3%BCndnis-f%C3%BCr-Familie" id="nid_2212_119" class="nlk_off">Lokales Bündnis für Familie</a>				</li>
+				<li id="nlt_2212_280" class="npt_off"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/Limburg-Paten" id="nid_2212_280" class="nlk_off">Limburg Paten</a>				</li>
+				<li id="nlt_2212_123" class="npt_off"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/Fairtrade-Stadt" id="nid_2212_123" class="nlk_off">Fairtrade-Stadt</a>				</li>
+				<li id="nlt_2212_145" class="npt_off"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/Initiative-Vielfalt-verbindet-" id="nid_2212_145" class="nlk_off">Initiative "Vielfalt verbindet"</a>				</li>
+				<li id="nlt_2212_256" class="npt_off"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/Hilfe-f%C3%BCr-Fl%C3%BCchtlinge" id="nid_2212_256" class="nlk_off">Hilfe für Flüchtlinge</a>				</li>
+				<li id="nlt_2212_144" class="npt_off npt_last"><a href="/Leben/B%C3%BCrgerschaftliches-Engagement/Ehrenamtliche-Mitarbeit-in-der-Stadtjudgendpflege" id="nid_2212_144" class="nlk_off npt_last">Ehrenamtliche Mitarbeit in der Stadtjudgendpflege</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_23" class="npt_off"><a href="/Leben/Veranstaltungen" id="nid_2212_23" class="nlk_off">Veranstaltungen</a>			</li>
+			<li id="nlt_2212_193" class="npt_off"><a href="/Leben/Einkaufen" id="nid_2212_193" class="nlk_off">Einkaufen</a>			</li>
+			<li id="nlt_2212_257" class="npt_off"><a href="/Leben/Briefe-Pakete-versenden" id="nid_2212_257" class="nlk_off">Briefe &amp; Pakete versenden</a>			</li>
+			<li id="nlt_2212_86" class="npt_off childs"><a href="/Leben/Umwelt-Natur" id="nid_2212_86" class="nlk_off childs">Umwelt &amp; Natur</a><div class="dropdown">
+			<ul id="rid_2212_86" class="nlv_3" >
+				<li id="nlt_2212_124" class="npt_off npt_first"><a href="/Leben/Umwelt-Natur/Abfallkalender-Gelber-Sack" id="nid_2212_124" class="nlk_off npt_first">Abfallkalender &amp; Gelber Sack</a>				</li>
+				<li id="nlt_2212_172" class="npt_off"><a href="/Leben/Umwelt-Natur/Energie-Klimakonzept" id="nid_2212_172" class="nlk_off">Energie- &amp; Klimakonzept</a>				</li>
+				<li id="nlt_2212_176" class="npt_off"><a href="/Leben/Umwelt-Natur/Heilkr%C3%A4utergarten" id="nid_2212_176" class="nlk_off">Heilkräutergarten</a>				</li>
+				<li id="nlt_2212_188" class="npt_off"><a href="/Leben/Umwelt-Natur/Luftreinhalteplan-und-Luftmessstationen" id="nid_2212_188" class="nlk_off">Luftreinhalteplan und Luftmessstationen</a>				</li>
+				<li id="nlt_2212_195" class="npt_off"><a href="/Leben/Umwelt-Natur/Sauberhaftes-Hessen-Sauberhaftes-Limburg" id="nid_2212_195" class="nlk_off">Sauberhaftes Hessen - Sauberhaftes Limburg</a>				</li>
+				<li id="nlt_2212_215" class="npt_off"><a href="/Leben/Umwelt-Natur/Baumpflege" id="nid_2212_215" class="nlk_off">Baumpflege</a>				</li>
+				<li id="nlt_2212_216" class="npt_off npt_last"><a href="/Leben/Umwelt-Natur/Hundehaltung" id="nid_2212_216" class="nlk_off npt_last">Hundehaltung</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_246" class="npt_off childs"><a href="/Leben/Energie-und-Klimaschutz" id="nid_2212_246" class="nlk_off childs">Energie- und Klimaschutz</a><div class="dropdown">
+			<ul id="rid_2212_246" class="nlv_3" >
+				<li id="nlt_2212_249" class="npt_off npt_first"><a href="/Leben/Energie-und-Klimaschutz/Energie-und-Klimaschutzkonzept" id="nid_2212_249" class="nlk_off npt_first">Energie- und Klimaschutzkonzept</a>				</li>
+				<li id="nlt_2212_282" class="npt_off"><a href="/Leben/Energie-und-Klimaschutz/Klimaschutzhelden" id="nid_2212_282" class="nlk_off">Klimaschutzhelden</a>				</li>
+				<li id="nlt_2212_300" class="npt_off"><a href="/Leben/Energie-und-Klimaschutz/Stadtradeln" id="nid_2212_300" class="nlk_off">Stadtradeln</a>				</li>
+				<li id="nlt_2212_248" class="npt_off"><a href="/Leben/Energie-und-Klimaschutz/Veranstaltungen" id="nid_2212_248" class="nlk_off">Veranstaltungen</a>				</li>
+				<li id="nlt_2212_250" class="npt_off npt_last"><a href="/Leben/Energie-und-Klimaschutz/F%C3%B6rdermittel" id="nid_2212_250" class="nlk_off npt_last">Fördermittel</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_322" class="npt_off npt_last"><a href="/Leben/Interkulturelle-Woche" id="nid_2212_322" class="nlk_off npt_last">Interkulturelle Woche</a>			</li>
+		</ul>
+</div>		</li>
+		<li id="nlt_2212_6" class="npt_off childs"><a href="/Freizeit" id="nid_2212_6" class="nlk_off childs">Freizeit</a><div class="dropdown">
+		<ul id="rid_2212_6" class="nlv_2" >
+			<li id="nlt_2212_84" class="npt_off npt_first childs"><a href="/Freizeit/Sport-Freizeit" id="nid_2212_84" class="nlk_off npt_first childs">Sport &amp; Freizeit</a><div class="dropdown">
+			<ul id="rid_2212_84" class="nlv_3" >
+				<li id="nlt_2212_126" class="npt_off npt_first"><a href="/Freizeit/Sport-Freizeit/Vereine-Verb%C3%A4nde" id="nid_2212_126" class="nlk_off npt_first">Vereine &amp; Verbände</a>				</li>
+				<li id="nlt_2212_127" class="npt_off"><a href="/Freizeit/Sport-Freizeit/Sportanlagen" id="nid_2212_127" class="nlk_off">Sportanlagen</a>				</li>
+				<li id="nlt_2212_129" class="npt_off"><a href="/Freizeit/Sport-Freizeit/B%C3%BCrgerh%C3%A4user" id="nid_2212_129" class="nlk_off">Bürgerhäuser</a>				</li>
+				<li id="nlt_2212_128" class="npt_off"><a href="/Freizeit/Sport-Freizeit/Grillpl%C3%A4tze" id="nid_2212_128" class="nlk_off">Grillplätze</a>				</li>
+				<li id="nlt_2212_130" class="npt_off"><a href="/Freizeit/Sport-Freizeit/Sonstige-Freizeitangebote" id="nid_2212_130" class="nlk_off">Sonstige Freizeitangebote</a>				</li>
+				<li id="nlt_2212_168" class="npt_off npt_last"><a href="/Freizeit/Sport-Freizeit/Schwimmb%C3%A4der" id="nid_2212_168" class="nlk_off npt_last">Schwimmbäder</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_85" class="npt_off childs"><a href="/Freizeit/Kunst-Kultur" id="nid_2212_85" class="nlk_off childs">Kunst &amp; Kultur</a><div class="dropdown">
+			<ul id="rid_2212_85" class="nlv_3" >
+				<li id="nlt_2212_131" class="npt_off npt_first"><a href="/Freizeit/Kunst-Kultur/Kunstsammlungen-der-Stadt-Limburg" id="nid_2212_131" class="nlk_off npt_first">Kunstsammlungen der Stadt Limburg</a>				</li>
+				<li id="nlt_2212_204" class="npt_off"><a href="/Freizeit/Kunst-Kultur/Limburger-Lesedom" id="nid_2212_204" class="nlk_off">Limburger Lesedom</a>				</li>
+				<li id="nlt_2212_134" class="npt_off"><a href="/Freizeit/Kunst-Kultur/Josef-Kohlmaier-Halle" id="nid_2212_134" class="nlk_off">Josef-Kohlmaier-Halle</a>				</li>
+				<li id="nlt_2212_135" class="npt_off"><a href="/Freizeit/Kunst-Kultur/Dombibliothek" id="nid_2212_135" class="nlk_off">Dombibliothek</a>				</li>
+				<li id="nlt_2212_136" class="npt_off npt_last"><a href="/Freizeit/Kunst-Kultur/Weiteres-Kulturangebot" id="nid_2212_136" class="nlk_off npt_last">Weiteres Kulturangebot</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_111" class="npt_off"><a href="/Freizeit/Veranstaltungen" id="nid_2212_111" class="nlk_off">Veranstaltungen</a>			</li>
+			<li id="nlt_2212_266" class="npt_off"><a href="/Freizeit/WebCams" id="nid_2212_266" class="nlk_off">WebCams</a>			</li>
+			<li id="nlt_2212_205" class="npt_off"><a href="/Freizeit/Limburger-Oktoberfest" id="nid_2212_205" class="nlk_off">Limburger Oktoberfest</a>			</li>
+			<li id="nlt_2212_208" class="npt_off npt_last"><a href="/Freizeit/Christkindlmarkt" id="nid_2212_208" class="nlk_off npt_last">Christkindlmarkt</a>			</li>
+		</ul>
+</div>		</li>
+		<li id="nlt_2212_9" class="npt_off childs"><a href="/Tourismus" id="nid_2212_9" class="nlk_off childs">Tourismus</a><div class="dropdown">
+		<ul id="rid_2212_9" class="nlv_2" >
+			<li id="nlt_2212_221" class="npt_off npt_first childs"><a href="/Tourismus/Stadtplan" id="nid_2212_221" class="nlk_off npt_first childs">Stadtplan</a><div class="dropdown">
+			<ul id="rid_2212_221" class="nlv_3" >
+				<li id="nlt_2212_230" class="npt_off npt_first npt_last"><a href="/Tourismus/Stadtplan/Karte" id="nid_2212_230" class="nlk_off npt_first npt_last">Karte</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_185" class="npt_off childs"><a href="/Tourismus/Geschichte-erleben" id="nid_2212_185" class="nlk_off childs">Geschichte erleben</a><div class="dropdown">
+			<ul id="rid_2212_185" class="nlv_3" >
+				<li id="nlt_2212_251" class="npt_off npt_first npt_last"><a href="/Tourismus/Geschichte-erleben/Aktuell-Walderdorffer-Hof" id="nid_2212_251" class="nlk_off npt_first npt_last">Aktuell: Walderdorffer Hof</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_234" class="npt_off"><a href="/Tourismus/Stadtf%C3%BChrungen-Angebote" id="nid_2212_234" class="nlk_off">Stadtführungen &amp; Angebote</a>			</li>
+			<li id="nlt_2212_229" class="npt_off"><a href="/Tourismus/Domf%C3%BChrungen" id="nid_2212_229" class="nlk_off">Domführungen</a>			</li>
+			<li id="nlt_2212_334" class="npt_off"><a href="/Tourismus/Konzeption-eines-touristischen-Leitsystems" id="nid_2212_334" class="nlk_off">Konzeption eines touristischen Leitsystems</a>			</li>
+			<li id="nlt_2212_39" class="npt_off"><a href="/Tourismus/%C3%9Cbernachten" id="nid_2212_39" class="nlk_off">Übernachten</a>			</li>
+			<li id="nlt_2212_189" class="npt_off"><a href="http://www.optimale-praesentation.de/layout/l_prospekt.php?secratoid=c645b4da6" target="_blank" id="nid_2212_189" class="nlk_off">Infopaket bestellen</a>			</li>
+			<li id="nlt_2212_309" class="npt_off"><a href="/Tourismus/Downloads" id="nid_2212_309" class="nlk_off">Downloads</a>			</li>
+			<li id="nlt_2212_40" class="npt_off"><a href="/Tourismus/Gastronomie" id="nid_2212_40" class="nlk_off">Gastronomie</a>			</li>
+			<li id="nlt_2212_264" class="npt_off"><a href="/Tourismus/WebCams" id="nid_2212_264" class="nlk_off">WebCams</a>			</li>
+			<li id="nlt_2212_335" class="npt_off"><a href="/Tourismus/Wandern-rund-um-Limburg" id="nid_2212_335" class="nlk_off">Wandern - rund um Limburg</a>			</li>
+			<li id="nlt_2212_38" class="npt_off"><a href="http://www.panoramax.de/limburg/" target="_blank" id="nid_2212_38" class="nlk_off">Virtuelle Altstadt</a>			</li>
+			<li id="nlt_2212_271" class="npt_off"><a href="/Tourismus/Lahntalschifffahrt" id="nid_2212_271" class="nlk_off">Lahntalschifffahrt</a>			</li>
+			<li id="nlt_2212_260" class="npt_off"><a href="/Tourismus/Limburg-individuell-erkunden" id="nid_2212_260" class="nlk_off">Limburg individuell erkunden</a>			</li>
+			<li id="nlt_2212_223" class="npt_off npt_last"><a href="/Tourismus/Hinweis-Wandern-Radfahren" id="nid_2212_223" class="nlk_off npt_last">Hinweis Wandern + Radfahren</a>			</li>
+		</ul>
+</div>		</li>
+		<li id="nlt_2212_10" class="npt_off childs"><a href="/Wirtschaft" id="nid_2212_10" class="nlk_off childs">Wirtschaft</a><div class="dropdown">
+		<ul id="rid_2212_10" class="nlv_2" >
+			<li id="nlt_2212_325" class="npt_off npt_first"><a href="https://limburg3.de/" target="_blank" id="nid_2212_325" class="nlk_off npt_first">Limburg3</a>			</li>
+			<li id="nlt_2212_305" class="npt_off"><a href="/Wirtschaft/Standort-Limburg" id="nid_2212_305" class="nlk_off">Standort Limburg</a>			</li>
+			<li id="nlt_2212_101" class="npt_off"><a href="https://www.wunschimmo.de/suche/hessen,limburg-weilburg,limburg/gewerbegebiete" target="_blank" id="nid_2212_101" class="nlk_off">Grundstücke und Immobilien</a>			</li>
+			<li id="nlt_2212_308" class="npt_off"><a href="http://www.dimension3plus.de/limburg.html" target="_blank" id="nid_2212_308" class="nlk_off">WebModell ICE-Gebiet</a>			</li>
+			<li id="nlt_2212_275" class="npt_off"><a href="/media/custom/2212_3515_1.PDF?1456120089" target="_blank" id="nid_2212_275" class="nlk_off">Einzelhandelsanalyse 2016</a>			</li>
+			<li id="nlt_2212_276" class="npt_off"><a href="/Wirtschaft/Initiative-Grabenstra%C3%9Fe" id="nid_2212_276" class="nlk_off">Initiative Grabenstraße</a>			</li>
+			<li id="nlt_2212_27" class="npt_off childs"><a href="/Wirtschaft/Wirtschaftsdaten" id="nid_2212_27" class="nlk_off childs">Wirtschaftsdaten</a><div class="dropdown">
+			<ul id="rid_2212_27" class="nlv_3" >
+				<li id="nlt_2212_97" class="npt_off npt_first npt_last"><a href="/Wirtschaft/Wirtschaftsdaten/Standort" id="nid_2212_97" class="nlk_off npt_first npt_last">Standort</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_98" class="npt_off childs"><a href="/Wirtschaft/Limburger-Unternehmen" id="nid_2212_98" class="nlk_off childs">Limburger Unternehmen</a><div class="dropdown">
+			<ul id="rid_2212_98" class="nlv_3" >
+				<li id="nlt_2212_197" class="npt_off npt_first npt_last"><a href="/Wirtschaft/Limburger-Unternehmen/Unternehmensportraits-A-Z" id="nid_2212_197" class="nlk_off npt_first npt_last">Unternehmensportraits A-Z</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_99" class="npt_off"><a href="/Wirtschaft/Wirtschaftsf%C3%B6rderung" id="nid_2212_99" class="nlk_off">Wirtschaftsförderung</a>			</li>
+			<li id="nlt_2212_100" class="npt_off"><a href="http://www.mittehessen.de" target="_blank" id="nid_2212_100" class="nlk_off">Region Mittelhessen</a>			</li>
+			<li id="nlt_2212_237" class="npt_off npt_last"><a href="http://www.telekom.de/schneller" target="_blank" id="nid_2212_237" class="nlk_off npt_last">VDSL in Limburg</a>			</li>
+		</ul>
+</div>		</li>
+		<li id="nlt_2212_37" class="npt_off childs"><a href="/Bauen" id="nid_2212_37" class="nlk_off childs">Bauen</a><div class="dropdown">
+		<ul id="rid_2212_37" class="nlv_2" >
+			<li id="nlt_2212_104" class="npt_off npt_first childs"><a href="/Bauen/Aktive-Kernbereiche" id="nid_2212_104" class="nlk_off npt_first childs">Aktive Kernbereiche</a><div class="dropdown">
+			<ul id="rid_2212_104" class="nlv_3" >
+				<li id="nlt_2212_258" class="npt_off npt_first"><a href="/Bauen/Aktive-Kernbereiche/Umgestaltung-Neumarkt" id="nid_2212_258" class="nlk_off npt_first">Umgestaltung Neumarkt</a>				</li>
+				<li id="nlt_2212_321" class="npt_off npt_last"><a href="/Bauen/Aktive-Kernbereiche/Umgestaltung-Grabenstra%C3%9Fe" id="nid_2212_321" class="nlk_off npt_last">Umgestaltung Grabenstraße</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_110" class="npt_off"><a href="/Bauen/Aktuelle-Projekte" id="nid_2212_110" class="nlk_off">Aktuelle Projekte</a>			</li>
+			<li id="nlt_2212_268" class="npt_off"><a href="/Bauen/Offenlage-und-Anh%C3%B6rung-Hubschrauberlandeplatz-St-Vincenz-Krankenhaus" id="nid_2212_268" class="nlk_off">Offenlage und Anhörung Hubschrauberlandeplatz St. Vincenz Krankenhaus</a>			</li>
+			<li id="nlt_2212_106" class="npt_off childs"><a href="/Bauen/Bauberatung-Bauaufsicht" id="nid_2212_106" class="nlk_off childs">Bauberatung &amp; Bauaufsicht</a><div class="dropdown">
+			<ul id="rid_2212_106" class="nlv_3" >
+				<li id="nlt_2212_314" class="npt_off npt_first"><a href="/Bauen/Bauberatung-Bauaufsicht/Zust%C3%A4ndigkeitsbereiche" id="nid_2212_314" class="nlk_off npt_first">Zuständigkeitsbereiche</a>				</li>
+				<li id="nlt_2212_319" class="npt_off"><a href="/Bauen/Bauberatung-Bauaufsicht/Vordrucke-Formulare" id="nid_2212_319" class="nlk_off">Vordrucke &amp; Formulare</a>				</li>
+				<li id="nlt_2212_315" class="npt_off"><a href="/Bauen/Bauberatung-Bauaufsicht/Bauaktenarchiv" id="nid_2212_315" class="nlk_off">Bauaktenarchiv</a>				</li>
+				<li id="nlt_2212_316" class="npt_off"><a href="/Bauen/Bauberatung-Bauaufsicht/Baulasteintragung" id="nid_2212_316" class="nlk_off">Baulasteintragung</a>				</li>
+				<li id="nlt_2212_317" class="npt_off"><a href="/Bauen/Bauberatung-Bauaufsicht/Baulastauskunft" id="nid_2212_317" class="nlk_off">Baulastauskunft</a>				</li>
+				<li id="nlt_2212_318" class="npt_off npt_last"><a href="/Bauen/Bauberatung-Bauaufsicht/Abgeschlossenheits-bescheinigung" id="nid_2212_318" class="nlk_off npt_last">Abgeschlossenheits-bescheinigung</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_329" class="npt_off childs"><a href="/Bauen/Brandschutzdienststelle" id="nid_2212_329" class="nlk_off childs">Brandschutzdienststelle</a><div class="dropdown">
+			<ul id="rid_2212_329" class="nlv_3" >
+				<li id="nlt_2212_330" class="npt_off npt_first npt_last"><a href="/Bauen/Brandschutzdienststelle/Rauchwarnmelder" id="nid_2212_330" class="nlk_off npt_first npt_last">Rauchwarnmelder</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_105" class="npt_off"><a href="/Bauen/Denkmalschutz-Altstadtsanierung" id="nid_2212_105" class="nlk_off">Denkmalschutz &amp; Altstadtsanierung</a>			</li>
+			<li id="nlt_2212_181" class="npt_off"><a href="/Bauen/Stra%C3%9Fenbau-Kanalbau-Erschlie%C3%9Fungsbeitr%C3%A4ge" id="nid_2212_181" class="nlk_off">Straßenbau, Kanalbau &amp; Erschließungsbeiträge</a>			</li>
+			<li id="nlt_2212_147" class="npt_off childs"><a href="/Bauen/Stadtentwicklung-Bauleitplanung" id="nid_2212_147" class="nlk_off childs">Stadtentwicklung &amp; Bauleitplanung</a><div class="dropdown">
+			<ul id="rid_2212_147" class="nlv_3" >
+				<li id="nlt_2212_186" class="npt_off npt_first"><a href="/Bauen/Stadtentwicklung-Bauleitplanung/Fl%C3%A4chennutzungsplan" id="nid_2212_186" class="nlk_off npt_first">Flächennutzungsplan</a>				</li>
+				<li id="nlt_2212_187" class="npt_off"><a href="/Bauen/Stadtentwicklung-Bauleitplanung/Bebauungspl%C3%A4ne" id="nid_2212_187" class="nlk_off">Bebauungspläne</a>				</li>
+				<li id="nlt_2212_148" class="npt_off"><a href="/Bauen/Stadtentwicklung-Bauleitplanung/Beteiligung-der-%C3%96ffentlichkeit-Beteiligungsverfahren" id="nid_2212_148" class="nlk_off">Beteiligung der Öffentlichkeit / Beteiligungsverfahren</a>				</li>
+				<li id="nlt_2212_192" class="npt_off"><a href="/Bauen/Stadtentwicklung-Bauleitplanung/Landschaftsplan" id="nid_2212_192" class="nlk_off">Landschaftsplan</a>				</li>
+				<li id="nlt_2212_243" class="npt_off"><a href="/Bauen/Stadtentwicklung-Bauleitplanung/Vergn%C3%BCgungsst%C3%A4ttenkonzept" id="nid_2212_243" class="nlk_off">Vergnügungsstättenkonzept</a>				</li>
+				<li id="nlt_2212_272" class="npt_off npt_last"><a href="/Bauen/Stadtentwicklung-Bauleitplanung/Windenergie" id="nid_2212_272" class="nlk_off npt_last">Windenergie</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_107" class="npt_off"><a href="/Bauen/Wohnbaugrundst%C3%BCcke" id="nid_2212_107" class="nlk_off">Wohnbaugrundstücke</a>			</li>
+			<li id="nlt_2212_109" class="npt_off"><a href="/Bauen/Bodenrichtwerte" id="nid_2212_109" class="nlk_off">Bodenrichtwerte</a>			</li>
+			<li id="nlt_2212_247" class="npt_off npt_last"><a href="/Leben/Energie-und-Klimaschutz" id="nid_2212_247" class="nlk_off npt_last">Energie- und Klimaschutz</a>			</li>
+		</ul>
+</div>		</li>
+		<li id="nlt_2212_87" class="npt_off npt_last childs"><a href="/Verkehr" id="nid_2212_87" class="nlk_off npt_last childs">Verkehr</a><div class="dropdown">
+		<ul id="rid_2212_87" class="nlv_2" >
+			<li id="nlt_2212_95" class="npt_off npt_first"><a href="/Verkehr/Aktuelle-Projekte" id="nid_2212_95" class="nlk_off npt_first">Aktuelle Projekte</a>			</li>
+			<li id="nlt_2212_328" class="npt_off"><a href="/Verkehr/Umweltzone" id="nid_2212_328" class="nlk_off">Umweltzone</a>			</li>
+			<li id="nlt_2212_88" class="npt_off"><a href="/Verkehr/Verkehrshinweise" id="nid_2212_88" class="nlk_off">Verkehrshinweise</a>			</li>
+			<li id="nlt_2212_174" class="npt_off childs"><a href="/Verkehr/Parken" id="nid_2212_174" class="nlk_off childs">Parken</a><div class="dropdown">
+			<ul id="rid_2212_174" class="nlv_3" >
+				<li id="nlt_2212_302" class="npt_off npt_first npt_last"><a href="/Verkehr/Parken/Regelungen-zum-Erwerb-von-Parkkarten" id="nid_2212_302" class="nlk_off npt_first npt_last">Regelungen zum Erwerb von Parkkarten</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_326" class="npt_off childs"><a href="/Verkehr/Abends-das-AST" id="nid_2212_326" class="nlk_off childs">Abends das AST</a><div class="dropdown">
+			<ul id="rid_2212_326" class="nlv_3" >
+				<li id="nlt_2212_342" class="npt_off npt_first npt_last"><a href="/media/custom/2212_6558_1.PDF?1539256028" target="_blank" id="nid_2212_342" class="nlk_off npt_first npt_last">Oktoberfest</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_90" class="npt_off"><a href="/Verkehr/Bahn-Bus-und-Anruf-SammelTaxi" id="nid_2212_90" class="nlk_off">Bahn, Bus und Anruf-SammelTaxi</a>			</li>
+			<li id="nlt_2212_259" class="npt_off"><a href="/Verkehr/Fernbus" id="nid_2212_259" class="nlk_off">Fernbus</a>			</li>
+			<li id="nlt_2212_94" class="npt_off"><a href="/Verkehr/Schulwegsicherung" id="nid_2212_94" class="nlk_off">Schulwegsicherung</a>			</li>
+			<li id="nlt_2212_92" class="npt_off childs"><a href="/Verkehr/Radfahren" id="nid_2212_92" class="nlk_off childs">Radfahren</a><div class="dropdown">
+			<ul id="rid_2212_92" class="nlv_3" >
+				<li id="nlt_2212_281" class="npt_off npt_first npt_last"><a href="/Verkehr/Radfahren/Fahrradeinstellboxen" id="nid_2212_281" class="nlk_off npt_first npt_last">Fahrradeinstellboxen</a>				</li>
+			</ul>
+</div>			</li>
+			<li id="nlt_2212_91" class="npt_off"><a href="/media/custom/2212_3282_1.PDF?1524635966" target="_blank" id="nid_2212_91" class="nlk_off">Straßenverzeichnis</a>			</li>
+			<li id="nlt_2212_93" class="npt_off"><a href="/Verkehr/Stadtplan" id="nid_2212_93" class="nlk_off">Stadtplan</a>			</li>
+			<li id="nlt_2212_303" class="npt_off"><a href="/Verkehr/Masterplan-Mobilit%C3%A4t" id="nid_2212_303" class="nlk_off">Masterplan Mobilität</a>			</li>
+			<li id="nlt_2212_255" class="npt_off npt_last"><a href="https://mobil.hessen.de/irj/HSVV_Internet?rid=HMWVL_15/HSVV_Internet/sub/9c3/9c37501f-e07c-431f-012f-31e2389e4818,,22222222-2222-2222-2222-222222222222.htm" target="FENSTERNAME" id="nid_2212_255" class="nlk_off npt_last">Verkehrszählung</a>			</li>
+		</ul>
+</div>		</li>
+	</ul>
+            </nav>
+         </div>
+      </div>
+   </div>
+      <div class="header_optionen">
+      <div class="wrapper">
+         <div class="links">
+            <div class="suche-desktop">
+               <a name="anker_volltextsuche" id="anker_volltextsuche"></a>
+               <form name="suchform" action="/">
+                  
+                  <input type="hidden" class="vtopt3" name="opt3" value="" />
+                  <input type="hidden" name="NavID" value="2212.211" />
+                  <label for="such">
+                     <input type="text" name="qs" id="such" class="suchfeld" onblur="(this.value == '') &amp;&amp; (this.value = 'Webseite durchsuchen')" onfocus="(this.value == 'Webseite durchsuchen') &amp;&amp; (this.value = '')" value="Webseite durchsuchen" />
+                     <input type="image" name="suchanfrage" src="/layout/limburg/media/lupe.png?__ts=1383059205" title="Los" alt="Los" class="lupe" />
+                     <div class="cb"></div>
+                  </label>
+               </form>
+            </div>
+            <div class="banner">
+                           </div>
+         </div>
+                         <div class="motionpic">
+                  
+                                    <img src="/output/img.php?id=2212.105.1&fm=r" title="Rathaus" alt="title="Rathaus"/>
+               </div>
+                      <div class="cb"></div>
+      </div>
+   </div>
+   
+   <div class="wrapper">
+      <div class="content">
+         <a name="anker_seiteninhalt" id="anker_seiteninhalt"></a>
+                     
+            <div class="submenu">
+               <a name="anker_untermenu" id="anker_untermenu"></a>
+               
+	<ul id="rid_2212_7" class="nlv_2">
+		<li id="nlt_2212_29" class="npt_off npt_first childs"><a href="/Rathaus/Stadtverwaltung" id="nid_2212_29" class="nlk_off npt_first childs">Stadtverwaltung</a></li>
+		<li id="nlt_2212_338" class="npt_off"><a href="/Rathaus/Online-Rathaus" id="nid_2212_338" class="nlk_off">Online-Rathaus</a></li>
+		<li id="nlt_2212_52" class="npt_off childs"><a href="/Rathaus/Stadtpolitik" id="nid_2212_52" class="nlk_off childs">Stadtpolitik</a></li>
+		<li id="nlt_2212_339" class="npt_off"><a href="/Rathaus/Neuer-Verwaltungssitz-" id="nid_2212_339" class="nlk_off">Neuer Verwaltungssitz?</a></li>
+		<li id="nlt_2212_261" class="npt_off childs"><a href="/Rathaus/Wahlen-Abstimmungen" id="nid_2212_261" class="nlk_off childs">Wahlen &amp; Abstimmungen</a></li>
+		<li id="nlt_2212_57" class="npt_off"><a href="/Rathaus/B%C3%BCrgerinfosystem" id="nid_2212_57" class="nlk_off">Bürgerinfosystem</a></li>
+		<li id="nlt_2212_58" class="npt_off childs"><a href="/Rathaus/Aktuelles" id="nid_2212_58" class="nlk_off childs">Aktuelles</a></li>
+		<li id="nlt_2212_116" class="npt_off childs"><a href="/Rathaus/Stadtjugendpflege" id="nid_2212_116" class="nlk_off childs">Stadtjugendpflege</a></li>
+		<li id="nlt_2212_252" class="npt_off"><a href="/Rathaus/Standesamt" id="nid_2212_252" class="nlk_off">Standesamt</a></li>
+		<li id="nlt_2212_240" class="npt_off"><a href="/Rathaus/St%C3%A4dtischer-Betriebshof" id="nid_2212_240" class="nlk_off">Städtischer Betriebshof</a></li>
+		<li id="nlt_2212_64" class="npt_off childs"><a href="/Rathaus/Beh%C3%B6rden-in-Limburg" id="nid_2212_64" class="nlk_off childs">Behörden in Limburg</a></li>
+		<li id="nlt_2212_190" class="npt_off"><a href="/Rathaus/Neu-in-Limburg" id="nid_2212_190" class="nlk_off">Neu in Limburg</a></li>
+		<li id="nlt_2212_232" class="npt_off npt_last"><a href="/Rathaus/Anfahrt" id="nid_2212_232" class="nlk_off npt_last">Anfahrt</a></li>
+	</ul>
+            </div>
+                        <div class="inhalt_ganzseitig">
+                           <div class="text">
+                  <div class="text3"><script type="text/javascript">
+// <![CDATA[
+var such = 'layout';
+var opt1 = '1';
+var opt2 = '1';
+var opt3 = '';
+var opt4 = '1';
+var opt5 = '';
+
+// ]]>
+</script><h4>Suchen &amp; Finden</h4>
+<div class="suchmaske">
+
+	<form name="vt_suchform" id="vt_suchform" method="get" action="/Rathaus/index.php">
+
+		<div class="input_container">
+			<input type="text" id="qs" name="qs" value="layout" onfocus="(this.value == 'Suchbegriff eingeben') &amp;&amp; (this.value = '')" onblur="(this.value == '') &amp;&amp; (this.value = 'Suchbegriff eingeben')" />
+			<input type="submit" class="absenden" value="Suchen" title="Suche starten" />
+		</div>
+		<div class="cb"></div><br/>
+		
+		<div class="input_container">
+			<strong>Suchen in:</strong><br/>
+			<select class="mtp_fel" name="opt3" id="opt3" onchange="search()">
+				<option value="0">Allen Inhalten</option>
+				<option value="5"  >Seiten</option>
+				<option value="10" >Dienstleistungen</option>
+				<option value="255">Mitteilungen</option>
+				<option value="11" >Veranstaltungen</option>
+				<option value="9"  >Adressen</option>
+				<option value="6"  >Bilder / Dokumente</option>
+			</select>
+		</div>
+				
+
+		<div class="input_container ris_hidden">
+			<strong>Zeitraum (ab heute):</strong><br/>
+			<select class="mtp_fel" name="opt6" id="opt6" onchange="search()">
+				<option value="">uneingeschränkt</option>
+				<option value="1DAY"  >gestern</option>
+				<option value="7DAY" >7 Tage</option>
+				<option value="14DAY">zwei Wochen</option>
+				<option value="1MONTH" >ein Monat</option>
+				<option value="1YEAR"  >ein Jahr</option>
+				<option value="2YEAR"  >zwei Jahre</option>
+			</select>
+		</div>
+
+		<div class="cb"></div><br/>
+
+		<div onclick="$('#vt_options').toggle('slow')" class="ris_hidden" style="cursor:pointer"><strong>&raquo; Zusätzliche Suchoptionen</strong></div>
+		<div id="vt_options" style="display:none; width:100%">&nbsp;<br/>
+			<div class="input_container">
+				Zeitraum eingeben: 
+				<div class="cb"></div>
+				<div style="float:left;width:45%;"><label for="vt_dat_von">von </label><input type="text" name="vt_dat_von" id="vt_dat_von" value="" class="datepicker onchange="setDateValue(this)" /></div>
+				<div style="float:right;width:45%;"><label for="vt_dat_bis"> bis </label><input type="text" name="vt_dat_bis" id="vt_dat_bis"  value="" class="datepicker" onchange="setDateValue(this)" /></div>
+				<div class="cb"></div>
+			</div>
+			<div class="input_container">
+				&nbsp;
+				<div class="cb"></div>
+				<label for="vt_exclude">Folgende Wörter ausschliessen:</label><input type="text" name="vt_exclude" id="vt_exclude" value="" />
+			</div>
+			<div class="cb"></div>
+			<div class="input_container">
+				<label for="vt_onlytitle" style=float:right;width:90%;">Suche nur im Titel</label><input type="checkbox" name="vt_onlytitle" id="vt_onlytitle" value="1"  style=display:inline;float:left;width:20px;" />
+			</div>
+			<div class="cb"></div>
+		</div>
+
+		<div class="cb"></div><br/>
+					
+		<input type="hidden" name="NavID" value= "2212.7" />
+<input type="hidden" name="object" value= "" />
+
+		
+	</form>
+	
+</div>
+
+
+
+<hr size="1"/>
+	
+	<h4>Suchergebnis (33 Treffer)</h4>
+
+	<div class="suchergebnis_ueberschrift">
+		<div class="suchergebnis_bild">
+			<strong>Bild</strong>
+		</div>
+		<div class="suchergebnis_titel">
+			<strong>Titel</strong>
+		</div>
+		<div class="suchergebnis_datum">
+			<strong><a href="/Rathaus/index.php?&amp;NavID=2212.7&amp;qs=layout&amp;opt4=3&amp;sd=1">Datum</a></strong>
+		</div>
+		<div class="cb"></div>
+	</div>	
+		
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfMzk0Ml8xLlBERj8xNDY3MTkxNDExIjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Last-Minute Layout 2016&nbsp;&raquo;</a></h4>
+				
+				Umweltberatung des Landkreises Limburg-Weilburg: Das Geheimnis des schwarzen Waldes Naturerlebnisfreizeit wann? in den Sommerferien Mo. 25.7. - Fr. 29.7.2016 wann? in den Herbstferien So. ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				29.06.2016<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Mitteilungen / R Startseite Aktuelles</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjYxOiIvaW5kZXgucGhwP29iamVjdD10eCU3YzIzMTQuMSZhbXA7TW9kSUQ9MjU1JmFtcDtGSUQ9MjIxMi4xNi4xIjtzOjU6Ik1vZElEIjtzOjM6IjI1NSI7czo0OiJWVExhIjtpOjE7fQ%3D%3D">Testtext 3&nbsp;&raquo;</a></h4>
+				
+				... den Text bis hierhin aus formalen Gründen noch nicht abgeschnitten hat), man soll doch in einem <em>Layout</em> nur sehen können, wie das Schriftbild überhaupt aussieht: Welche Schrift...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				01.09.2012<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfMzIzNl8xLlBERj8xNDQ3Njg1NzMzIjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">legende_impressum&nbsp;&raquo;</a></h4>
+				
+				4 Impressum Das Ziel der Denkmaltopographie ist die Erfassung der Kulturdenkmäler in Wort, Bild und Plan. Nach § 2 des HDSchG in der Fassung vom 5.9.1986 ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				16.11.2015<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNDU3M18xLlBERj8xNDg0NzI3NTM4IjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Vorbericht zum Haushaltsplan 2017&nbsp;&raquo;</a></h4>
+				
+				V O R B E R I C H T zum Haushaltsplan 2017 63 I. Grundsätzliches Gemäß § 6 GemHVO-Doppik soll der Vorbericht einen Überblick über den Stand und die Entwicklung der Haushaltswirtschaft im Haushaltsjahr unter ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				18.01.2017<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNTU2Nl8xLlBERj8xNTE1MDU4NTA3IjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Vorbericht zum Haushaltsplan 2018&nbsp;&raquo;</a></h4>
+				
+				V O R B E R I C H T zum Haushaltsplan 2018 63 I. Grundsätzliches Gemäß § 6 GemHVO-Doppik soll der Vorbericht einen Überblick über den Stand und die Entwicklung der Haushaltswirtschaft im Haushaltsjahr unter ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				04.01.2018<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfMzQ2MF8xLlBERj8xNDUzOTc1NTIyIjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Vorbericht zum Haushaltsplan 2016&nbsp;&raquo;</a></h4>
+				
+				V O R B E R I C H T zum Haushaltsplan 2016 65 I. Grundsätzliches Gemäß § 6 GemHVO-Doppik soll der Vorbericht einen Überblick über den Stand und die Entwicklung der Haushaltswirtschaft im Haushaltsjahr unter ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				28.01.2016<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNjY0M18xLlBERj8xNTQyMDk1MjI5IjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Vorbericht zum Haushalt 2019&nbsp;&raquo;</a></h4>
+				
+				V O R B E R I C H T zum Haushaltsplan 2019 I. Grundsätzliches Gemäß § 6 GemHVO-Doppik soll der Vorbericht einen Überblick über den Stand und die Entwicklung der Haushaltswirtschaft im Haushaltsjahr unter ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				13.11.2018<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNDU2NF8xLlBERj8xNDg0MTMzMTkxIjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Stadtjugendpflege Programm 2017&nbsp;&raquo;</a></h4>
+				
+				Jahresprogramm 2017 Stadtjugendpflege Limburg VORWORT 2 Liebe Kinder und Jugendliche, liebe Eltern, auch in diesem Jahr kann die Stadtjugendpflege wieder ein abwechslungsreiches Programm ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				11.01.2017<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfMzM2MV8xLlBERj8xNDU4MjA1NDY4IjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Prorgamm Stadtjugendpflege 2016&nbsp;&raquo;</a></h4>
+				
+				VORWORT 2 Liebe Kinder und Jugendliche, liebe Eltern, auch in diesem Jahr kann die Stadtjugendplege wieder ein abwechslungsreiches Programm für Kinder und Jugendliche ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				17.03.2016<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+	
+		
+		
+		<div class="suchergebnis_zeile" >
+			<div class="suchergebnis_bild"><img src="layout/limburg/media/alternativbild.png" title="" alt=""/>&nbsp;</div>
+			<div class="suchergebnis_titel">
+				<div class="minifont" style="text-transform:uppercase;">Medien / Dokumente</div>
+				<h4 style="margin:0 0 5px 0;"><a href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfMzQ4NV8xLlBERj8xNDU1MDE2MjgyIjtzOjU6Ik1vZElEIjtzOjE6IjYiO3M6NDoiVlRMYSI7aToxO30%3D" target="_blank">Dschungelbuch Jugendarbeit Limburg&nbsp;&raquo;</a></h4>
+				
+				Impressum Herausgeber: Magistrat der Kreisstadt Limburg a. d. Lahn Stadtjugendpflege WernerSengerStraße 10 65549 Limburg a. d. Lahn www.limburg.de Telefon: 06431/203452 Fax: 06431/203452 Das ,,Dschungelbuch" ist ein ...			</div>
+			<div class="suchergebnis_datum">
+			
+				
+				
+				
+				09.02.2016<br/>	
+				
+				
+				
+			</div>
+			<div class="cb"></div>
+		</div>		
+					
+		
+	<br/><br/>
+	
+	<div class="suchergebnis_ergebnisanzahl">
+		<a href="/Rathaus/index.php?&amp;NavID=2212.7&amp;qs=layout&amp;opt4=&amp;max=10" class="aktiv">10</a> | 
+		<a href="/Rathaus/index.php?&amp;NavID=2212.7&amp;qs=layout&amp;opt4=&amp;max=20">20</a> | 
+		<a href="/Rathaus/index.php?&amp;NavID=2212.7&amp;qs=layout&amp;opt4=&amp;max=50">50</a> | 
+		<a href="/Rathaus/index.php?&amp;NavID=2212.7&amp;qs=layout&amp;opt4=&amp;max=100">100</a>
+	</div>
+	<div class="suchergebnis_seitenzaehler"><span class="pn_active">1</span> | <a href="/Rathaus/index.php?ofs_2=10&amp;qs=layout&amp;NavID=2212.7&amp;such=layout&amp;ffmod=suche&amp;FID=&amp;object=" class="pn_step">2</a> | <a href="/Rathaus/index.php?ofs_2=20&amp;qs=layout&amp;NavID=2212.7&amp;such=layout&amp;ffmod=suche&amp;FID=&amp;object=" class="pn_step">3</a> | <a href="/Rathaus/index.php?ofs_2=30&amp;qs=layout&amp;NavID=2212.7&amp;such=layout&amp;ffmod=suche&amp;FID=&amp;object=" class="pn_step">4</a> | <a href="/Rathaus/index.php?ofs_2=10&amp;qs=layout&amp;NavID=2212.7&amp;such=layout&amp;ffmod=suche&amp;FID=&amp;object=" class="pn_page_r" title="Eine Seite vor">&gt;</a></div>
+
+
+<script type="text/javascript">//<![CDATA[
+
+	$(document).ready( function(){	
+
+		$("#opt3").val("");		
+				if ($("#opt3").val() == "999") $(".ris_hidden,#vt_options").css("display","none");
+		else $(".ris_hidden").css("display","block");		
+				
+	});
+	
+	
+	function search() {
+		if ($("#opt3").val() == "999") $(".ris_hidden,#vt_options").css("display","none");
+		else $(".ris_hidden").css("display","block");
+		$('#vt_suchform')[0].submit();
+	}
+	
+	function setDateValue(obj) {
+		if (!obj.value) return;
+		d = new Date();
+		var sp = obj.value.split(/\D/);
+		if (sp[0].length == 4) sp = [sp[2],sp[1],sp[0]];
+		sp[0] = parseInt(sp[0],10) || d.getDate();
+		sp[1] = parseInt(sp[1],10) || (d.getMonth() + 1);
+		sp[2] = parseInt(sp[2],10) || d.getFullYear();
+		if (sp[2] < 100) sp[2] += 2000;
+		if (sp[2] < 2000) {
+			alert("Bitte geben Sie ein Datum im Format TT.MM oder TT.MM.JJ ein.");
+			obj.value = '';
+			return false;
+		}
+		d = new Date(sp[2],parseInt(sp[1],10)-1,parseInt(sp[0],10),12);
+		sp = [d.getDate(),d.getMonth()+1,d.getFullYear()];
+		obj.value = sp[2]+ '-' + ((sp[1] < 10) ? '0'+sp[1] : sp[1]) + '-' + ((sp[0] < 10) ? '0'+sp[0] : sp[0]);
+	}		
+	
+	//]]>
+</script><div id="vt_result"><a class="vt_anchor" name="mod_6"><br/><br/><br/><b>Medien</b></a>
+<span class="vt_area_3 vt_media"><a target="_blank" href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNjUwN18xLlBERj8xNTM3MTkwNTUxIjtzOjU6Ik1vZElEIjtpOjY7czo0OiJWVExhIjtpOjE7fQ%3D%3D" title="Dateityp: PDF / Dateigr&ouml;&szlig;e: 1,5 MB">2018 04 25 INGE Konzept_Endfassung_Maßnahmen- und Finanzierungskonzept</a></span>&nbsp;&nbsp;
+<br />
+<span class="vt_area_3 vt_media"><a target="_blank" href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNjY0MF8xLlBERj8xNTQyMTA0NzgzIjtzOjU6Ik1vZElEIjtpOjY7czo0OiJWVExhIjtpOjE7fQ%3D%3D" title="Dateityp: PDF / Dateigr&ouml;&szlig;e: 227 kB">Haushaltrede zum Haushaltsplan 2019</a></span>&nbsp;&nbsp;
+<br />
+<span class="vt_area_3 vt_media"><a target="_blank" href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNTc3MF8xLlBERj8xNTIyMzE3MjE3IjtzOjU6Ik1vZElEIjtpOjY7czo0OiJWVExhIjtpOjE7fQ%3D%3D" title="Dateityp: PDF / Dateigr&ouml;&szlig;e: 5,8 MB">Jahresabschluss 2016</a></span>&nbsp;&nbsp;
+<br />
+<span class="vt_area_3 vt_media"><a target="_blank" href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNTU2Nl8xLlBERj8xNTE1MDU4NTA3IjtzOjU6Ik1vZElEIjtpOjY7czo0OiJWVExhIjtpOjE7fQ%3D%3D" title="Dateityp: PDF / Dateigr&ouml;&szlig;e: 1,4 MB">Vorbericht zum Haushaltsplan 2018</a></span>&nbsp;&nbsp;
+<br />
+<span class="vt_area_3 vt_media"><a target="_blank" href="/output/vt_stats.php?query=YTo0OntzOjY6InNlYXJjaCI7czo2OiJsYXlvdXQiO3M6NjoidGFyZ2V0IjtzOjQwOiIvbWVkaWEvY3VzdG9tLzIyMTJfNjY0M18xLlBERj8xNTQyMDk1MjI5IjtzOjU6Ik1vZElEIjtpOjY7czo0OiJWVExhIjtpOjE7fQ%3D%3D" title="Dateityp: PDF / Dateigr&ouml;&szlig;e: 295 kB">Vorbericht zum Haushalt 2019</a></span>&nbsp;&nbsp;
+<br />
+</div></div>	<script type="text/javascript">//<![CDATA[
+		try {
+			if (document.all) {
+				document.writeln('<div id="such_konv" style="visibility:hidden">'+such+'</div>');
+				such = document.all.such_konv.innerText;
+			}
+			if (such && (such.indexOf("&#")==-1)) document.fulltext.such.value=such;
+			if (document.fulltext.opt1) {
+				len = document.fulltext.opt1.length;
+				if ((opt1==1) && (len>0)) document.fulltext.opt1[0].checked=true;
+				else if ((opt1==2) && (len>1)) document.fulltext.opt1[1].checked=true;
+				else if ((opt1==3) && (len>2)) document.fulltext.opt1[2].checked=true;
+			}
+			if (document.fulltext.opt2) {
+				len = document.fulltext.opt2.length;
+				if ((opt2==1) && (len>0)) document.fulltext.opt2[0].checked=true;
+				else if ((opt2==2) && (len>1)) document.fulltext.opt2[1].checked=true;
+			}
+			if (document.fulltext.opt3) {
+				var i = -1;
+				var j = document.fulltext.opt3.options.length;
+				while (++i<j) if (document.fulltext.opt3.options[i].value == opt3) document.fulltext.opt3.selectedIndex = i;
+			}
+			if (document.fulltext.opt4) {
+				if (document.fulltext.opt4.options) {
+					var i = -1;
+					var j = document.fulltext.opt4.options.length;
+					while (++i<j) if (document.fulltext.opt4.options[i].value == opt4) document.fulltext.opt4.selectedIndex = i;
+				}
+				else {
+					len = document.fulltext.opt4.length;
+					for (var i = 0; i < len; ++i) {
+						if ((opt4 == (i + 1)) && (len > i)) {
+							document.fulltext.opt4[i].checked = true;
+							break;
+						}
+					}
+				}
+			}
+			if (document.fulltext.opt5) {
+				var i = -1;
+				var j = document.fulltext.opt5.options.length;
+				while (++i<j) if (document.fulltext.opt5.options[i].value == opt5) document.fulltext.opt5.selectedIndex = i;
+			}
+
+			if (document.getElementById('vt_keywords')) {
+				document.getElementById('vt_keywords').style.display = 'none';
+				document.getElementById('vt_keyword_lk').style.display = 'block';
+			}
+		} catch(e) {}
+
+		function vt_kw_display() {
+			if (document.getElementById('vt_keywords').style.display == 'none')
+				document.getElementById('vt_keywords').style.display = 'block';
+			else
+				document.getElementById('vt_keywords').style.display = 'none';
+		}
+
+		//]]>
+	</script>
+               </div>
+            </div>
+                        <div class="randspalte_ganzseitig">
+                           <div class="weitere-infos"><h4>weitere Informationen</h4></div>
+               
+                                  <div class="cb"></div>
+            </div>
+                  <div class="cb"></div>
+      </div>
+   </div>
+   <div class="footer">
+      <div class="wrapper">
+         <a href="/" title="Logo Stadt Limburg - Zur Startseite"><img src="/layout/limburg/media/logo_stadt-limburg-sw.png?__ts=1383059206" title="Logo Stadt Limburg an der Lahn" alt="Logo Stadt Limburg an der Lahn" /></a>
+      </div>
+      <p id="seitenanfang">
+         <a href="#start"><span>&nbsp;</span></a>
+      </p>
+   </div>
+   <div id="links"></div>
+   <div id="rechts"></div>
+   <div id="oben"></div>
+   <div id="unten"></div>
+
+   <script type="text/javascript" charset="utf-8">
+      function clearDval(col,dval) {
+         if (col && dval) {
+            if (col.value == '') {
+               if (dval == "Ihre EMail Adresse") {
+                  col.value = "Ihre E-Mail Adresse";
+               }
+               else {
+                  col.value = dval;
+               }
+            }
+         }
+      }
+      function setDval(col,dval) {if (col && dval) if (col.value == dval  || col.value == "Ihre E-Mail Adresse") col.value = '';}
+
+      $(document).ready( function(){
+
+         $('.news_searchwidth #InputeMail').val("Ihre E-Mail Adresse");
+         $('#InputHTML1').css("width","10%");
+         $('#InputHTML2').css("width","10%");
+         $('label[for=InputHTML2]').css("display","inline");
+         $('label[for=InputHTML1]').css("display","inline");
+
+
+         // Toggler Sprache
+         $(".toggler_button").click(function(){
+            $("#toggler_content").slideToggle("slow");
+            $(this).toggleClass("active");
+            return false;
+         });
+
+         // Hauptmenu
+         $("[role='navigation']").flexNav();
+         $( ".datepicker" ).datepicker();
+
+         $('input[name="qs"]').autocomplete('/output/autocomplete_solr.php', {
+            'minChars' : 1,
+            'max' : 20,
+            'scrollHeight' : 500,
+            'width' : 208,
+            'matchSubset' : false,
+            'selectFirst' : false,
+            'extraParams' : {'limit' : 30},
+            formatItem: function(data, i, n, value) {
+               return (data[1]) ? data[1] : data[0];
+            },
+            formatResult: function(data, value) {
+               return data[0];
+            }
+         });
+         $('input[name="qs"]').result(function(event, data, formatted) {$('form[name="suchform"]').submit();});
+
+         
+         $('.tooltip').tooltipster();
+      });
+   </script>
+
+						<!-- Piwik -->
+						<script type="text/javascript">
+							if (window.ikiss_basic && ikiss_basic.getCookie("ikiss-tracking") == 1) ; else {
+								var _paq = _paq || [];
+								_paq.push(["trackPageView"]);
+								_paq.push(["enableLinkTracking"]);
+								(function() {
+									var u="https://piwik.advantic.de/";
+									_paq.push(["setTrackerUrl", u+"piwik.php"]);
+									_paq.push(["setSiteId", "71"]);
+									var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+									g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+								})();
+							}
+						</script>
+						<noscript>
+						<!-- Piwik Image Tracker -->
+						<img src="https://piwik.advantic.de/piwik.php?idsite=71&amp;rec=1" style="border:0" alt="" />
+						</noscript>
+						<!-- End Piwik Code -->
+					</body>
+</html>

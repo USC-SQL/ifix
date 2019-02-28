@@ -1,0 +1,328 @@
+/* ::::: https://flights.skyteam.com/content/skyteam/main.bed15f6271507b46ae50729a9e4f4c46.css ::::: */
+
+html { font-family: sans-serif; }
+[hidden], template { display: none; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px none; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+svg:not(:root) { overflow: hidden; }
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0px; }
+button { overflow: visible; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+input { line-height: normal; }
+.DatePickerInput, .Dropdown, .Input, .Passengers { position: relative; top: 1px; border-radius: 0px; color: rgb(55, 56, 56); display: block; width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-sizing: border-box; height: 43px; line-height: 43px; outline: 0px none; font-size: 14px; padding: 0px 14px; border: 1px solid rgb(173, 173, 173); box-shadow: 0px 0px 0px 1px rgb(173, 173, 173); }
+.DatePickerInput--focus, .DatePickerInput:focus, .Dropdown--focus, .Dropdown:focus, .Input--focus, .Input:focus, .Passengers--focus, .Passengers:focus { border: 1px solid rgb(255, 83, 38); box-shadow: 0px 0px 0px 1px rgb(255, 83, 38); z-index: 7; }
+input.DatePickerInput, input.Dropdown, input.Input, input.Passengers { line-height: normal; }
+@media only screen and (min-width: 768px) {
+  .DatePickerInput, .Dropdown, .Input, .Passengers { height: 53px; line-height: 53px; }
+}
+@media only screen and (min-width: 960px) {
+  .DatePickerInput, .Dropdown, .Input, .Passengers { font-size: 16px; }
+}
+.Button { background-color: rgb(255, 83, 38); box-sizing: border-box; text-decoration: none; border-radius: 2px; cursor: pointer; text-align: center; color: rgb(255, 255, 255); display: inline-block; line-height: 35px; padding: 0px 10px; border: 0px none; }
+.Button:focus { outline: 2px solid rgb(80, 179, 226); }
+.Button--big { height: 45px; line-height: 45px; font-size: 16px; }
+.Button--fill { width: 100%; }
+@media only screen and (min-width: 768px) {
+  .Button--big { height: 55px; line-height: 55px; }
+}
+@media only screen and (min-width: 960px) {
+}
+.Constraint { position: relative; margin: 0px auto; width: 100%; box-sizing: border-box; }
+.Constraint--front { padding: 0px; }
+.Constraint--slim { max-width: 990px; position: relative; }
+@media only screen and (min-width: 768px) {
+  .Constraint--slim, .Constraint--wide { padding: 0px 20px; }
+}
+@media only screen and (min-width: 960px) {
+  .Constraint--slim, .Constraint--wide { padding: 0px 30px; }
+}
+.MatchMedia { display: none; }
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+  .MatchMedia--minSize_ipad { display: block; }
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1280px) {
+}
+@media only screen and (min-width: 1420px) {
+}
+@media only screen and (min-width: 1420px) {
+}
+@media only screen and (min-width: 1280px) {
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 480px) {
+}
+.Section::after { content: ""; visibility: hidden; height: 0px; display: block; clear: both; }
+.Section--header { border-bottom: 1px solid rgb(222, 222, 222); }
+.Section--footer, .Section--header { background-color: rgb(255, 255, 255); }
+.Autocomplete { position: relative; }
+.Autocomplete__label { display: none; }
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+.DatePicker { position: relative; }
+.DatePicker::after { content: ""; visibility: hidden; height: 0px; display: block; clear: both; }
+@media only screen and (min-width: 768px) {
+}
+.DatePickerInput { padding: 0px; float: left; position: relative; margin: 0px; width: 100%; box-sizing: border-box; }
+.DatePickerInput--twin { width: calc(50% - 8px); }
+.DatePickerInput--twin + .DatePickerInput--twin { float: right; }
+.DatePickerInput__container { position: relative; height: 100%; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; padding-left: 36px; text-align: start; }
+.DatePickerInput__calendar { position: absolute; left: 15px; margin-top: 13px; }
+.DatePickerInput__text { padding: 4px; }
+.DatePickerInput__text--placeholder { color: rgb(130, 130, 130); }
+.DatePickerInput__input { display: block; cursor: text; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; padding: 0px; opacity: 0; border: medium none; text-indent: -9999em; }
+.DatePickerInput__label { display: none; }
+@media only screen and (min-width: 768px) {
+  .SearchForm .DatePickerInput__container { background: transparent none repeat scroll 0% 0%; }
+  .SearchForm .DatePickerInput__calendar { margin-top: 17px; }
+}
+@media only screen and (min-width: 960px) {
+  .DatePickerInput--twin { width: 50%; float: left; }
+  .SearchForm .DatePickerInput__container { padding-left: 36px; }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .DatePickerInput__container { padding-left: 14px; }
+  .DatePickerInput__calendar { display: none; }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1280px) {
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1280px) {
+}
+@media only screen and (min-width: 1420px) {
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1420px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@keyframes a {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(1turn); }
+}
+@keyframes b {
+100% { width: 1em; }
+}
+@keyframes c {
+0% { background-position: -468px 0px; }
+100% { background-position: 468px 0px; }
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1280px) {
+}
+@media only screen and (min-height: 600px) {
+}
+@media only screen and (min-height: 700px) {
+}
+@media only screen and (min-height: 800px) {
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+}
+.HeaderBar { box-sizing: border-box; padding-left: 15px; padding-right: 15px; font-size: 14px; min-height: 65px; }
+@media only screen and (min-width: 768px) {
+  .HeaderBar { padding-left: 0px; padding-right: 0px; }
+}
+.HeaderBar::after { content: ""; visibility: hidden; height: 0px; display: block; clear: both; }
+.HeaderBar .Settings { float: right; }
+@media only screen and (min-width: 960px) {
+  .HeaderBar { font-size: 16px; width: 100%; padding: 0px; float: none; }
+}
+.BigLogoHeader { padding: 10px 0px 30px; }
+.BigLogoHeader__content { padding: 20px 0px 40px; text-align: center; }
+.BigLogoHeader__link { display: block; margin: 0px auto; background-size: contain; height: 44px; }
+.BigLogoHeader__link:focus { outline: 2px solid rgb(80, 179, 226); }
+.BigLogoHeader__logo__svg { width: 100%; height: 100%; }
+@media only screen and (min-width: 768px) {
+  .BigLogoHeader { padding: 20px 0px 0px; }
+  .BigLogoHeader__content { padding: 85px 0px; }
+  .BigLogoHeader__link { height: 85px; width: 334px; }
+}
+.Heading { font: 400 28px/28px Dohop-Text,Arial,"sans-serif"; color: rgb(255, 83, 38); margin: 0px; padding: 0px 0px 35px; }
+@media only screen and (max-width: 767px) {
+  .Heading { display: none; }
+}
+@media only screen and (min-width: 768px) {
+}
+.Settings { font-size: 14px; color: rgb(0, 0, 94); position: relative; margin-right: 0px; z-index: 10; height: 65px; }
+.Settings__bottom { position: absolute; bottom: 0px; right: 0px; height: 0px; width: 0px; }
+.Settings__language { padding-right: 5px; }
+.Settings__menu { cursor: pointer; text-decoration: none; color: rgb(255, 255, 255); display: block; position: relative; padding: 10px 0px; background: transparent none repeat scroll 0% 0%; border: medium none; top: 50%; transform: translateY(-50%); }
+.Settings__downArrow { display: inline-block; padding: 0px 5px; height: 8px; width: 6px; }
+.Settings__downArrow path { fill: rgb(255, 255, 255); }
+@media only screen and (min-width: 768px) {
+  .Settings__menu { text-indent: 0px; width: auto; height: auto; }
+  .Settings__menu:focus { outline: medium none; }
+  .Settings__menu::after { content: ""; display: block; margin: auto; height: 2px; width: 0px; position: relative; top: 9px; background: transparent none repeat scroll 0% 0%; transition: width 0.2s ease 0s, background-color 0.2s ease 0s; }
+  .Settings__menu:focus::after, .Settings__menu:hover::after { width: 100%; background: rgb(255, 83, 38) none repeat scroll 0% 0%; }
+}
+@media only screen and (min-width: 960px) {
+  .Settings { font-size: 16px; }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+.Passengers { position: relative; padding-left: 40px; text-align: start; }
+.Passengers__user { position: absolute; left: 15px; margin-top: 13px; }
+.Passengers__text { white-space: nowrap; text-overflow: ellipsis; box-sizing: border-box; padding-right: 10px; overflow: hidden; }
+.Passengers__arrow { cursor: pointer; border-width: 6px 5px 0px; border-style: solid; border-color: rgb(173, 173, 173) transparent transparent; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; position: absolute; right: 14px; top: 50%; margin-top: -2px; }
+.Passengers__inputLabel { display: none; }
+.Passengers__input { cursor: pointer; position: absolute; width: 100%; height: 100%; opacity: 0; top: 0px; left: 0px; border: medium none; padding: 0px; }
+@media only screen and (min-width: 768px) {
+  .Passengers__user { margin-top: 17px; }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media screen and (min-width: 768px) {
+}
+.DatePickerInput:focus, .Dropdown:focus, .Input--focus, .Input:focus, .Passengers:focus { border: 1px solid rgb(11, 23, 97); box-shadow: 0px 0px 0px 1px rgb(11, 23, 97); }
+.Heading { color: rgb(215, 134, 47); }
+.Settings__menu { color: rgb(11, 23, 97); }
+.Settings__menu:focus::after, .Settings__menu:hover::after { background: rgb(11, 23, 97) none repeat scroll 0% 0%; }
+.Settings__downArrow path, .Settings__settingsIcon path { fill: rgb(11, 23, 97); }
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 768px) {
+}
+.SearchForm { width: 100%; z-index: 3; }
+.SearchForm, .SearchForm__inner { position: relative; }
+.SearchForm__dates, .SearchForm__destination, .SearchForm__origin, .SearchForm__passengers, .SearchForm__submit { position: relative; margin-bottom: 16px; }
+.SearchForm__switch { width: 18px; height: 40px; position: absolute; z-index: 7; top: 50%; margin-top: -20px; right: 13px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; cursor: pointer; padding: 0px 2px; }
+@media only screen and (min-width: 768px) {
+  .SearchForm__dates, .SearchForm__destination, .SearchForm__origin, .SearchForm__passengers, .SearchForm__submit { box-sizing: border-box; float: left; }
+  .SearchForm__below { clear: left; padding: 35px 0px; }
+  .SearchForm__below::after { content: ""; visibility: hidden; height: 0px; display: block; clear: both; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__dates, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__destination, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__origin, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__passengers, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__submit { padding: 0px; margin: 0px; width: 19.3333%; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__origin .DatePickerInput, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__origin .Dropdown, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__origin .Input, .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__origin .Passengers { border-top-left-radius: 2px; border-bottom-left-radius: 2px; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__dates { width: 28%; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__dates .DatePickerInput { width: 50%; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__dates .DatePickerInput:only-child { width: 100%; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__submit { width: 14%; }
+  .SearchForm:not(.SearchForm--delaySingleLine) .SearchForm__submit .Button { position: relative; z-index: 8; border-top-left-radius: 0px; border-bottom-left-radius: 0px; }
+  .SearchForm__switch { display: none; }
+}
+@media only screen and (min-width: 960px) {
+  .SearchForm__switch { display: block; }
+}
+@media only screen and (min-width: 1280px) {
+  .SearchForm__dates, .SearchForm__destination, .SearchForm__origin, .SearchForm__passengers, .SearchForm__submit { padding: 0px; margin: 0px; width: 19.3333%; }
+  .SearchForm__origin .DatePickerInput, .SearchForm__origin .Dropdown, .SearchForm__origin .Input, .SearchForm__origin .Passengers { border-top-left-radius: 2px; border-bottom-left-radius: 2px; }
+  .SearchForm__dates { width: 28%; }
+  .SearchForm__dates .DatePickerInput { width: 50%; }
+  .SearchForm__dates .DatePickerInput:only-child { width: 100%; }
+  .SearchForm__submit { width: 14%; }
+  .SearchForm__submit .Button { position: relative; z-index: 8; border-top-left-radius: 0px; border-bottom-left-radius: 0px; }
+}
+@media only screen and (max-width: 768px) {
+  .SearchForm { padding: 0px 15px; width: auto; }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1420px) {
+}
+.BetaStamp { position: fixed; display: flex; top: 0px; left: 0px; color: rgb(11, 23, 97); font-size: 12px; font-weight: 900; z-index: 6; }
+.BetaStamp__stamp { min-width: 86px; }
+.BetaStamp__text { display: inline-block; margin: 0px; padding-left: 14px; padding-top: 7px; vertical-align: top; }
+.BetaStamp__link { color: rgb(255, 255, 255); text-decoration: none; }
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
+}
+.FrontPage { height: 100vh; background-image: url("landing-page-background-image.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
+.FrontPage__header { background-color: transparent; border-bottom: 0px none; }
+.FrontPage__logoLink { margin: 0px; }
+.FrontPage__heading { color: rgb(11, 23, 97); font-weight: 500; font-family: Helvetica Neue,Roboto,Arial,"sans-serif"; padding-bottom: 10px; }
+.FrontPage__logoContainer { position: relative; }
+.FrontPage__logoContent { padding: 40px 0px 84px; }
+.FrontPage__headerBar { position: absolute; top: 40px; right: 0px; width: auto; }
+@media only screen and (min-width: 768px) {
+  .FrontPage__logoContent { padding: 14px 0px 100px; }
+  .FrontPage__headerBar { top: 20px; }
+}
+.SearchForm__submitButton { background-color: rgb(11, 23, 97); transition-property: color, background-color, border-color; transition-duration: 0.2s; transition-timing-function: ease; text-transform: uppercase; font-size: 14px; font-weight: 800; }
+.SearchForm__submitButton:hover { background-color: rgb(215, 134, 47); transition-property: color, background-color, border-color; transition-duration: 0.2s; transition-timing-function: ease; border-color: rgb(215, 134, 47); }
+.SearchForm__submitButton:hover:hover { background-color: rgb(218, 144, 64); }
+.SearchForm__Input { color: rgb(11, 23, 97); }
+@media only screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+}
+body { margin: 0px; padding: 0px; font-family: Helvetica Neue,Roboto,Arial,"sans-serif"; background-color: rgb(255, 255, 255); }

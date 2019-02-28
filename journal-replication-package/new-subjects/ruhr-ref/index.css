@@ -1,0 +1,340 @@
+/* ::::: https://www.metropoleruhr.de/typo3temp/stylesheet_7fd7aa6947.css?1465387005 (@media all) ::::: */
+
+/* ::::: https://www.metropoleruhr.de/typo3conf/ext/citko_downloads/Resources/Public/datepicker/css/bootstrap-datepicker3.min.css?1461077262 (@media all) ::::: */
+
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/css/mobile.css (@media screen and (max-width: 600px)) ::::: */
+
+@media screen and (max-width: 600px) {
+* { margin: 0px; padding: 0px; }
+body { font-family: Trebuchet MS; font-size: 13px; margin: 0px 4px; }
+img { border: medium none; }
+p, table { margin-bottom: 5px; }
+h2 { font-size: 13px; text-transform: uppercase; color: rgb(255, 255, 255); margin-bottom: 2px; font-weight: bold; background-color: rgb(0, 170, 218); padding: 0px 4px; }
+h3 { color: rgb(90, 90, 90); font-size: 17px; line-height: 19px; font-weight: normal; margin-bottom: 5px; }
+a { font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); }
+#page_all { background: transparent none repeat scroll 0% 0% ! important; }
+#toplinks_left { display: none; }
+#toplinks_right { position: absolute; top: 0px; right: 0px; }
+#toplinks_right .tx-srlanguagemenu-pi1 .NO, #toplinks_right #language_switch li { float: none ! important; margin-top: 3px; display: block; background: transparent none repeat scroll 0% 0%; height: auto; }
+#header_top_right { background-color: rgb(0, 170, 218); padding: 0px 4px; }
+#header_navigation { display: none; }
+#header_navigation { background-color: rgb(204, 204, 204); }
+#headerimages { display: none; }
+#header { height: auto ! important; }
+#header_main { display: none ! important; }
+#header_main_left, #header_top_right { display: none ! important; }
+#navigation_first { margin-top: 5px; margin-bottom: 10px; }
+#navigation_first ul { border-radius: 10px; background-color: rgb(0, 170, 218); }
+#navigation_first ul li {  }
+#navigation_first ul li a { font-weight: bold; text-decoration: none; padding: 4px 10px ! important; display: block; color: rgb(255, 255, 255); font-size: 15px; border-top: 1px solid rgb(255, 255, 255); text-transform: uppercase; text-shadow: 1px 1px 1px rgb(51, 51, 51); }
+#navigation_first ul li:first-child a { border-top: 0px none; }
+#navigation_first ul li:first-child { border-radius: 10px 10px 0px 0px; }
+#navigation_first ul li:last-child { border-radius: 0px 0px 10px 10px; }
+.contentelement_1col, .contentelement_2col, .contentelement_3col { margin-bottom: 15px; overflow: hidden; }
+#content { margin-top: 10px ! important; }
+.teaser_1col, .teaser_2col { margin-bottom: 10px; overflow: hidden; }
+.teaser_1col .teaser_1col_img_container, .teaser_2col .teaser_2col_img_container { max-width: 350px; padding: 3px; border: 1px solid rgb(204, 204, 204); margin-bottom: 5px; }
+.teaser_1col .teaser_1col_img_container img, .teaser_2col .teaser_2col_img_container img { width: 100%; height: auto; }
+@media screen and (min-width: 350px) {
+  .teaser_1col .teaser_1col_img_container, .teaser_2col .teaser_2col_img_container { float: left; margin-right: 10px; width: 50%; max-width: 220px; }
+  .teaser_1col .teaser_1col_img_container img, .teaser_2col .teaser_2col_img_container img { width: 100%; }
+}
+.teaser_3col_img_container { background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); float: right; margin-left: 10px; margin-top: 20px; overflow: hidden; padding: 3px; width: 50%; max-width: 220px; }
+.teaser_3col_img_container img { height: auto; width: 100%; }
+.teaser_maspa .teaser_maspa_container { margin-top: 10px; padding-bottom: 10px; border-bottom: 2px solid rgb(221, 221, 221); }
+.teaser_maspa .teaser_maspa_container:last-child { border-bottom: medium none; }
+.teaser_maspa_image { float: left; margin-right: 10px; }
+.teaser_maspa_image img { padding: 3px; border: 1px solid rgb(204, 204, 204); }
+@media screen and (min-width: 350px) {
+}
+.csc-default { margin-bottom: 10px; }
+.footer { background: rgb(0, 170, 221) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-size: 11px; font-weight: bold; padding: 4px; margin-top: 10px; }
+.footer a { color: rgb(255, 255, 255); font-weight: normal; text-decoration: none; }
+.footer_right { display: none; }
+}
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/css/style.css (@media screen and (min-width: 600px)) ::::: */
+
+@media screen and (min-width: 600px) {
+#sbImage { z-index: 999999; }
+div#sbCenter, div#sbOverlay, div#sbBottomContainer { z-index: 555; }
+* { margin: 0px; padding: 0px; }
+body { font-family: "Trebuchet MS"; font-size: 13px; }
+img { border: medium none; }
+p, table { margin-bottom: 1em; }
+#page_all { background-image: url("page_bg_top.png"); background-repeat: repeat-x; text-align: center; overflow: hidden; }
+.center_page { width: 960px; margin: 0px auto; text-align: left; }
+#header { height: 370px; }
+#header_top { height: 75px; width: 100%; overflow: hidden; }
+#header_top_left { float: left; width: 725px; height: 75px; }
+#header_top_right { float: left; width: 235px; height: 75px; text-align: right; }
+#header_toplinks { height: 19px; width: 100%; overflow: hidden; color: rgb(255, 255, 255); line-height: 14px; padding-top: 1px; }
+#toplinks_left { float: left; width: 542px; }
+#toplinks_center { float: left; width: 194px; }
+#toplinks_right { float: left; width: 224px; padding-left: 188px; }
+.tx-srlanguagemenu-pi1 div { display: inline-block; margin-right: 5px; }
+.tx-srlanguagemenu-pi1 div img.tx-srlanguagemenu-pi1-flag { width: 21px; height: auto; }
+#header_main { height: 266px; width: 100%; overflow: hidden; }
+#headerimages { background-color: rgb(2, 5, 10); position: absolute; height: 266px; width: 960px; z-index: 0; overflow: hidden; }
+#header_main_left { position: absolute; width: 729px; z-index: 9; }
+#header_title { height: 55px; margin-top: 145px; }
+#header_title_font { background-image: url("header_bg_trans.png"); color: rgb(255, 255, 255); font-size: 36px; height: 55px; line-height: 55px; padding: 6px 20px; }
+#header_main_right { position: absolute; width: 231px; z-index: 9; margin-left: 728px; }
+#header_navigation ul { list-style: outside none none; }
+#header_navigation { background-image: url("header_nav_trans.png"); margin-top: 50px; padding-top: 8px; width: 232px; }
+#navigation { margin-top: -27px; }
+#navigation_first { position: absolute; z-index: 10; height: 38px; width: 960px; }
+#navigation_first ul { width: 100%; overflow: hidden; padding-left: 1px; }
+#navigation_first ul li { background-image: url("nav_top_bg.jpg"); list-style: outside none none; float: left; width: 118.9px; color: rgb(88, 88, 90); text-align: center; text-transform: uppercase; font-size: 12px; line-height: 13px; font-weight: 700; height: 36px; border-width: 1px; border-style: solid; border-color: rgb(182, 182, 182); margin-left: -1px; display: block; }
+#navigation_first ul li a { text-decoration: none; color: rgb(88, 88, 90); height: 36px; width: 118.9px; display: block; }
+#navigation_first ul li a:hover { text-decoration: underline; }
+#navigation_first #pageid_1 { padding-top: 11px; }
+#navigation_first #pageid_2 { padding-top: 11px; }
+#navigation_first #pageid_3 { padding-top: 11px; }
+#navigation_first #pageid_4 { padding-top: 11px; }
+#navigation_first #pageid_5 { padding-top: 11px; }
+#navigation_first #pageid_6 { padding-top: 11px; }
+#navigation_first #pageid_7 { padding-top: 6px; }
+.content_row { margin-bottom: 20px; }
+#content { width: 100%; margin-top: 82px; overflow: hidden; min-height: 400px; background-color: rgb(255, 255, 255); padding-bottom: 20px; }
+#content_left { float: left; width: 720px; margin-right: 10px; overflow: hidden; }
+.content_left_row { background-image: url("row_bg_bottom.jpg"); background-position: center bottom; background-repeat: no-repeat; width: 720px; overflow: hidden; margin-right: 10px; padding-bottom: 14px; margin-bottom: 10px; }
+.contentelement_1col { float: left; width: 230px; margin-right: 10px; }
+.contentelement_2col { float: left; width: 470px; margin-right: 10px; }
+.contentelement_3col { float: left; width: 710px; margin-right: 10px; }
+.teaser_1col { width: 100%; overflow: hidden; }
+.teaser_1col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(68, 68, 68); margin-bottom: 2px; }
+.teaser_1col_img_container { padding: 3px; border: 1px solid rgb(204, 204, 204); }
+.teaser_1col_main { font-size: 13px; color: rgb(90, 90, 90); line-height: 17px; margin-top: 3px; font-weight: bold; }
+.teaser_1col_link a { color: rgb(0, 170, 218); font-size: 10px; font-weight: 700; text-decoration: none; text-transform: uppercase; white-space: nowrap; }
+.teaser_2col { width: 100%; overflow: hidden; }
+.teaser_2col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(68, 68, 68); margin-bottom: 2px; }
+.teaser_2col_h3 { color: rgb(90, 90, 90); font-size: 17px; line-height: 19px; font-weight: normal; }
+.teaser_2col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_2col_main { font-size: 13px; color: rgb(0, 0, 0); line-height: 17px; }
+.teaser_3col { width: 100%; overflow: hidden; }
+.teaser_3col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(68, 68, 68); margin-bottom: 2px; }
+.teaser_3col_h3 { color: rgb(90, 90, 90); font-size: 17px; line-height: 19px; font-weight: normal; }
+.teaser_3col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_3col_main { font-size: 13px; color: rgb(0, 0, 0); line-height: 17px; }
+.teaser_3col_morelink { font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); white-space: nowrap; }
+.teaser_3col_morelink:hover { text-decoration: underline; }
+.contact {  }
+.contact_h2, #leftcontent_elements .csc-header.csc-header-n1 h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 0, 0); margin-bottom: 2px; font-weight: bold; }
+.contact_main { background-image: url("row_bg_bottom_right.jpg"); background-repeat: no-repeat; background-position: left top; font-size: 12px; color: rgb(90, 90, 90); padding-top: 5px; padding-bottom: 5px; }
+#content_right { float: right; width: 230px; overflow: hidden; }
+#content_right h2, #content_right h1 { font-size: 13px; text-transform: uppercase; color: rgb(0, 0, 0); margin-bottom: 2px; font-weight: bold; }
+.link_intern, .internal-link, .link-back, .download, .external-link, .external-link-new-window, .mail, .poiOpeningTime, .tx-wtdirectory-backlink a { background-image: url("link_intern.jpg"); background-repeat: no-repeat; font-size: 10px; font-weight: 700; text-decoration: none; color: rgb(0, 170, 218); padding-left: 20px; padding-bottom: 1px; }
+.external-link-new-window, .external-link { background-image: url("link_extern.jpg"); }
+div .link_intern, div .internal-link, div .download, div .external-link, div .external-link-new-window, div .mail { font-size: 13px; }
+.link_intern:hover, .internal-link:hover, .download:hover, .external-link-new-window:hover, .mail:hover { text-decoration: underline; }
+#page_bottom {  }
+#footer { background: transparent -moz-linear-gradient(center top , rgb(0, 170, 221) 0%, rgb(93, 177, 221) 100%) repeat scroll 0% 0%; color: rgb(255, 255, 255); margin-top: 3px; padding-top: 3px; font-size: 11px; }
+#footer a { color: rgb(255, 255, 255); text-decoration: none; }
+#footer a:hover { text-decoration: underline; }
+.bodytext {  }
+.internal-link, .external-link, .bodytext a, .block a { color: rgb(0, 170, 218); text-decoration: none; font-weight: bold; }
+.internal-link:hover, .external-link:hover, .bodytext a:hover, .block a:hover { text-decoration: underline; }
+.align-right { text-align: right; }
+.teaser_maspa {  }
+.teaser_maspa_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 0, 0); margin-bottom: 2px; }
+.teaser_maspa_h3 { color: rgb(90, 90, 90); font-size: 12px; line-height: 19px; font-weight: bold; padding-bottom: 0px; margin-bottom: 0px; }
+.teaser_maspa_container { width: 100%; overflow: hidden; background-image: url("row_bg_bottom_right.jpg"); background-position: left top; background-repeat: no-repeat; padding-bottom: 5px; padding-top: 8px; margin-top: 3px; }
+.teaser_maspa_image { float: left; border: 1px solid rgb(204, 204, 204); margin-right: 10px; padding: 3px; width: 80px; }
+.teaser_maspa_content p { display: inline; }
+.teaser_maspa_text { color: rgb(90, 90, 90); font-size: 12px; display: inline; }
+.teaser_maspa_more { display: inline; }
+.teaser_maspa_morelink { font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); white-space: nowrap; padding-left: 5px; }
+#prevLink { background: transparent url("prev.gif") no-repeat scroll 0% 15% ! important; }
+#nextLink { background: transparent url("next.gif") no-repeat scroll 100% 15% ! important; }
+.footer { color: rgb(255, 255, 255); font-weight: bold; font-size: 11px; padding-top: 3px; margin-top: 2px; overflow: hidden; width: 100%; }
+.footer_left { width: 720px; margin-right: 10px; float: left; overflow: hidden; }
+.footer_left_row { overflow: hidden; width: 100%; }
+.footer_left_row_left { width: 230px; margin-right: 10px; float: left; }
+.footer_left_row_right { width: 470px; margin-right: 10px; float: left; }
+.footer_right { width: 230px; float: left; background-image: url("RVR.Logo1_sw.png"); background-repeat: no-repeat; height: 150px; background-position: 20px 0px; }
+.footer .bodytext a, .footer a { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("glyphicons-halflings-regular.eot") format("embedded-opentype"), url("glyphicons-halflings-regular.woff") format("woff"), url("glyphicons-halflings-regular.ttf") format("truetype"), url("glyphicons-halflings-regular.svg") format("svg");
+}
+}
+/* ::::: https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css ::::: */
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fontawesome-webfont.eot") format("embedded-opentype"), url("fontawesome-webfont.woff2") format("woff2"), url("fontawesome-webfont.woff") format("woff"), url("fontawesome-webfont.ttf") format("truetype"), url("fontawesome-webfont.svg") format("svg");
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+/* ::::: https://www.metropoleruhr.de/typo3conf/ext/citko_directory/Resources/Public/Css/base.css (@media screen) ::::: */
+
+@media screen {
+@font-face {
+  font-family: "citkodirectory";
+  font-style: normal;
+  font-weight: normal;
+  src: url("citkodirectory.eot") format("embedded-opentype"), url("citkodirectory.woff") format("woff"), url("citkodirectory.ttf") format("truetype"), url("citkodirectory.svg") format("svg");
+}
+@media (min-width: 620px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 980px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+}
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/css/citkoDirectory.css (@media screen) ::::: */
+
+@media screen {
+}
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/css/print.css (@media print) ::::: */
+
+@media print {
+* {  }
+body { font-family: Trebuchet MS; font-size: 13px; }
+img { border: medium none; }
+p, table { margin-bottom: 1em; }
+#page_all {  }
+#page_top.events3col {  }
+#page_topinner {  }
+.center_page {  }
+#header {  }
+#header_top_right { display: none; }
+#header_top_left { text-align: right; margin-bottom: 1em; }
+#header_bottom { display: none; }
+#navigation { display: none; }
+#navigation_first { display: none; }
+.content_row { margin-bottom: 1cm; }
+#content { padding-bottom: 1cm; }
+#content_left {  }
+.content_left_row { padding-bottom: 1cm; margin-bottom: 0.5cm; }
+.contentelement_1col {  }
+.contentelement_2col {  }
+.contentelement_3col {  }
+.teaser_1col { width: 100%; overflow: hidden; }
+.teaser_1col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 170, 218); margin-bottom: 2px; }
+.teaser_1col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_1col_main { font-size: 22px; color: rgb(90, 90, 90); line-height: 24px; margin-top: 3px; }
+.teaser_2col { width: 100%; overflow: hidden; }
+.teaser_2col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 170, 218); margin-bottom: 2px; }
+.teaser_2col_h3 { font-size: 22px; color: rgb(90, 90, 90); line-height: 24px; }
+.teaser_2col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_2col_main { font-size: 13px; color: rgb(0, 0, 0); line-height: 17px; }
+.teaser_3col { width: 100%; overflow: hidden; }
+.teaser_3col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 170, 218); margin-bottom: 2px; }
+.teaser_3col_h3 { font-size: 22px; color: rgb(90, 90, 90); line-height: 24px; }
+.teaser_3col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_3col_main { font-size: 13px; color: rgb(0, 0, 0); line-height: 17px; }
+.teaser_3col_morelink { font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); }
+.teaser_3col_morelink:hover { text-decoration: underline; }
+.contact {  }
+.contact_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 0, 0); margin-bottom: 2px; }
+.contact_main { background-image: url("row_bg_bottom_right.jpg"); background-repeat: no-repeat; background-position: left top; font-size: 12px; color: rgb(90, 90, 90); padding-top: 5px; }
+#content_right { display: none; }
+.link_intern, .internal-link, .download, .external-link, .external-link-new-window, .mail { background-image: url("link_intern.jpg"); background-repeat: no-repeat; font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); padding-left: 20px; padding-bottom: 1px; }
+.external-link-new-window, .external-link { background-image: url("link_extern.jpg"); }
+.link_intern:hover, .internal-link:hover, .download:hover, .external-link-new-window:hover, .mail:hover { text-decoration: underline; }
+#page_bottom {  }
+#footer { display: none; }
+.align-right { text-align: right; }
+.internal-link, .external-link, .bodytext a, .block a { color: rgb(0, 170, 218); text-decoration: none; text-transform: uppercase; font-weight: bold; }
+.internal-link:hover, .external-link:hover, .bodytext a:hover, .block a:hover { text-decoration: underline; }
+}
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/css/print.css (@media print) ::::: */
+
+@media print {
+* {  }
+body { font-family: Trebuchet MS; font-size: 13px; }
+img { border: medium none; }
+p, table { margin-bottom: 1em; }
+#page_all {  }
+#page_top.events3col {  }
+#page_topinner {  }
+.center_page {  }
+#header {  }
+#header_top_right { display: none; }
+#header_top_left { text-align: right; margin-bottom: 1em; }
+#header_bottom { display: none; }
+#navigation { display: none; }
+#navigation_first { display: none; }
+.content_row { margin-bottom: 1cm; }
+#content { padding-bottom: 1cm; }
+#content_left {  }
+.content_left_row { padding-bottom: 1cm; margin-bottom: 0.5cm; }
+.contentelement_1col {  }
+.contentelement_2col {  }
+.contentelement_3col {  }
+.teaser_1col { width: 100%; overflow: hidden; }
+.teaser_1col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 170, 218); margin-bottom: 2px; }
+.teaser_1col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_1col_main { font-size: 22px; color: rgb(90, 90, 90); line-height: 24px; margin-top: 3px; }
+.teaser_2col { width: 100%; overflow: hidden; }
+.teaser_2col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 170, 218); margin-bottom: 2px; }
+.teaser_2col_h3 { font-size: 22px; color: rgb(90, 90, 90); line-height: 24px; }
+.teaser_2col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_2col_main { font-size: 13px; color: rgb(0, 0, 0); line-height: 17px; }
+.teaser_3col { width: 100%; overflow: hidden; }
+.teaser_3col_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 170, 218); margin-bottom: 2px; }
+.teaser_3col_h3 { font-size: 22px; color: rgb(90, 90, 90); line-height: 24px; }
+.teaser_3col_img_container { float: left; width: 222px; padding: 3px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); }
+.teaser_3col_main { font-size: 13px; color: rgb(0, 0, 0); line-height: 17px; }
+.teaser_3col_morelink { font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); }
+.teaser_3col_morelink:hover { text-decoration: underline; }
+.contact {  }
+.contact_h2 { font-size: 13px; text-transform: uppercase; color: rgb(0, 0, 0); margin-bottom: 2px; }
+.contact_main { background-image: url("row_bg_bottom_right.jpg"); background-repeat: no-repeat; background-position: left top; font-size: 12px; color: rgb(90, 90, 90); padding-top: 5px; }
+#content_right { display: none; }
+.link_intern, .internal-link, .download, .external-link, .external-link-new-window, .mail { background-image: url("link_intern.jpg"); background-repeat: no-repeat; font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: rgb(0, 170, 218); padding-left: 20px; padding-bottom: 1px; }
+.external-link-new-window, .external-link { background-image: url("link_extern.jpg"); }
+.link_intern:hover, .internal-link:hover, .download:hover, .external-link-new-window:hover, .mail:hover { text-decoration: underline; }
+#page_bottom {  }
+#footer { display: none; }
+.align-right { text-align: right; }
+.internal-link, .external-link, .bodytext a, .block a { color: rgb(0, 170, 218); text-decoration: none; text-transform: uppercase; font-weight: bold; }
+.internal-link:hover, .external-link:hover, .bodytext a:hover, .block a:hover { text-decoration: underline; }
+}
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/css/turkish_version.css (@media screen) ::::: */
+
+@media screen {
+#navigation_first #pageid_2 { padding-top: 11px; }
+#navigation_first #pageid_3 { padding-top: 6px; }
+#navigation_first #pageid_4 { padding-top: 11px; }
+#navigation_first #pageid_6 { padding-top: 11px; }
+#navigation_first #pageid_7 { width: 123px; }
+#navigation_first ul li { width: auto; }
+#header_main_right { display: none; }
+#page_top.events3col { background-image: none; }
+}
+/* ::::: https://www.metropoleruhr.de/fileadmin/templates/metropoleruhr.de/lightbox/css/lightbox.css (@media screen, projection) ::::: */
+
+@media screen, projection {
+#sbOverlay { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(0, 0, 0); cursor: pointer; z-index: 90; }
+#prevLink, #nextLink { display: block; position: absolute; top: 0px; width: 33%; height: 100%; background: transparent url("blank.gif") no-repeat scroll 0% 0%; }
+#prevLink { left: 0px; float: left; }
+#nextLink { right: 0px; float: right; }
+#prevLink:hover { background: transparent url("prev_001.gif") no-repeat scroll 0% 15%; }
+#nextLink:hover { background: transparent url("next_001.gif") no-repeat scroll 100% 15%; }
+#playLink, #pauseLink, #saveLink, #closeLink, #printLink { display: block; float: right; width: 26px; height: 26px; margin-left: 1em; }
+#playLink { background: transparent url("play.gif") no-repeat scroll center center; }
+#pauseLink { background: transparent url("pause.gif") no-repeat scroll center center; }
+#saveLink { background: transparent url("save.gif") no-repeat scroll center center; }
+#closeLink { background: transparent url("close.gif") no-repeat scroll center center; }
+#sbCenter, #sbBottomContainer { position: absolute; left: 50%; overflow: hidden; background-color: rgb(255, 255, 255); z-index: 100; }
+#sbCenter a, #sbBottomContainer a { text-decoration: none; border: medium none; outline: medium none; }
+#sbImage { position: absolute; left: 0px; top: 0px; border: 10px solid rgb(255, 255, 255); background-repeat: no-repeat; }
+#sbBottom { font-family: tahoma,arial,sans-serif; font-size: 11px; color: rgb(102, 102, 102); line-height: 1.4em; text-align: left; padding: 0px 10px 10px; }
+#sbCaption { width: 85%; font-weight: bold; margin-bottom: 0.1em; }
+#sbNumber { width: 66%; margin-bottom: 0.1em; }
+#sbPresent { width: 66%; margin-bottom: 0.1em; }
+}
