@@ -16,5 +16,7 @@ The surveys used in the user study can be found [here](https://github.com/USC-SQ
 #### Results: 
 The evaluation and user study can be found [here](https://github.com/USC-SQL/ifix/tree/master/data)
 
+## The journal paper replication package can be found [here](https://github.com/USC-SQL/ifix/tree/master/journal-replication-package) 
+
 ## Questions
-In case of any questions you can email at spmahaja [at] usc {dot} edu
+In case of any questions you can email at halfond [at] usc {dot} edu
