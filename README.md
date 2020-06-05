@@ -7,16 +7,20 @@ Sonal Mahajan, Abdulmajeed Alameer, Phil McMinn, William G. J. Halfond
 In Proceedings of the 11th IEEE International Conference on Software Testing, Verification and Validation (ICST). April 2018. Acceptance rate: 25%. (To appear)
 ```
 ## Evaluation Data
-#### Subjects: 
+#### Subjects:
 The 23 real-world web pages used in the evaluation of IFix can be found [here](https://github.com/USC-SQL/ifix/tree/master/subjects).
 
-#### User Study Data: 
+#### User Study Data:
 The surveys used in the user study can be found [here](https://github.com/USC-SQL/ifix/tree/master/surveys)
 
-#### Results: 
+#### Results:
 The evaluation and user study can be found [here](https://github.com/USC-SQL/ifix/tree/master/data)
 
-## The journal paper replication package can be found [here](https://github.com/USC-SQL/ifix/tree/master/journal-replication-package) 
+## The journal paper replication package can be found [here](https://github.com/USC-SQL/ifix/tree/master/journal-replication-package)
+
+## Code
+The code in this repository represents the extended version of IFix (IFix++).
+In order to run IFix++, you need to download and configure [GWALI](https://github.com/USC-SQL/gwali) in the same workspace
 
 ## Questions
 In case of any questions you can email at halfond [at] usc {dot} edu

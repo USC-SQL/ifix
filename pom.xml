@@ -1,0 +1,167 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ifix</groupId>
+	<artifactId>ifix</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ifix</name>
+	
+	<properties>
+   		<maven.compiler.source>1.8</maven.compiler.source>
+  		 <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/test/resources</directory>
+			</resource>
+		</resources>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>ifix.approach1.Main</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+        	<version>2.53.0</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-api</artifactId>
+        	<version>2.53.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+        	<version>2.53.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-firefox-driver</artifactId>
+        	<version>2.53.0</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-remote-driver</artifactId>
+        	<version>2.53.0</version>
+		</dependency>
+		
+		
+
+		<dependency>
+		  <groupId>org.apache.commons</groupId>
+		  <artifactId>commons-lang3</artifactId>
+		  <version>3.7</version>
+		</dependency>
+		  
+		  
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.3</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>ru.yandex.qatools.ashot</groupId>
+		    <artifactId>ashot</artifactId>
+		    <version>1.5.2</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>net.sf.cssbox</groupId>
+		    <artifactId>jstyleparser</artifactId>
+		    <version>1.22</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>xerces</groupId>
+		    <artifactId>xercesImpl</artifactId>
+		    <version>2.11.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>nekohtml</groupId>
+		    <artifactId>nekohtml</artifactId>
+		    <version>1.9.6.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.7.3</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.sourceforge.jsi</groupId>
+			<artifactId>jsi</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
+	
+		
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20160212</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+        <dependency>
+            <groupId>edu.usc.sql</groupId>
+            <artifactId>gwali</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+	
+	<repositories>
+	<!--
+		<repository>
+	     	<id>usc.sql</id>
+			<name>USC Software Quality Lab</name>
+			<url>http://atlanta.usc.edu:8081/artifactory/repo</url>
+		</repository>
+			
+			USC repo host jsi library, if it is down, comment it and switch to Spring Plugins Repository 
+		--> 	
+		<repository>
+			<id>spring</id>
+			<name>Spring Plugins Repository</name>
+			<url>http://repo.spring.io/plugins-release/</url>
+		</repository>
+		
+	</repositories>
+</project>
